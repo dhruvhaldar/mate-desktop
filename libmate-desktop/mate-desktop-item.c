@@ -366,7 +366,7 @@ mate_desktop_item_new (void)
 	retval->refcount++;
 
 	retval->main_hash = g_hash_table_new_full (g_str_hash, g_str_equal,
-						   (GDestroyNotify) g_free,
+						   (GDestroyNotify) NULL,
 						   (GDestroyNotify) g_free);
 
 	/* These are guaranteed to be set */
@@ -391,14 +391,12 @@ mate_desktop_item_new (void)
 static Section *
 dup_section (Section *sec)
 {
-	GList *li;
 	Section *retval = g_new0 (Section, 1);
 
-	retval->name = g_strdup (sec->name);
+	retval->name = (char *) g_intern_string (sec->name);
 
+	/* Keys are interned strings, so just shallow copy the list */
 	retval->keys = g_list_copy (sec->keys);
-	for (li = retval->keys; li != NULL; li = li->next)
-		li->data = g_strdup (li->data);
 
 	return retval;
 }
@@ -408,7 +406,7 @@ copy_string_hash (gpointer key, gpointer value, gpointer user_data)
 {
 	GHashTable *copy = user_data;
 	g_hash_table_replace (copy,
-			      g_strdup (key),
+			      (gpointer) key, /* key is interned */
 			      g_strdup (value));
 }
 
@@ -444,9 +442,8 @@ mate_desktop_item_copy (const MateDesktopItem *item)
 		li->data = g_strdup (li->data);
 
 	/* Keys */
+	/* Keys are interned strings, so just shallow copy the list */
 	retval->keys = g_list_copy (item->keys);
-	for (li = retval->keys; li != NULL; li = li->next)
-		li->data = g_strdup (li->data);
 
 	/* Sections */
 	retval->sections = g_list_copy (item->sections);
@@ -454,7 +451,7 @@ mate_desktop_item_copy (const MateDesktopItem *item)
 		li->data = dup_section (li->data);
 
 	retval->main_hash = g_hash_table_new_full (g_str_hash, g_str_equal,
-						   (GDestroyNotify) g_free,
+						   (GDestroyNotify) NULL,
 						   (GDestroyNotify) g_free);
 
 	g_hash_table_foreach (item->main_hash,
@@ -866,10 +863,11 @@ free_section (gpointer data)
 {
 	Section *section = data;
 
-	g_free (section->name);
+	/* section->name and section->keys data are interned strings */
 	section->name = NULL;
 
-	g_list_free_full (section->keys, g_free);
+	/* Shallow free the list */
+	g_list_free (section->keys);
 	section->keys = NULL;
 
 	g_free (section);
@@ -895,7 +893,8 @@ mate_desktop_item_unref (MateDesktopItem *item)
 	g_list_free_full (item->languages, g_free);
 	item->languages = NULL;
 
-	g_list_free_full (item->keys, g_free);
+	/* keys are interned, just shallow free the list */
+	g_list_free (item->keys);
 	item->keys = NULL;
 
 	g_list_free_full (item->sections, (GDestroyNotify) free_section);
@@ -928,7 +927,7 @@ find_section (MateDesktopItem *item, const char *section)
 	}
 
 	sec = g_new0 (Section, 1);
-	sec->name = g_strdup (section);
+	sec->name = (char *) g_intern_string (section);
 	sec->keys = NULL;
 
 	item->sections = g_list_append (item->sections, sec);
@@ -1015,23 +1014,24 @@ static void
 set (MateDesktopItem *item, const char *key, const char *value)
 {
 	Section *sec = section_from_key (item, key);
+	const char *interned_key = g_intern_string (key);
 
 	if (sec != NULL) {
 		if (value != NULL) {
-			if (g_hash_table_lookup (item->main_hash, key) == NULL)
+			if (g_hash_table_lookup (item->main_hash, interned_key) == NULL)
 				sec->keys = g_list_append
 					(sec->keys,
-					 g_strdup (key_basename (key)));
+					 (gpointer) g_intern_string (key_basename (key)));
 
 			g_hash_table_replace (item->main_hash,
-					      g_strdup (key),
+					      (gpointer) interned_key,
 					      g_strdup (value));
 		} else {
 			GList *list = g_list_find_custom
 				(sec->keys, key_basename (key),
 				 (GCompareFunc)strcmp);
 			if (list != NULL) {
-				g_free (list->data);
+				/* Don't free list->data as it is interned */
 				sec->keys =
 					g_list_delete_link (sec->keys, list);
 			}
@@ -1039,18 +1039,18 @@ set (MateDesktopItem *item, const char *key, const char *value)
 		}
 	} else {
 		if (value != NULL) {
-			if (g_hash_table_lookup (item->main_hash, key) == NULL)
+			if (g_hash_table_lookup (item->main_hash, interned_key) == NULL)
 				item->keys = g_list_append (item->keys,
-							    g_strdup (key));
+							    (gpointer) interned_key);
 
 			g_hash_table_replace (item->main_hash,
-					      g_strdup (key),
+					      (gpointer) interned_key,
 					      g_strdup (value));
 		} else {
 			GList *list = g_list_find_custom
 				(item->keys, key, (GCompareFunc)strcmp);
 			if (list != NULL) {
-				g_free (list->data);
+				/* Don't free list->data as it is interned */
 				item->keys =
 					g_list_delete_link (item->keys, list);
 			}

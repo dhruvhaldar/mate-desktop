@@ -647,6 +647,10 @@ mate_bg_crossfade_start (MateBGCrossfade *fade,
     g_return_if_fail (!mate_bg_crossfade_is_started (fade));
     g_return_if_fail (gdk_window_get_window_type (window) != GDK_WINDOW_FOREIGN);
 
+    if (animations_are_disabled (fade)) {
+        return;
+    }
+
     /* If drawing is done on the root window,
      * it is essential to have the root pixmap.
      */

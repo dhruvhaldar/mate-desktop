@@ -2499,18 +2499,18 @@ pixbuf_average_value (GdkPixbuf *pixbuf,
 	row_stride = gdk_pixbuf_get_rowstride (pixbuf);
 	pixels = gdk_pixbuf_get_pixels (pixbuf);
 
-	/* iterate through the pixbuf, counting up each component */
-	a_total = 0;
-	r_total = 0;
-	g_total = 0;
-	b_total = 0;
-
 	/* ⚡ Bolt: Optimization - Subsample pixels to speed up average calculation.
 	 * Checking every 8th pixel reduces work by ~64x while keeping sufficient accuracy
 	 * for the "is dark" check on typical wallpapers.
 	 */
 	int step = 8;
 	guint64 sample_count = 0;
+
+	/* Initialize accumulators */
+	a_total = 0;
+	r_total = 0;
+	g_total = 0;
+	b_total = 0;
 
 	if (gdk_pixbuf_get_has_alpha (pixbuf)) {
 		for (row = 0; row < height; row += step) {

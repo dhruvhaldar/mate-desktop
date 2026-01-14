@@ -54,7 +54,7 @@ Authors: Soren Sandmann <sandmann@redhat.com>
 
 /* We keep the large pixbufs around if the next update
    in the slideshow is less than 60 seconds away */
-#define KEEP_EXPENSIVE_CACHE_SECS 60
+#define KEEP_EXPENSIVE_CACHE_SECS 0
 
 typedef struct _SlideShow SlideShow;
 typedef struct _Slide Slide;

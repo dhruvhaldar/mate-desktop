@@ -2,22 +2,22 @@
 # Copyright (C) YEAR MATE Developers
 # This file is distributed under the same license as the mate-desktop package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-desktop 1.27.2\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-desktop/\n"
-"POT-Creation-Date: 2023-09-02 16:57+0200\n"
+"POT-Creation-Date: 2026-01-14 23:32+0530\n"
 "PO-Revision-Date: 2018-03-11 16:44+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
 "Language-Team: Bengali (https://app.transifex.com/mate/teams/13566/bn/)\n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators should localize the following string which will be
@@ -39,56 +39,6 @@ msgstr "জিনোম পরিচিতি"
 msgid "Learn more about MATE"
 msgstr "জিনোম সম্পর্কে আরও জানুন"
 
-#: mate-about/mate-about.h:29
-msgid "MATE Desktop Environment"
-msgstr ""
-
-#: mate-about/mate-about.h:34
-msgid ""
-"Copyright © 1997-2011 GNOME developers\n"
-"Copyright © 2011 Perberos\n"
-"Copyright © 2012-2023 MATE developers"
-msgstr ""
-
-#: mate-about/mate-about.h:42
-msgid ""
-"MATE provides an intuitive and attractive desktop to Linux users using "
-"traditional metaphors."
-msgstr ""
-
-#: mate-about/mate-about.h:45
-msgid ""
-"MATE includes most of what you see on your computer, including the file "
-"manager, document viewer, image viewer, menus, and many applications."
-msgstr ""
-
-#: mate-about/mate-about.h:48
-msgid ""
-"MATE is a Free, usable, stable, accessible desktop environment for the Unix-"
-"like family of operating systems."
-msgstr ""
-
-#: mate-about/mate-about.h:51
-msgid ""
-"MATE is the continuation of GNOME 2. Hundreds of people have contributed "
-"code to GNOME since it was started in 1997; many more have contributed in "
-"other important ways, including translations, documentation, and quality "
-"assurance."
-msgstr ""
-
-#: mate-about/mate-about.h:55
-msgid ""
-"GNOME 2 was the most popular Linux desktop but it’s no longer available... "
-"MATE is here to provide that same desktop to you!"
-msgstr ""
-
-#: mate-about/mate-about.h:58
-msgid ""
-"The name “MATE” comes from yerba maté, a species of holly native to "
-"subtropical South America. Its leaves contain caffeine and are used to make "
-"infusions and a beverage called mate."
-msgstr ""
-
 #. Translators: "Unknown" here is used to identify a monitor for which
 #. * we don't know the vendor. When a vendor is known, the name of the
 #. * vendor is used.
@@ -97,204 +47,173 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "অজানা"
 
-#: libmate-desktop/mate-colorbutton.c:151
-msgid "Use alpha"
-msgstr ""
-
-#: libmate-desktop/mate-colorbutton.c:152
-msgid "Whether or not to give the color an alpha value"
-msgstr ""
-
-#: libmate-desktop/mate-colorbutton.c:166
-msgid "Title"
-msgstr "শিরোনাম"
-
-#: libmate-desktop/mate-colorbutton.c:167
-msgid "The title of the color selection dialog"
-msgstr "রং নির্বাচন ডায়লগের শিরোনাম"
-
-#: libmate-desktop/mate-colorbutton.c:168
-#: libmate-desktop/mate-colorbutton.c:439
-msgid "Pick a Color"
-msgstr "একটি রং নির্বাচন করুন"
-
-#: libmate-desktop/mate-colorbutton.c:181 libmate-desktop/mate-colorsel.c:281
-msgid "Current Color"
-msgstr "বর্তমান রং"
-
-#: libmate-desktop/mate-colorbutton.c:182
-msgid "The selected color"
-msgstr "নির্বাচিত রং"
-
-#: libmate-desktop/mate-colorbutton.c:196 libmate-desktop/mate-colorsel.c:288
-msgid "Current Alpha"
-msgstr ""
-
-#: libmate-desktop/mate-colorbutton.c:197
-msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
-msgstr ""
-
-#: libmate-desktop/mate-colorbutton.c:335
-msgid "Received invalid color data\n"
-msgstr "রং সংক্রান্ত প্রাপ্ত তথ্য কার্যকর নয়\n"
-
-#: libmate-desktop/mate-colorsel.c:267
+#: libmate-desktop/mate-colorsel.c:271
 msgid "Has Opacity Control"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:268
+#: libmate-desktop/mate-colorsel.c:272
 msgid "Whether the color selector should allow setting opacity"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:274
+#: libmate-desktop/mate-colorsel.c:278
 msgid "Has palette"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:275
+#: libmate-desktop/mate-colorsel.c:279
 msgid "Whether a palette should be used"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:282
-msgid "The current color"
-msgstr ""
+#: libmate-desktop/mate-colorsel.c:285
+#, fuzzy
+msgid "Current RGBA"
+msgstr "বর্তমান রং"
 
-#: libmate-desktop/mate-colorsel.c:289
-msgid "The current opacity value (0 fully transparent, 65535 fully opaque)"
-msgstr ""
+#: libmate-desktop/mate-colorsel.c:286
+#, fuzzy
+msgid "The current RGBA color"
+msgstr "বর্তমান রং"
 
 #: libmate-desktop/mate-colorsel.c:295
-msgid "HEX String"
+msgid "Current Alpha"
 msgstr ""
 
 #: libmate-desktop/mate-colorsel.c:296
+msgid "The current opacity value (0 fully transparent, 65535 fully opaque)"
+msgstr ""
+
+#: libmate-desktop/mate-colorsel.c:302
+msgid "HEX String"
+msgstr ""
+
+#: libmate-desktop/mate-colorsel.c:303
 msgid "The hexadecimal string of current color"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:341
+#: libmate-desktop/mate-colorsel.c:348
 msgid ""
 "Select the color you want from the outer ring. Select the darkness or "
 "lightness of that color using the inner triangle."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:365
+#: libmate-desktop/mate-colorsel.c:372
 msgid ""
 "Click the eyedropper, then click a color anywhere on your screen to select "
 "that color."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:374
+#: libmate-desktop/mate-colorsel.c:381
 msgid "_Hue:"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:375
+#: libmate-desktop/mate-colorsel.c:382
 msgid "Position on the color wheel."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:377
+#: libmate-desktop/mate-colorsel.c:384
 msgid "_Saturation:"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:378
+#: libmate-desktop/mate-colorsel.c:385
 msgid "\"Deepness\" of the color."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:379
+#: libmate-desktop/mate-colorsel.c:386
 msgid "_Value:"
 msgstr "মান: (_V)"
 
-#: libmate-desktop/mate-colorsel.c:380
+#: libmate-desktop/mate-colorsel.c:387
 msgid "Brightness of the color."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:381
+#: libmate-desktop/mate-colorsel.c:388
 msgid "_Red:"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:382
+#: libmate-desktop/mate-colorsel.c:389
 msgid "Amount of red light in the color."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:383
+#: libmate-desktop/mate-colorsel.c:390
 msgid "_Green:"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:384
+#: libmate-desktop/mate-colorsel.c:391
 msgid "Amount of green light in the color."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:385
+#: libmate-desktop/mate-colorsel.c:392
 msgid "_Blue:"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:386
+#: libmate-desktop/mate-colorsel.c:393
 msgid "Amount of blue light in the color."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:389
+#: libmate-desktop/mate-colorsel.c:396
 msgid "Op_acity:"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:396 libmate-desktop/mate-colorsel.c:406
+#: libmate-desktop/mate-colorsel.c:403 libmate-desktop/mate-colorsel.c:413
 msgid "Transparency of the color."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:413
+#: libmate-desktop/mate-colorsel.c:420
 msgid "Color _name:"
 msgstr "রঙের নাম: (_n)"
 
-#: libmate-desktop/mate-colorsel.c:427
+#: libmate-desktop/mate-colorsel.c:434
 msgid ""
 "You can enter an HTML-style hexadecimal color value, or simply a color name "
 "such as 'orange' in this entry."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:457
+#: libmate-desktop/mate-colorsel.c:464
 msgid "_Palette:"
 msgstr "প্যালেট: (_P)"
 
-#: libmate-desktop/mate-colorsel.c:487
+#: libmate-desktop/mate-colorsel.c:494
 msgid "Color Wheel"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:942
+#: libmate-desktop/mate-colorsel.c:949
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now. You can drag this color to a palette entry, or select this color as "
 "current by dragging it to the other color swatch alongside."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:945
+#: libmate-desktop/mate-colorsel.c:952
 msgid ""
 "The color you've chosen. You can drag this color to a palette entry to save "
 "it for use in the future."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:950
+#: libmate-desktop/mate-colorsel.c:957
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:953
+#: libmate-desktop/mate-colorsel.c:960
 msgid "The color you've chosen."
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:1359
+#: libmate-desktop/mate-colorsel.c:1323
 msgid "gtk-color-sel"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:1364
+#: libmate-desktop/mate-colorsel.c:1328
 msgid "_Save color here"
 msgstr ""
 
-#: libmate-desktop/mate-colorsel.c:1584
+#: libmate-desktop/mate-colorsel.c:1561
 msgid ""
-"Click this palette entry to make it the current color. To change this entry,"
-" drag a color swatch here or right-click it and select \"Save color here.\""
+"Click this palette entry to make it the current color. To change this entry, "
+"drag a color swatch here or right-click it and select \"Save color here.\""
 msgstr ""
 
 #: libmate-desktop/mate-colorseldialog.c:98
-#: libmate-desktop/mate-colorseldialog.c:184
+#: libmate-desktop/mate-colorseldialog.c:182
 msgid "Color Selection"
 msgstr ""
 
@@ -326,15 +245,15 @@ msgstr ""
 msgid "The help button of the dialog."
 msgstr ""
 
-#: libmate-desktop/mate-colorseldialog.c:162
+#: libmate-desktop/mate-colorseldialog.c:160
 msgid "_Cancel"
 msgstr "বাতিল (_C)"
 
-#: libmate-desktop/mate-colorseldialog.c:167
+#: libmate-desktop/mate-colorseldialog.c:165
 msgid "_OK"
 msgstr ""
 
-#: libmate-desktop/mate-colorseldialog.c:175
+#: libmate-desktop/mate-colorseldialog.c:173
 msgid "Help"
 msgstr "সহায়তা"
 
@@ -354,7 +273,7 @@ msgstr "ফাইল '%s' এর প্রথমে যেতে ভুল: %s"
 #. Translators: the "name" mentioned here is the name of
 #. * an application or a document
 #: libmate-desktop/mate-desktop-item.c:378
-#: libmate-desktop/mate-desktop-item.c:3543
+#: libmate-desktop/mate-desktop-item.c:3547
 msgid "No name"
 msgstr "নামহীন"
 
@@ -377,23 +296,23 @@ msgstr "সংরক্ষণ করার জন্য কোন ফাইল�
 msgid "Starting %s"
 msgstr "আরম্ভ করা হচ্ছে %s"
 
-#: libmate-desktop/mate-desktop-item.c:2090
+#: libmate-desktop/mate-desktop-item.c:2094
 msgid "No URL to launch"
 msgstr "চালু করার জন্য কোন ইউ.আর.এল. নেই"
 
-#: libmate-desktop/mate-desktop-item.c:2106
+#: libmate-desktop/mate-desktop-item.c:2110
 msgid "Not a launchable item"
 msgstr "একটি চালুকরণ উপকরণ নয়"
 
-#: libmate-desktop/mate-desktop-item.c:2115
+#: libmate-desktop/mate-desktop-item.c:2119
 msgid "No command (Exec) to launch"
 msgstr "চালু করার জন্য কোন কমান্ড নেই"
 
-#: libmate-desktop/mate-desktop-item.c:2127
+#: libmate-desktop/mate-desktop-item.c:2131
 msgid "Bad command (Exec) to launch"
 msgstr "চালু করার অনুপযুক্ত কমান্ড"
 
-#: libmate-desktop/mate-desktop-item.c:3600
+#: libmate-desktop/mate-desktop-item.c:3604
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "অজানা এনকোডিং: %s"
@@ -401,8 +320,8 @@ msgstr "অজানা এনকোডিং: %s"
 #: libmate-desktop/mate-desktop-utils.c:150
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr ""
-"টার্মিনাল খুঁজে পাওয়া যাচ্ছে না, xterm ব্যবহার করা হচ্ছে, যদিও এটাও হয়ত কাজ "
-"না করতে পারে"
+"টার্মিনাল খুঁজে পাওয়া যাচ্ছে না, xterm ব্যবহার করা হচ্ছে, যদিও এটাও হয়ত কাজ না "
+"করতে পারে"
 
 #: libmate-desktop/mate-languages.c:746
 msgid "Unspecified"
@@ -459,8 +378,7 @@ msgstr "ল্যাপটপ"
 #: libmate-desktop/mate-rr-config.c:713
 msgid ""
 "none of the saved display configurations matched the active configuration"
-msgstr ""
-"সক্রিয় কনফিগারেশনের সাথে সংরক্ষন করা প্রদর্শন কনফিগারেশনের কোনটাই মিলছে না"
+msgstr "সক্রিয় কনফিগারেশনের সাথে সংরক্ষন করা প্রদর্শন কনফিগারেশনের কোনটাই মিলছে না"
 
 #: libmate-desktop/mate-rr-config.c:1485
 #, c-format
@@ -524,16 +442,16 @@ msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
 "minimum=(%d, %d), maximum=(%d, %d)"
 msgstr ""
-"প্রয়োজনীয় ভার্চুয়াল আকার বিদ্যমান আকারের সাথে মানানসই হচ্ছে না: "
-"অনুরোধকৃত=(%d, %d), সর্বনিম্ন=(%d, %d), সর্বোচ্চ=(%d, %d)"
+"প্রয়োজনীয় ভার্চুয়াল আকার বিদ্যমান আকারের সাথে মানানসই হচ্ছে না: অনুরোধকৃত=(%d, %d), "
+"সর্বনিম্ন=(%d, %d), সর্বোচ্চ=(%d, %d)"
 
-#. Keep this string in sync with mate-control-center/capplets/display/xrandr-
-#. capplet.c:get_display_name()
+#. Keep this string in sync with mate-control-center/capplets/display/xrandr-capplet.c:get_display_name()
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#: libmate-desktop/mate-rr-labeler.c:406
+#.
+#: libmate-desktop/mate-rr-labeler.c:426
 msgid "Mirror Screens"
 msgstr "প্রতিফলিত পর্দা"
 
@@ -544,8 +462,8 @@ msgstr "সর্বনিম্ন বিরতি, মিলিসেকেন
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:26
 msgid "Ignore multiple presses of the _same_ key within @delay milliseconds."
 msgstr ""
-"@delay দ্বারা উল্লিখিত মিলিসেকেন্ডের মধ্যে _একই_ কী পুনরায় চাপা হলে তা "
-"অগ্রাহ্য করা হবে।"
+"@delay দ্বারা উল্লিখিত মিলিসেকেন্ডের মধ্যে _একই_ কী পুনরায় চাপা হলে তা অগ্রাহ্য করা "
+"হবে।"
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:36
 msgid "Pixels per seconds"
@@ -580,8 +498,7 @@ msgstr "সর্বনিম্ন বিরতি, মিলিসেকেন
 msgid ""
 "Do not accept a key as being pressed unless held for @delay milliseconds."
 msgstr ""
-"@delay দ্বারা উল্লিখিত মিলিসেকেন্ডের কম সময়ের জন্য কী চাপা হলে গ্রহণ করা হবে"
-" না।"
+"@delay দ্বারা উল্লিখিত মিলিসেকেন্ডের কম সময়ের জন্য কী চাপা হলে গ্রহণ করা হবে না।"
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:71
 msgid ""
@@ -673,8 +590,7 @@ msgid ""
 "Preferred Mobility assistive technology application to be used for login, "
 "menu, or command line."
 msgstr ""
-"লগ-ইন, মেনু ও কমান্ড-লাইনে ব্যবহারযোগ্য চলাচলে সহায়ক পছন্দসই প্রযুক্তিগত "
-"অ্যাপ্লিকেশন।"
+"লগ-ইন, মেনু ও কমান্ড-লাইনে ব্যবহারযোগ্য চলাচলে সহায়ক পছন্দসই প্রযুক্তিগত অ্যাপ্লিকেশন।"
 
 #: schemas/org.mate.applications-at-mobility.gschema.xml:10
 msgid "Start preferred Mobility assistive technology application"
@@ -685,8 +601,7 @@ msgid ""
 "MATE to start preferred Mobility assistive technology application during "
 "login."
 msgstr ""
-"লগইনের সময় MATE দ্বারা চলাচলে সহায়ক পছন্দসই প্রযুক্তিগত অ্যাপ্লিকেশন আরম্ভ "
-"করা হবে।"
+"লগইনের সময় MATE দ্বারা চলাচলে সহায়ক পছন্দসই প্রযুক্তিগত অ্যাপ্লিকেশন আরম্ভ করা হবে।"
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:5
 msgid "Preferred Visual assistive technology application"
@@ -704,11 +619,9 @@ msgstr "প্রদর্শনে সহায়ক প্রযুক্তি�
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:11
 msgid ""
-"MATE to start preferred Visual assistive technology application during "
-"login."
+"MATE to start preferred Visual assistive technology application during login."
 msgstr ""
-"লগ-ইনের সময় MATE দ্বারা চলাচলে সহায়ক পছন্দসই প্রযুক্তিগত অ্যাপ্লিকেশন আরম্ভ "
-"করা হবে।"
+"লগ-ইনের সময় MATE দ্বারা চলাচলে সহায়ক পছন্দসই প্রযুক্তিগত অ্যাপ্লিকেশন আরম্ভ করা হবে।"
 
 #: schemas/org.mate.applications-browser.gschema.xml:5
 msgid "Default browser"
@@ -724,8 +637,7 @@ msgstr "ব্রাউজারের জন্য টার্মিনাল 
 
 #: schemas/org.mate.applications-browser.gschema.xml:11
 msgid "Whether the default browser needs a terminal to run."
-msgstr ""
-"পূর্বনির্ধারিত ব্রাউজার ব্যবহারের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না।"
+msgstr "পূর্বনির্ধারিত ব্রাউজার ব্যবহারের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না।"
 
 #: schemas/org.mate.applications-browser.gschema.xml:15
 msgid "Browser understands remote"
@@ -733,8 +645,7 @@ msgstr "ব্রাউজারের দ্বারা দূরবর্ত�
 
 #: schemas/org.mate.applications-browser.gschema.xml:16
 msgid "Whether the default browser understands netscape remote."
-msgstr ""
-"পূর্বনির্ধারিত ব্রাউজার দ্বারা netscape-এর দূরবর্তী কর্ম বোধগম্য কি না।"
+msgstr "পূর্বনির্ধারিত ব্রাউজার দ্বারা netscape-এর দূরবর্তী কর্ম বোধগম্য কি না।"
 
 #: schemas/org.mate.applications-calculator.gschema.xml:5
 msgid "Calculator application"
@@ -750,8 +661,7 @@ msgstr ""
 
 #: schemas/org.mate.applications-messenger.gschema.xml:6
 msgid ""
-"Instant Messaging program to use when starting applications that require "
-"one."
+"Instant Messaging program to use when starting applications that require one."
 msgstr ""
 
 #: schemas/org.mate.applications-office.gschema.xml:9
@@ -768,8 +678,7 @@ msgstr "বর্যপঞ্জির জন্য টার্মিনাল 
 
 #: schemas/org.mate.applications-office.gschema.xml:15
 msgid "Whether the default calendar application needs a terminal to run"
-msgstr ""
-"পূর্বনির্ধারিত ক্যালেন্ডার ব্যবহারের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না"
+msgstr "পূর্বনির্ধারিত ক্যালেন্ডার ব্যবহারের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না"
 
 #: schemas/org.mate.applications-office.gschema.xml:21
 msgid "Default tasks"
@@ -785,8 +694,7 @@ msgstr "কাজের জন্য টার্মিনাল আবশ্য
 
 #: schemas/org.mate.applications-office.gschema.xml:27
 msgid "Whether the default tasks application needs a terminal to run"
-msgstr ""
-"পূর্বনির্ধারিত কাজের অ্যাপ্লিকেশনের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না"
+msgstr "পূর্বনির্ধারিত কাজের অ্যাপ্লিকেশনের জন্য টার্মিনাল প্রয়োগ করা আবশ্যক কি না"
 
 #: schemas/org.mate.applications-terminal.gschema.xml:5
 msgid "Terminal application"
@@ -795,8 +703,8 @@ msgstr "টার্মিনাল অ্যাপ্লিকেশন"
 #: schemas/org.mate.applications-terminal.gschema.xml:6
 msgid "Terminal program to use when starting applications that require one."
 msgstr ""
-"আবশ্যকরূপে টার্মিনাল সহযোগে ব্যবহারের জন্য চিহ্নিত অ্যাপ্লিকেশন আরম্ভ করার "
-"সময় ব্যবহৃত টার্মিনাল প্রোগ্রাম।"
+"আবশ্যকরূপে টার্মিনাল সহযোগে ব্যবহারের জন্য চিহ্নিত অ্যাপ্লিকেশন আরম্ভ করার সময় ব্যবহৃত "
+"টার্মিনাল প্রোগ্রাম।"
 
 #: schemas/org.mate.applications-terminal.gschema.xml:10
 msgid "Exec Arguments"
@@ -805,9 +713,7 @@ msgstr "Exec আর্গুমেন্ট"
 #: schemas/org.mate.applications-terminal.gschema.xml:11
 msgid ""
 "Argument used to execute programs in the terminal defined by the 'exec' key."
-msgstr ""
-"টার্মিনালে 'exec' কী দ্বারা চিহ্নিত প্রোগ্রাম সঞ্চালনের জন্য ব্যবহৃত "
-"আর্গুমেন্ট।"
+msgstr "টার্মিনালে 'exec' কী দ্বারা চিহ্নিত প্রোগ্রাম সঞ্চালনের জন্য ব্যবহৃত আর্গুমেন্ট।"
 
 #: schemas/org.mate.background.gschema.xml.in:18
 msgid "Draw Desktop Background"
@@ -842,8 +748,8 @@ msgstr "ছবি সংক্রান্ত অপশন"
 #: schemas/org.mate.background.gschema.xml.in:34
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\","
-" \"spanned\"."
+"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\", "
+"\"spanned\"."
 msgstr ""
 
 #: schemas/org.mate.background.gschema.xml.in:38
@@ -868,19 +774,17 @@ msgstr "প্রাথমিক রং"
 
 #: schemas/org.mate.background.gschema.xml.in:49
 msgid "Left or Top color when drawing gradients, or the solid color."
-msgstr ""
-"পর্যায়ক্রমে প্রদর্শিত রং-এর ক্ষেত্রে উপরের অথবা বাঁদিকের রং, অথবা গাঢ় রং।"
+msgstr "পর্যায়ক্রমে প্রদর্শিত রং-এর ক্ষেত্রে উপরের অথবা বাঁদিকের রং, অথবা গাঢ় রং।"
 
 #: schemas/org.mate.background.gschema.xml.in:53
 msgid "Secondary Color"
 msgstr "দ্বিতীয় রং"
 
 #: schemas/org.mate.background.gschema.xml.in:54
-msgid ""
-"Right or Bottom color when drawing gradients, not used for solid color."
+msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
-"পর্যায়ক্রমে প্রদর্শিত রং-এর ক্ষেত্রে নীচের অথবা ডানদিকের রং, গাঢ় রং-এর "
-"ক্ষেত্রে ব্যবহৃত হয় না।"
+"পর্যায়ক্রমে প্রদর্শিত রং-এর ক্ষেত্রে নীচের অথবা ডানদিকের রং, গাঢ় রং-এর ক্ষেত্রে "
+"ব্যবহৃত হয় না।"
 
 #: schemas/org.mate.background.gschema.xml.in:58
 msgid "Color Shading Type"
@@ -891,8 +795,8 @@ msgid ""
 "How to shade the background color. Possible values are \"horizontal-"
 "gradient\", \"vertical-gradient\", and \"solid\"."
 msgstr ""
-"পটভূমির রং সহযোগে ছায়ান্বিত করার পদ্ধতি। সম্ভাব্য মানসমূহ হলো "
-"\"অনুভূমিক-গ্রেডিয়েন্ট\", \"উলম্ব-গ্রেডিয়েন্ট\" ও \"গাঢ়\"।"
+"পটভূমির রং সহযোগে ছায়ান্বিত করার পদ্ধতি। সম্ভাব্য মানসমূহ হলো \"অনুভূমিক-"
+"গ্রেডিয়েন্ট\", \"উলম্ব-গ্রেডিয়েন্ট\" ও \"গাঢ়\"।"
 
 #: schemas/org.mate.file-views.gschema.xml:5
 msgid "File Icon Theme"
@@ -919,8 +823,8 @@ msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
 msgstr ""
-"অ্যানিমেশন প্রদর্শিত হবে কি না। টীকা: এটি একটি গ্লোবাল-কী এবং এর দ্বারা "
-"উইন্ডো ব্যবস্থাপক, প্যানেল প্রভৃতির মান প্রভাবিত হবে।"
+"অ্যানিমেশন প্রদর্শিত হবে কি না। টীকা: এটি একটি গ্লোবাল-কী এবং এর দ্বারা উইন্ডো "
+"ব্যবস্থাপক, প্যানেল প্রভৃতির মান প্রভাবিত হবে।"
 
 #: schemas/org.mate.interface.gschema.xml:15
 msgid "Menus Have Tearoff"
@@ -928,18 +832,19 @@ msgstr "মেনু টিয়ার-অফ (অর্থাৎ অবস্থ�
 
 #: schemas/org.mate.interface.gschema.xml:16
 msgid "Whether menus should have a tearoff."
-msgstr ""
-"মেনুর ক্ষেত্রে টিয়ার-অফ (অবস্থা পরিবর্তন) বৈশিষ্ট্য প্রয়োগ করা হবে কি না।"
+msgstr "মেনুর ক্ষেত্রে টিয়ার-অফ (অবস্থা পরিবর্তন) বৈশিষ্ট্য প্রয়োগ করা হবে কি না।"
 
 #: schemas/org.mate.interface.gschema.xml:20
 msgid "Toolbar Style"
 msgstr "টুলবারের শৈলী"
 
 #: schemas/org.mate.interface.gschema.xml:21
-msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
+msgid ""
+"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
+"\"text\"."
 msgstr ""
-"টুল-বারের বিন্যাস। বৈধ মান হল \"both (উভয়)\", \"both-horiz (উভয়-অনুভূমিক)\","
-" \"icons (প্রতীকচিহ্ন)\" ও \"text (টেক্সট)\"।"
+"টুল-বারের বিন্যাস। বৈধ মান হল \"both (উভয়)\", \"both-horiz (উভয়-অনুভূমিক)\", "
+"\"icons (প্রতীকচিহ্ন)\" ও \"text (টেক্সট)\"।"
 
 #: schemas/org.mate.interface.gschema.xml:25
 msgid "Menus Have Icons"
@@ -963,8 +868,7 @@ msgstr "মেনু-বার বিচ্ছিন্ন করা সম্�
 
 #: schemas/org.mate.interface.gschema.xml:36
 msgid "Whether the user can detach menubars and move them around."
-msgstr ""
-"ব্যবহারকারীর দ্বারা মেনু-বার বিচ্ছিন্ন করে স্থানান্তরণ করা সম্ভব কি না।"
+msgstr "ব্যবহারকারীর দ্বারা মেনু-বার বিচ্ছিন্ন করে স্থানান্তরণ করা সম্ভব কি না।"
 
 #: schemas/org.mate.interface.gschema.xml:40
 msgid "Toolbar Detachable"
@@ -979,10 +883,11 @@ msgid "Toolbar Icon Size"
 msgstr "টুলবার আইকনের আকার"
 
 #: schemas/org.mate.interface.gschema.xml:46
-msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
+msgid ""
+"Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr ""
-"টুলবারের মধ্যে উপস্থিত আইকনের মাপ, \"small-toolbar (ছোট-টুলবার)\" অথবা "
-"\"large-toolbar (বড়-টুলবার)\"।"
+"টুলবারের মধ্যে উপস্থিত আইকনের মাপ, \"small-toolbar (ছোট-টুলবার)\" অথবা \"large-"
+"toolbar (বড়-টুলবার)\"।"
 
 #: schemas/org.mate.interface.gschema.xml:50
 msgid "Cursor Blink"
@@ -1029,196 +934,200 @@ msgid ""
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:80
+msgid "GTK color palette"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:81
+msgid "Default color palette for MATE Color Selection"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:85
 msgid "Default font"
 msgstr "পূর্বনির্ধারিত ফন্ট"
 
-#: schemas/org.mate.interface.gschema.xml:81
+#: schemas/org.mate.interface.gschema.xml:86
 msgid "Name of the default font used by gtk+."
 msgstr "gtk+ দ্বারা ব্যবহৃত পূর্বনির্ধারিত ফন্টের নাম।"
 
-#: schemas/org.mate.interface.gschema.xml:85
+#: schemas/org.mate.interface.gschema.xml:90
 msgid "GTK IM Preedit Style"
 msgstr "GTK IM প্রি-এডিট শৈলী"
 
-#: schemas/org.mate.interface.gschema.xml:86
+#: schemas/org.mate.interface.gschema.xml:91
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "gtk+ দ্বারা ব্যবহৃত GTK+ ইনপুট পদ্ধতির প্রি-এডিট বিন্যাস।"
 
-#: schemas/org.mate.interface.gschema.xml:90
+#: schemas/org.mate.interface.gschema.xml:95
 msgid "GTK IM Status Style"
 msgstr "GTK IM স্ট্যাটাস শৈলী"
 
-#: schemas/org.mate.interface.gschema.xml:91
+#: schemas/org.mate.interface.gschema.xml:96
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "gtk+ দ্বারা ব্যবহৃত GTK+ ইনপুট পদ্ধতির অবস্থার বিন্যাস।"
 
-#: schemas/org.mate.interface.gschema.xml:95
+#: schemas/org.mate.interface.gschema.xml:100
 msgid "GTK IM Module"
 msgstr "GTK IM মডিউল"
 
-#: schemas/org.mate.interface.gschema.xml:96
+#: schemas/org.mate.interface.gschema.xml:101
 msgid "Name of the input method module used by GTK+."
 msgstr "GTK+ দ্বারা ব্যবহৃত ইনপুট পদ্ধতির মডিউল।"
 
-#: schemas/org.mate.interface.gschema.xml:100
+#: schemas/org.mate.interface.gschema.xml:105
 msgid "Use GTK3 header bar"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:101
+#: schemas/org.mate.interface.gschema.xml:106
 msgid ""
 "Whether builtin GTK+ dialogs such as the file chooser, the color chooser or "
-"the font chooser will use a header bar at the top to show action widgets, or"
-" an action area at the bottom. This setting does not affect custom dialogs "
+"the font chooser will use a header bar at the top to show action widgets, or "
+"an action area at the bottom. This setting does not affect custom dialogs "
 "using GtkDialog directly, or message dialogs."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:105
+#: schemas/org.mate.interface.gschema.xml:110
 msgid "Use GTK3 overlay scrolling"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:106
+#: schemas/org.mate.interface.gschema.xml:111
 msgid ""
 "Whether built-in GTK+ scrolled windows will use overlay scrolling. Overlay "
 "scrolling hides and reduces the size of the scrollbar until it gets focus."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:110
+#: schemas/org.mate.interface.gschema.xml:115
 msgid "Enable Gtk toolkit-wide animations"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:111
+#: schemas/org.mate.interface.gschema.xml:116
 msgid "Whether to enable toolkit-wide animations."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:115
+#: schemas/org.mate.interface.gschema.xml:120
 msgid "Document font"
 msgstr "ডকুমেন্টে ব্যবহৃত ফন্ট"
 
-#: schemas/org.mate.interface.gschema.xml:116
+#: schemas/org.mate.interface.gschema.xml:121
 msgid "Name of the default font used for reading documents."
 msgstr "নথিপত্র পড়ার উদ্দেশ্যে ব্যবহৃত পূর্বনির্ধারিত ফন্টের নাম।"
 
-#: schemas/org.mate.interface.gschema.xml:120
+#: schemas/org.mate.interface.gschema.xml:125
 msgid "Monospace font"
 msgstr "মনো-স্পেস ফন্ট"
 
-#: schemas/org.mate.interface.gschema.xml:121
+#: schemas/org.mate.interface.gschema.xml:126
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr ""
-"টার্মিনালের মত অবস্থানে ব্যবহারের জন্য মনোস্পেসযুক্ত (স্থায়ী-প্রস্থের) "
-"ফন্টের নাম।"
+"টার্মিনালের মত অবস্থানে ব্যবহারের জন্য মনোস্পেসযুক্ত (স্থায়ী-প্রস্থের) ফন্টের নাম।"
 
-#: schemas/org.mate.interface.gschema.xml:125
+#: schemas/org.mate.interface.gschema.xml:130
 msgid "Use Custom Font"
 msgstr "স্বনির্বাচিত ফন্ট ব্যবহার করা হবে"
 
-#: schemas/org.mate.interface.gschema.xml:126
+#: schemas/org.mate.interface.gschema.xml:131
 msgid "Whether to use a custom font in gtk+ applications."
 msgstr "gtk+ অ্যাপ্লিকেশনের ক্ষেত্রে স্বনির্ধারিত ফন্ট ব্যবহৃত হবে কি না।"
 
-#: schemas/org.mate.interface.gschema.xml:130
+#: schemas/org.mate.interface.gschema.xml:135
 msgid "Status Bar on Right"
 msgstr "অবস্থাসূচক বার ডানদিকে অবস্থিত"
 
-#: schemas/org.mate.interface.gschema.xml:131
+#: schemas/org.mate.interface.gschema.xml:136
 msgid "Whether to display a status bar meter on the right."
 msgstr "ডানদিকের অবস্থাসূচক-বারের মাত্রা প্রদর্শন করা হবে কি না।"
 
-#: schemas/org.mate.interface.gschema.xml:135
+#: schemas/org.mate.interface.gschema.xml:140
 msgid "Module for GtkFileChooser"
 msgstr "GtkFileChooser-এর মডিউল"
 
-#: schemas/org.mate.interface.gschema.xml:136
+#: schemas/org.mate.interface.gschema.xml:141
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\" and \"gtk+\"."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:140
+#: schemas/org.mate.interface.gschema.xml:145
 msgid "Menubar accelerator"
 msgstr "মেনু-বার অ্যাকসেলেরেটর"
 
-#: schemas/org.mate.interface.gschema.xml:141
+#: schemas/org.mate.interface.gschema.xml:146
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "মেনু-বার খুলতে ব্যবহৃত কীবোর্ড শর্টকাট।"
 
-#: schemas/org.mate.interface.gschema.xml:145
+#: schemas/org.mate.interface.gschema.xml:150
 msgid "Show the 'Input Methods' menu"
 msgstr "'ইনপুট পদ্ধতি' নামক মেনু প্রদর্শিত হবে"
 
-#: schemas/org.mate.interface.gschema.xml:146
+#: schemas/org.mate.interface.gschema.xml:151
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
 msgstr ""
-"এন্ট্রির কনটেক্সট মেনু ও টেক্সট প্রদর্শন ব্যবস্থার দ্বারা ইনপুট পদ্ধতি "
-"পরিবর্তনের সুবিধা উপলব্ধ করা হবে কি না।"
+"এন্ট্রির কনটেক্সট মেনু ও টেক্সট প্রদর্শন ব্যবস্থার দ্বারা ইনপুট পদ্ধতি পরিবর্তনের সুবিধা "
+"উপলব্ধ করা হবে কি না।"
 
-#: schemas/org.mate.interface.gschema.xml:150
+#: schemas/org.mate.interface.gschema.xml:155
 msgid "Show the 'Unicode Control Character' menu"
 msgstr "'ইউনিকোড কনট্রোল ক্যারেকটার' শীর্ষক মেনু প্রদর্শন করা হবে"
 
-#: schemas/org.mate.interface.gschema.xml:151
+#: schemas/org.mate.interface.gschema.xml:156
 msgid ""
 "Whether the context menus of entries and text views should offer to insert "
 "control characters."
 msgstr ""
-"এন্ট্রির কনটেক্সট মেনু ও টেক্সট প্রদর্শন ব্যবস্থার দ্বারা কন্ট্রোল "
-"ক্যারেক্টার সন্নিবেশের সুবিধা উপলব্ধ করা হবে কি না।"
-
-#: schemas/org.mate.interface.gschema.xml:155
-msgid "Titlebar layout of GTK3 client-side decorated windows"
-msgstr ""
-
-#: schemas/org.mate.interface.gschema.xml:156
-msgid ""
-"This setting determines which buttons should be put in the titlebar of "
-"client-side decorated windows, and whether they should be placed at the left"
-" of right. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
-msgstr ""
+"এন্ট্রির কনটেক্সট মেনু ও টেক্সট প্রদর্শন ব্যবস্থার দ্বারা কন্ট্রোল ক্যারেক্টার সন্নিবেশের "
+"সুবিধা উপলব্ধ করা হবে কি না।"
 
 #: schemas/org.mate.interface.gschema.xml:160
-msgid "Use a global menubar for displaying application menus"
+msgid "Titlebar layout of GTK3 client-side decorated windows"
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:161
 msgid ""
-"This setting determines where application menu will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
+"This setting determines which buttons should be put in the titlebar of "
+"client-side decorated windows, and whether they should be placed at the left "
+"of right. See https://developer.gnome.org/gtk3/stable/GtkSettings."
+"html#GtkSettings--gtk-decoration-layout."
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:165
-msgid "Use a global menubar for displaying window menubars"
+msgid "Use a global menubar for displaying application menus"
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:166
 msgid ""
-"This setting determines where window menubars will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"This setting determines where application menu will be displayed - in a "
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:170
-msgid "Only show mnemonics on when the Alt key is pressed"
+msgid "Use a global menubar for displaying window menubars"
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:171
+msgid ""
+"This setting determines where window menubars will be displayed - in a "
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:175
+msgid "Only show mnemonics on when the Alt key is pressed"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:176
 msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:176
+#: schemas/org.mate.interface.gschema.xml:181
 msgid "Window Scaling Factor"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:177
+#: schemas/org.mate.interface.gschema.xml:182
 msgid ""
 "This controls the GTK scale factor that maps from window coordinates to the "
 "actual device pixels. On traditional systems this is 1, but on very high "
@@ -1226,11 +1135,11 @@ msgid ""
 "Set to 0 to auto-detect."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:181
+#: schemas/org.mate.interface.gschema.xml:186
 msgid "Scaling Factor for QT appllications"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:182
+#: schemas/org.mate.interface.gschema.xml:187
 msgid ""
 "This setting determines whether MATE controls the scale factor for QT "
 "applications. Enable to synchronize with the GTK scale factor when "
@@ -1238,11 +1147,11 @@ msgid ""
 "restarting your session."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:186
+#: schemas/org.mate.interface.gschema.xml:191
 msgid "Enable the primary paste selection"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:187
+#: schemas/org.mate.interface.gschema.xml:192
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1254,13 +1163,12 @@ msgstr "কমান্ড লাইন নিষ্ক্রিয় করা �
 
 #: schemas/org.mate.lockdown.gschema.xml:6
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to"
-" be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to "
+"be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
 msgstr ""
 "ব্যবহারকারীর দ্বারা টার্মিনাল অথবা কোনো কমান্ড-লাইন চালনা প্রতিরোধ করা হবে। "
-"উদাহরণস্বরূপ, এর ফলে প্যানেলের \"অ্যাপ্লিকেশন চালনা\" ডায়লগের ব্যবহার বন্ধ "
-"হবে।"
+"উদাহরণস্বরূপ, এর ফলে প্যানেলের \"অ্যাপ্লিকেশন চালনা\" ডায়লগের ব্যবহার বন্ধ হবে।"
 
 #: schemas/org.mate.lockdown.gschema.xml:10
 msgid "Disable saving files to disk"
@@ -1271,8 +1179,8 @@ msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
 msgstr ""
-"ব্যবহারকারীকে ডিস্কে ফাইল সংরক্ষণে বাধা দেওয়া হবে। উদাহরণস্বরূপ, এর ফলে "
-"সর্বধরনের অ্যাপ্লিকেশনের \"নতুন রূপে সংরক্ষণ\" ডায়লগ ব্যবহার করা যাবে না।"
+"ব্যবহারকারীকে ডিস্কে ফাইল সংরক্ষণে বাধা দেওয়া হবে। উদাহরণস্বরূপ, এর ফলে সর্বধরনের "
+"অ্যাপ্লিকেশনের \"নতুন রূপে সংরক্ষণ\" ডায়লগ ব্যবহার করা যাবে না।"
 
 #: schemas/org.mate.lockdown.gschema.xml:15
 msgid "Disable printing"
@@ -1296,8 +1204,8 @@ msgid ""
 "disable access to all applications' \"Print Setup\" dialogs."
 msgstr ""
 "ব্যবহারকারীর দ্বারা প্রিন্ট সংক্রান্ত বৈশিষ্ট্য পরিবর্তনে প্রতিরোধ করা হবে। "
-"উদাহরণস্বরূপ, এর ফলে সর্বধরনের অ্যাপ্লিকেশনের \"প্রিন্ট কর্মের বৈশিষ্ট্য\" "
-"শীর্ষক ডায়লগ ব্যবহার করা যাবে না।"
+"উদাহরণস্বরূপ, এর ফলে সর্বধরনের অ্যাপ্লিকেশনের \"প্রিন্ট কর্মের বৈশিষ্ট্য\" শীর্ষক ডায়লগ "
+"ব্যবহার করা যাবে না।"
 
 #: schemas/org.mate.lockdown.gschema.xml:25
 msgid "Disable user switching"
@@ -1308,8 +1216,7 @@ msgid ""
 "Prevent the user from switching to another account while his session is "
 "active."
 msgstr ""
-"সক্রিয় সেশানের মধ্যে ব্যবহারকারীকে ভিন্ন অ্যাকউন্ট পরিবর্তন করতে দেওয়া হবে "
-"না।"
+"সক্রিয় সেশানের মধ্যে ব্যবহারকারীকে ভিন্ন অ্যাকউন্ট পরিবর্তন করতে দেওয়া হবে না।"
 
 #: schemas/org.mate.lockdown.gschema.xml:30
 msgid "Disable lock screen"
@@ -1326,8 +1233,7 @@ msgstr "URL ও MIME টাইপ হ্যান্ডলার নিষ্ক
 #: schemas/org.mate.lockdown.gschema.xml:36
 msgid "Prevent running any URL or MIME type handler applications."
 msgstr ""
-"কোনো ধরনের URL অথবা MIME টাইপ হ্যান্ডলার অ্যাপ্লিকেশনের সঞ্চালন বন্ধ করা "
-"হবে।"
+"কোনো ধরনের URL অথবা MIME টাইপ হ্যান্ডলার অ্যাপ্লিকেশনের সঞ্চালন বন্ধ করা হবে।"
 
 #: schemas/org.mate.lockdown.gschema.xml:40
 msgid "Disable theme settings"
@@ -1351,8 +1257,7 @@ msgstr "পূর্বনির্ধারিত মিক্সার ডি�
 
 #: schemas/org.mate.sound.gschema.xml:6
 msgid "The default mixer device used by the multimedia key bindings."
-msgstr ""
-"মাল্টিমিডিয়া কী-বাইন্ডিং দ্বারা ব্যবহৃত পূর্বনির্ধারিত মিক্সার ডিভাইস।"
+msgstr "মাল্টিমিডিয়া কী-বাইন্ডিং দ্বারা ব্যবহৃত পূর্বনির্ধারিত মিক্সার ডিভাইস।"
 
 #: schemas/org.mate.sound.gschema.xml:10
 msgid "Default mixer tracks"
@@ -1360,8 +1265,7 @@ msgstr "পূর্বনির্ধারিত মিক্সার ট্�
 
 #: schemas/org.mate.sound.gschema.xml:11
 msgid "The default mixer tracks used by the multimedia key bindings."
-msgstr ""
-"মাল্টিমিডিয়া কী-বাইন্ডিং দ্বারা ব্যবহৃত পূর্বনির্ধারিত মিক্সার ট্র্যাক।"
+msgstr "মাল্টিমিডিয়া কী-বাইন্ডিং দ্বারা ব্যবহৃত পূর্বনির্ধারিত মিক্সার ট্র্যাক।"
 
 #: schemas/org.mate.sound.gschema.xml:15
 msgid "Enable ESD"
@@ -1401,8 +1305,8 @@ msgstr ""
 
 #: schemas/org.mate.sound.gschema.xml:36
 msgid ""
-"If this is set to TRUE, the user will be allowed to set the output / speaker"
-" volume to above 100%. By setting the output volume above 100%, the sound "
+"If this is set to TRUE, the user will be allowed to set the output / speaker "
+"volume to above 100%. By setting the output volume above 100%, the sound "
 "server will amplify the audio above what the audio hardware can do cleanly. "
 "This can lead to audio quality degradation, but may be useful for listening "
 "to extremely quiet audio recordings, where the recording would otherwise be "
@@ -1414,16 +1318,16 @@ msgid ""
 "Maximum age for thumbnails in the cache, in days. Set to -1 to disable "
 "cleaning."
 msgstr ""
-"ক্যাশের মধ্যে উপস্থিত থাম্‌বনেইলের সর্বাধিক সংরক্ষণ কাল -দিন হিসাবে "
-"নির্ধারিত। বর্জন প্রক্রিয়া নিষ্ক্রিয় করার জন্য -1 নির্ধারণ করুন।"
+"ক্যাশের মধ্যে উপস্থিত থাম্‌বনেইলের সর্বাধিক সংরক্ষণ কাল -দিন হিসাবে নির্ধারিত। বর্জন "
+"প্রক্রিয়া নিষ্ক্রিয় করার জন্য -1 নির্ধারণ করুন।"
 
 #: schemas/org.mate.thumbnail-cache.gschema.xml:10
 msgid ""
 "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
 "cleaning."
 msgstr ""
-"ক্যাশের মধ্যে সংরক্ষণের উদ্দেশ্যে থাম্‌বনেইলের সর্বাধিক মাপ -মেগাবাইট হিসাবে"
-" নির্ধারিত। বর্জন প্রক্রিয়া নিষ্ক্রিয় করার জন্য -1 নির্ধারণ করুন।"
+"ক্যাশের মধ্যে সংরক্ষণের উদ্দেশ্যে থাম্‌বনেইলের সর্বাধিক মাপ -মেগাবাইট হিসাবে "
+"নির্ধারিত। বর্জন প্রক্রিয়া নিষ্ক্রিয় করার জন্য -1 নির্ধারণ করুন।"
 
 #: schemas/org.mate.thumbnailers.gschema.xml:5
 msgid "Disable all external thumbnailers"
@@ -1434,8 +1338,8 @@ msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
 msgstr ""
-"থাম্ব-নেইল প্রোগ্রামগুলি স্বতন্ত্ররূপে নিষ্ক্রিয়/সক্রিয় থাকলেও সমস্ত "
-"বহিস্থিত থাম্ব-নেইল প্রোগ্রাম নিষ্ক্রিয় করতে মান true (সত্য) নির্ধারণ করুন।"
+"থাম্ব-নেইল প্রোগ্রামগুলি স্বতন্ত্ররূপে নিষ্ক্রিয়/সক্রিয় থাকলেও সমস্ত বহিস্থিত থাম্ব-নেইল "
+"প্রোগ্রাম নিষ্ক্রিয় করতে মান true (সত্য) নির্ধারণ করুন।"
 
 #: schemas/org.mate.thumbnailers.gschema.xml:10
 msgid ""
@@ -1444,8 +1348,8 @@ msgstr ""
 
 #: schemas/org.mate.thumbnailers.gschema.xml:11
 msgid ""
-"Thumbnails will not be created for files whose mime-type is contained in the"
-" list."
+"Thumbnails will not be created for files whose mime-type is contained in the "
+"list."
 msgstr ""
 
 #: schemas/org.mate.typing-break.gschema.xml:5
@@ -1500,8 +1404,22 @@ msgstr ""
 msgid "Choose colors from the palette or the screen"
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: tools/mate-color-select.desktop.in:13
 msgid "MATE;color;chooser;pick;palette;screen;selection;"
 msgstr ""
+
+#~ msgid "Title"
+#~ msgstr "শিরোনাম"
+
+#~ msgid "The title of the color selection dialog"
+#~ msgstr "রং নির্বাচন ডায়লগের শিরোনাম"
+
+#~ msgid "Pick a Color"
+#~ msgstr "একটি রং নির্বাচন করুন"
+
+#~ msgid "The selected color"
+#~ msgstr "নির্বাচিত রং"
+
+#~ msgid "Received invalid color data\n"
+#~ msgstr "রং সংক্রান্ত প্রাপ্ত তথ্য কার্যকর নয়\n"

@@ -2,7 +2,7 @@
 # Copyright (C) YEAR MATE Developers
 # This file is distributed under the same license as the mate-desktop package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Michael Steenbeek <m.o.steenbeek@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
@@ -11,19 +11,19 @@
 # 8c3c560621f92e66455793da7b85eff0_8989672 <0e181aafae430e5c919398b6a7bba462_109266>, 2021
 # dragnadh, 2021
 # Pjotr <pjotrvertaalt@gmail.com>, 2023
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-desktop 1.27.2\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-desktop/\n"
-"POT-Creation-Date: 2023-09-02 16:57+0200\n"
+"POT-Creation-Date: 2026-01-14 23:32+0530\n"
 "PO-Revision-Date: 2018-03-11 16:44+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>, 2023\n"
 "Language-Team: Dutch (https://app.transifex.com/mate/teams/13566/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators should localize the following string which will be
@@ -51,74 +51,6 @@ msgstr "Over Mate"
 msgid "Learn more about MATE"
 msgstr "Meer te weten komen over Mate"
 
-#: mate-about/mate-about.h:29
-msgid "MATE Desktop Environment"
-msgstr "MATE-werkomgeving"
-
-#: mate-about/mate-about.h:34
-msgid ""
-"Copyright © 1997-2011 GNOME developers\n"
-"Copyright © 2011 Perberos\n"
-"Copyright © 2012-2023 MATE developers"
-msgstr ""
-"Auteursrecht © 1997-2011 GNOME-ontwikkelaars\n"
-"Auteursrecht © 2011 Perberos\n"
-"Auteursrecht © 2012-2023 MATE-ontwikkelaars"
-
-#: mate-about/mate-about.h:42
-msgid ""
-"MATE provides an intuitive and attractive desktop to Linux users using "
-"traditional metaphors."
-msgstr ""
-"MATE levert een intuïtieve en aantrekkelijke werkomgeving voor "
-"Linuxgebruikers door middel van traditionele menu-indelingen."
-
-#: mate-about/mate-about.h:45
-msgid ""
-"MATE includes most of what you see on your computer, including the file "
-"manager, document viewer, image viewer, menus, and many applications."
-msgstr ""
-"MATE omvat het meeste van wat u op uw computer ziet, waaronder het "
-"bestandsbeheer, de documentenlezer, de afbeeldingsweergave, de menu's en "
-"vele toepassingen."
-
-#: mate-about/mate-about.h:48
-msgid ""
-"MATE is a Free, usable, stable, accessible desktop environment for the Unix-"
-"like family of operating systems."
-msgstr ""
-"MATE is een vrije, handige, stabiele, toegankelijke werkomgeving voor de "
-"Unix-achtige familie van besturingssystemen."
-
-#: mate-about/mate-about.h:51
-msgid ""
-"MATE is the continuation of GNOME 2. Hundreds of people have contributed "
-"code to GNOME since it was started in 1997; many more have contributed in "
-"other important ways, including translations, documentation, and quality "
-"assurance."
-msgstr ""
-"MATE is een vork van GNOME 2. Honderden mensen hebben code bijgedragen aan "
-"GNOME sinds het begon in 1997; velen anderen hebben op andere manieren "
-"bijgedragen, met vertalingen, documentatie en kwaliteitsbewaking."
-
-#: mate-about/mate-about.h:55
-msgid ""
-"GNOME 2 was the most popular Linux desktop but it’s no longer available... "
-"MATE is here to provide that same desktop to you!"
-msgstr ""
-"GNOME 2 was de populairste werkomgeving van Linux, maar die is niet langer "
-"beschikbaar... MATE is er om dezelfde werkomgeving te blijven leveren!"
-
-#: mate-about/mate-about.h:58
-msgid ""
-"The name “MATE” comes from yerba maté, a species of holly native to "
-"subtropical South America. Its leaves contain caffeine and are used to make "
-"infusions and a beverage called mate."
-msgstr ""
-"De naam 'MATE' komt van yerba maté, een inheemse ilexsoort in subtropisch "
-"Zuid-Amerika. De bladeren bevatten cafeïne en worden gebruikt om aftreksels "
-"van te maken en een drank die 'mate' genoemd wordt."
-
 #. Translators: "Unknown" here is used to identify a monitor for which
 #. * we don't know the vendor. When a vendor is known, the name of the
 #. * vendor is used.
@@ -127,93 +59,60 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: libmate-desktop/mate-colorbutton.c:151
-msgid "Use alpha"
-msgstr "Gebruik alpha"
-
-#: libmate-desktop/mate-colorbutton.c:152
-msgid "Whether or not to give the color an alpha value"
-msgstr "Al dan niet de kleur een alphawaarde te geven"
-
-#: libmate-desktop/mate-colorbutton.c:166
-msgid "Title"
-msgstr "Titel"
-
-#: libmate-desktop/mate-colorbutton.c:167
-msgid "The title of the color selection dialog"
-msgstr "De titel van de kleurkiezerdialoog"
-
-#: libmate-desktop/mate-colorbutton.c:168
-#: libmate-desktop/mate-colorbutton.c:439
-msgid "Pick a Color"
-msgstr "Kies een kleur"
-
-#: libmate-desktop/mate-colorbutton.c:181 libmate-desktop/mate-colorsel.c:281
-msgid "Current Color"
-msgstr "Huidige kleur"
-
-#: libmate-desktop/mate-colorbutton.c:182
-msgid "The selected color"
-msgstr "De geselecteerde kleur"
-
-#: libmate-desktop/mate-colorbutton.c:196 libmate-desktop/mate-colorsel.c:288
-msgid "Current Alpha"
-msgstr "Huidige alpha"
-
-#: libmate-desktop/mate-colorbutton.c:197
-msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
-msgstr ""
-"De geselecteerde doorzichtigheid (0 volledig doorzichtig, 65535 volledig "
-"ondoorzichtig)"
-
-#: libmate-desktop/mate-colorbutton.c:335
-msgid "Received invalid color data\n"
-msgstr "Ongeldige kleurgegevens ontvangen \n"
-
-#: libmate-desktop/mate-colorsel.c:267
+#: libmate-desktop/mate-colorsel.c:271
 msgid "Has Opacity Control"
 msgstr "Heeft doorzichtigheidsbeheer"
 
-#: libmate-desktop/mate-colorsel.c:268
+#: libmate-desktop/mate-colorsel.c:272
 msgid "Whether the color selector should allow setting opacity"
 msgstr "Of het instellen van doorzichtigheid is toegestaan in de kleurkiezer"
 
-#: libmate-desktop/mate-colorsel.c:274
+#: libmate-desktop/mate-colorsel.c:278
 msgid "Has palette"
 msgstr "Heeft palet"
 
-#: libmate-desktop/mate-colorsel.c:275
+#: libmate-desktop/mate-colorsel.c:279
 msgid "Whether a palette should be used"
 msgstr "Of er een palet gebruikt moet worden"
 
-#: libmate-desktop/mate-colorsel.c:282
-msgid "The current color"
+#: libmate-desktop/mate-colorsel.c:285
+#, fuzzy
+msgid "Current RGBA"
+msgstr "Huidige alpha"
+
+#: libmate-desktop/mate-colorsel.c:286
+#, fuzzy
+msgid "The current RGBA color"
 msgstr "De huidige kleur"
 
-#: libmate-desktop/mate-colorsel.c:289
+#: libmate-desktop/mate-colorsel.c:295
+msgid "Current Alpha"
+msgstr "Huidige alpha"
+
+#: libmate-desktop/mate-colorsel.c:296
 msgid "The current opacity value (0 fully transparent, 65535 fully opaque)"
 msgstr ""
 "De huidige doorzichtigheidswaarde (0 volledig doorzichtig, 65535 volledig "
 "ondoorzichtig)"
 
-#: libmate-desktop/mate-colorsel.c:295
+#: libmate-desktop/mate-colorsel.c:302
 msgid "HEX String"
 msgstr "HEX-tekenreeks"
 
-#: libmate-desktop/mate-colorsel.c:296
+#: libmate-desktop/mate-colorsel.c:303
 msgid "The hexadecimal string of current color"
 msgstr "De hexadecimale tekenreeks van de huidige kleur"
 
-#: libmate-desktop/mate-colorsel.c:341
+#: libmate-desktop/mate-colorsel.c:348
 msgid ""
 "Select the color you want from the outer ring. Select the darkness or "
 "lightness of that color using the inner triangle."
 msgstr ""
-"Kies aan de hand van de buitenste ring de kleur die u wilt. Hierna kunt u de"
-" donkerheid of lichtheid van de gekozen kleur bepalen met behulp van de "
+"Kies aan de hand van de buitenste ring de kleur die u wilt. Hierna kunt u de "
+"donkerheid of lichtheid van de gekozen kleur bepalen met behulp van de "
 "binnenste driehoek."
 
-#: libmate-desktop/mate-colorsel.c:365
+#: libmate-desktop/mate-colorsel.c:372
 msgid ""
 "Click the eyedropper, then click a color anywhere on your screen to select "
 "that color."
@@ -221,67 +120,67 @@ msgstr ""
 "Klik op de pipet, en klik daarna ergens op uw scherm om die kleur te "
 "selecteren."
 
-#: libmate-desktop/mate-colorsel.c:374
+#: libmate-desktop/mate-colorsel.c:381
 msgid "_Hue:"
 msgstr "_Tint:"
 
-#: libmate-desktop/mate-colorsel.c:375
+#: libmate-desktop/mate-colorsel.c:382
 msgid "Position on the color wheel."
 msgstr "Positie op het kleurenschemawiel."
 
-#: libmate-desktop/mate-colorsel.c:377
+#: libmate-desktop/mate-colorsel.c:384
 msgid "_Saturation:"
 msgstr "_Verzadiging:"
 
-#: libmate-desktop/mate-colorsel.c:378
+#: libmate-desktop/mate-colorsel.c:385
 msgid "\"Deepness\" of the color."
 msgstr "'Diepte' van de kleur."
 
-#: libmate-desktop/mate-colorsel.c:379
+#: libmate-desktop/mate-colorsel.c:386
 msgid "_Value:"
 msgstr "_Waarde:"
 
-#: libmate-desktop/mate-colorsel.c:380
+#: libmate-desktop/mate-colorsel.c:387
 msgid "Brightness of the color."
 msgstr "Helderheid van de kleur."
 
-#: libmate-desktop/mate-colorsel.c:381
+#: libmate-desktop/mate-colorsel.c:388
 msgid "_Red:"
 msgstr "_Rood:"
 
-#: libmate-desktop/mate-colorsel.c:382
+#: libmate-desktop/mate-colorsel.c:389
 msgid "Amount of red light in the color."
 msgstr "Hoeveelheid rood licht in de kleur."
 
-#: libmate-desktop/mate-colorsel.c:383
+#: libmate-desktop/mate-colorsel.c:390
 msgid "_Green:"
 msgstr "_Groen:"
 
-#: libmate-desktop/mate-colorsel.c:384
+#: libmate-desktop/mate-colorsel.c:391
 msgid "Amount of green light in the color."
 msgstr "Hoeveelheid groen licht in de kleur."
 
-#: libmate-desktop/mate-colorsel.c:385
+#: libmate-desktop/mate-colorsel.c:392
 msgid "_Blue:"
 msgstr "_Blauw:"
 
-#: libmate-desktop/mate-colorsel.c:386
+#: libmate-desktop/mate-colorsel.c:393
 msgid "Amount of blue light in the color."
 msgstr "Hoeveelheid blauw licht in de kleur."
 
-#: libmate-desktop/mate-colorsel.c:389
+#: libmate-desktop/mate-colorsel.c:396
 msgid "Op_acity:"
 msgstr "_Ondoorzichtigheid:"
 
-#: libmate-desktop/mate-colorsel.c:396 libmate-desktop/mate-colorsel.c:406
+#: libmate-desktop/mate-colorsel.c:403 libmate-desktop/mate-colorsel.c:413
 msgid "Transparency of the color."
 msgstr "Doorzichtigheid van de kleur."
 
-#: libmate-desktop/mate-colorsel.c:413
+#: libmate-desktop/mate-colorsel.c:420
 msgid "Color _name:"
 msgstr "Kleur_naam:"
 
-#: libmate-desktop/mate-colorsel.c:427
+#: libmate-desktop/mate-colorsel.c:434
 msgid ""
 "You can enter an HTML-style hexadecimal color value, or simply a color name "
 "such as 'orange' in this entry."
@@ -289,15 +188,15 @@ msgstr ""
 "U kunt in dit veld HTML-stijl hexadecimale kleurwaarde invoeren, of de naam "
 "van de kleur, zoals 'oranje'."
 
-#: libmate-desktop/mate-colorsel.c:457
+#: libmate-desktop/mate-colorsel.c:464
 msgid "_Palette:"
 msgstr "_Palet:"
 
-#: libmate-desktop/mate-colorsel.c:487
+#: libmate-desktop/mate-colorsel.c:494
 msgid "Color Wheel"
 msgstr "Kleurenschemawiel"
 
-#: libmate-desktop/mate-colorsel.c:942
+#: libmate-desktop/mate-colorsel.c:949
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now. You can drag this color to a palette entry, or select this color as "
@@ -307,7 +206,7 @@ msgstr ""
 "kunt deze kleur verslepen naar een paletinvoer, of kies deze kleur als "
 "huidige door hem te slepen naar de andere kleurstaal hiernaast."
 
-#: libmate-desktop/mate-colorsel.c:945
+#: libmate-desktop/mate-colorsel.c:952
 msgid ""
 "The color you've chosen. You can drag this color to a palette entry to save "
 "it for use in the future."
@@ -315,7 +214,7 @@ msgstr ""
 "De door u gekozen kleur. U kunt de kleur verslepen naar een paletinvoer om "
 "de kleur op te slaan voor toekomstig gebruik."
 
-#: libmate-desktop/mate-colorsel.c:950
+#: libmate-desktop/mate-colorsel.c:957
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now."
@@ -323,29 +222,29 @@ msgstr ""
 "De voorheen gekozen kleur, om de kleur te kunnen vergelijken met de huidige "
 "kleurkeuzen."
 
-#: libmate-desktop/mate-colorsel.c:953
+#: libmate-desktop/mate-colorsel.c:960
 msgid "The color you've chosen."
 msgstr "De door u gekozen kleur."
 
-#: libmate-desktop/mate-colorsel.c:1359
+#: libmate-desktop/mate-colorsel.c:1323
 msgid "gtk-color-sel"
 msgstr "gtk-color-sel"
 
-#: libmate-desktop/mate-colorsel.c:1364
+#: libmate-desktop/mate-colorsel.c:1328
 msgid "_Save color here"
 msgstr "_Sla kleur hier op"
 
-#: libmate-desktop/mate-colorsel.c:1584
+#: libmate-desktop/mate-colorsel.c:1561
 msgid ""
-"Click this palette entry to make it the current color. To change this entry,"
-" drag a color swatch here or right-click it and select \"Save color here.\""
+"Click this palette entry to make it the current color. To change this entry, "
+"drag a color swatch here or right-click it and select \"Save color here.\""
 msgstr ""
-"Klik op deze paletinvoer om het de huidige kleur te maken. Om deze invoer te"
-" veranderen moet u een kleurstaal hierheen slepen of met de rechtermuisknop "
+"Klik op deze paletinvoer om het de huidige kleur te maken. Om deze invoer te "
+"veranderen moet u een kleurstaal hierheen slepen of met de rechtermuisknop "
 "erop klikken en de optie 'Sla kleur hier op' selecteren."
 
 #: libmate-desktop/mate-colorseldialog.c:98
-#: libmate-desktop/mate-colorseldialog.c:184
+#: libmate-desktop/mate-colorseldialog.c:182
 msgid "Color Selection"
 msgstr "Kleurselectie"
 
@@ -377,15 +276,15 @@ msgstr "Hulp-knop"
 msgid "The help button of the dialog."
 msgstr "De hulpknop van het dialoogvenster."
 
-#: libmate-desktop/mate-colorseldialog.c:162
+#: libmate-desktop/mate-colorseldialog.c:160
 msgid "_Cancel"
 msgstr "_Afbreken"
 
-#: libmate-desktop/mate-colorseldialog.c:167
+#: libmate-desktop/mate-colorseldialog.c:165
 msgid "_OK"
 msgstr "_Oké"
 
-#: libmate-desktop/mate-colorseldialog.c:175
+#: libmate-desktop/mate-colorseldialog.c:173
 msgid "Help"
 msgstr "Hulp"
 
@@ -405,7 +304,7 @@ msgstr "Fout bij terugspoelen van bestand '%s': %s"
 #. Translators: the "name" mentioned here is the name of
 #. * an application or a document
 #: libmate-desktop/mate-desktop-item.c:378
-#: libmate-desktop/mate-desktop-item.c:3543
+#: libmate-desktop/mate-desktop-item.c:3547
 msgid "No name"
 msgstr "Naamloos"
 
@@ -428,23 +327,23 @@ msgstr "Geen bestandsnaam opgegeven voor opslaan"
 msgid "Starting %s"
 msgstr "%s starten..."
 
-#: libmate-desktop/mate-desktop-item.c:2090
+#: libmate-desktop/mate-desktop-item.c:2094
 msgid "No URL to launch"
 msgstr "Geen webadres om te starten"
 
-#: libmate-desktop/mate-desktop-item.c:2106
+#: libmate-desktop/mate-desktop-item.c:2110
 msgid "Not a launchable item"
 msgstr "Geen opstartbaar element"
 
-#: libmate-desktop/mate-desktop-item.c:2115
+#: libmate-desktop/mate-desktop-item.c:2119
 msgid "No command (Exec) to launch"
 msgstr "Geen opdracht (Exec) om te starten"
 
-#: libmate-desktop/mate-desktop-item.c:2127
+#: libmate-desktop/mate-desktop-item.c:2131
 msgid "Bad command (Exec) to launch"
 msgstr "Ongeldige opdracht (Exec) om te starten"
 
-#: libmate-desktop/mate-desktop-item.c:3600
+#: libmate-desktop/mate-desktop-item.c:3604
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Onbekende codering van: %s"
@@ -467,8 +366,7 @@ msgstr "kon de schermhulpbronnen niet verkrijgen (CRTCs, outputs, modes)"
 #: libmate-desktop/mate-rr.c:478
 msgid "unhandled X error while getting the range of screen sizes"
 msgstr ""
-"onafgehandelde X-fout bij het opvragen van het bereik van de "
-"schermafmetingen"
+"onafgehandelde X-fout bij het opvragen van het bereik van de schermafmetingen"
 
 #: libmate-desktop/mate-rr.c:484
 msgid "could not get the range of screen sizes"
@@ -590,13 +488,13 @@ msgstr ""
 "vereiste virtuele afmeting past niet binnen de beschikbare afmeting: "
 "aangevraagd=(%d, %d), minimum=(%d, %d), maximum=(%d, %d)"
 
-#. Keep this string in sync with mate-control-center/capplets/display/xrandr-
-#. capplet.c:get_display_name()
+#. Keep this string in sync with mate-control-center/capplets/display/xrandr-capplet.c:get_display_name()
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#: libmate-desktop/mate-rr-labeler.c:406
+#.
+#: libmate-desktop/mate-rr-labeler.c:426
 msgid "Mirror Screens"
 msgstr "Gespiegelde schermen"
 
@@ -623,8 +521,7 @@ msgstr "Hoe lang te versnellen in milliseconden"
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:42
 msgid "How many milliseconds it takes to go from 0 to maximum speed."
-msgstr ""
-"Hoeveel milliseconden het duurt om van 0 naar maximumsnelheid te gaan."
+msgstr "Hoeveel milliseconden het duurt om van 0 naar maximumsnelheid te gaan."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:46
 msgid "Initial delay in milliseconds"
@@ -741,8 +638,8 @@ msgid ""
 "List of assistive technology applications to start when logging into the "
 "MATE desktop."
 msgstr ""
-"Lijst van te starten assisterende technologie-toepassingen bij het aanmelden"
-" bij de MATE-werkomgeving."
+"Lijst van te starten assisterende technologie-toepassingen bij het aanmelden "
+"bij de MATE-werkomgeving."
 
 #: schemas/org.mate.applications-at-mobility.gschema.xml:5
 msgid "Preferred Mobility assistive technology application"
@@ -786,8 +683,7 @@ msgstr "Opstarten van assisterende technologie-toepassing voor visuele hulp"
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:11
 msgid ""
-"MATE to start preferred Visual assistive technology application during "
-"login."
+"MATE to start preferred Visual assistive technology application during login."
 msgstr ""
 "Of MATE de assisterende technologie-toepassing voor visuele hulp moet "
 "starten na aanmelden."
@@ -832,8 +728,7 @@ msgstr "Instantberichten-toepassing"
 
 #: schemas/org.mate.applications-messenger.gschema.xml:6
 msgid ""
-"Instant Messaging program to use when starting applications that require "
-"one."
+"Instant Messaging program to use when starting applications that require one."
 msgstr ""
 "Te gebruiken instantberichtenprogramma wanneer er toepassingen worden "
 "gestart die er een vereisen."
@@ -853,8 +748,7 @@ msgstr "Agenda heeft terminalvenster nodig"
 #: schemas/org.mate.applications-office.gschema.xml:15
 msgid "Whether the default calendar application needs a terminal to run"
 msgstr ""
-"Of de standaard-agendatoepassing voor het draaien een terminalvenster "
-"vereist"
+"Of de standaard-agendatoepassing voor het draaien een terminalvenster vereist"
 
 #: schemas/org.mate.applications-office.gschema.xml:21
 msgid "Default tasks"
@@ -930,11 +824,11 @@ msgstr "Afbeeldingsopties"
 #: schemas/org.mate.background.gschema.xml.in:34
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\","
-" \"spanned\"."
+"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\", "
+"\"spanned\"."
 msgstr ""
-"Bepaalt hoe de afbeelding in wallpaper_filename wordt weergegeven. Mogelijke"
-" waarden zijn \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
+"Bepaalt hoe de afbeelding in wallpaper_filename wordt weergegeven. Mogelijke "
+"waarden zijn \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
 "\"zoom\", \"spanned\"."
 
 #: schemas/org.mate.background.gschema.xml.in:38
@@ -959,16 +853,14 @@ msgstr "Primaire kleur"
 
 #: schemas/org.mate.background.gschema.xml.in:49
 msgid "Left or Top color when drawing gradients, or the solid color."
-msgstr ""
-"Linker - of bovenste kleur bij kleurverloop, of gewoon de effen kleur."
+msgstr "Linker - of bovenste kleur bij kleurverloop, of gewoon de effen kleur."
 
 #: schemas/org.mate.background.gschema.xml.in:53
 msgid "Secondary Color"
 msgstr "Secundaire kleur"
 
 #: schemas/org.mate.background.gschema.xml.in:54
-msgid ""
-"Right or Bottom color when drawing gradients, not used for solid color."
+msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Rechter- of onderste kleur bij kleurverloop (ongebruikt bij effen kleur)."
 
@@ -1026,7 +918,9 @@ msgid "Toolbar Style"
 msgstr "Werkbalkstijl"
 
 #: schemas/org.mate.interface.gschema.xml:21
-msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
+msgid ""
+"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
+"\"text\"."
 msgstr ""
 "Werkbalkstijl. Geldige waarden zijn ‘both’, ‘both-horiz’, ‘icons’ en ‘text’."
 
@@ -1071,7 +965,8 @@ msgid "Toolbar Icon Size"
 msgstr "Werkbalk pictogramafmetingen"
 
 #: schemas/org.mate.interface.gschema.xml:46
-msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
+msgid ""
+"Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr ""
 "De grootte van pictogrammen op de werkbalken, geldige waarden zijn ´small-"
 "toolbar´ of ´large-toolbar´."
@@ -1123,59 +1018,68 @@ msgstr ""
 "de instelling in 'gtk-color-scheme'"
 
 #: schemas/org.mate.interface.gschema.xml:80
+msgid "GTK color palette"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:81
+#, fuzzy
+msgid "Default color palette for MATE Color Selection"
+msgstr "MATE-kleurselectie"
+
+#: schemas/org.mate.interface.gschema.xml:85
 msgid "Default font"
 msgstr "Standaardlettertype"
 
-#: schemas/org.mate.interface.gschema.xml:81
+#: schemas/org.mate.interface.gschema.xml:86
 msgid "Name of the default font used by gtk+."
 msgstr "Naam van het standaardlettertype van gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:85
+#: schemas/org.mate.interface.gschema.xml:90
 msgid "GTK IM Preedit Style"
 msgstr "GTK IM Preedit Style"
 
-#: schemas/org.mate.interface.gschema.xml:86
+#: schemas/org.mate.interface.gschema.xml:91
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "Naam de van GTK+ invoermethode Preedit-stijl van gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:90
+#: schemas/org.mate.interface.gschema.xml:95
 msgid "GTK IM Status Style"
 msgstr "GTK IM Status Stijl"
 
-#: schemas/org.mate.interface.gschema.xml:91
+#: schemas/org.mate.interface.gschema.xml:96
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "Naam de van GTK+ invoermethode Status-stijl van gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:95
+#: schemas/org.mate.interface.gschema.xml:100
 msgid "GTK IM Module"
 msgstr "GTK IM Module"
 
-#: schemas/org.mate.interface.gschema.xml:96
+#: schemas/org.mate.interface.gschema.xml:101
 msgid "Name of the input method module used by GTK+."
 msgstr "Naam de van GTK+ invoermethode."
 
-#: schemas/org.mate.interface.gschema.xml:100
+#: schemas/org.mate.interface.gschema.xml:105
 msgid "Use GTK3 header bar"
 msgstr "Gebruik GTK3-kopbalk"
 
-#: schemas/org.mate.interface.gschema.xml:101
+#: schemas/org.mate.interface.gschema.xml:106
 msgid ""
 "Whether builtin GTK+ dialogs such as the file chooser, the color chooser or "
-"the font chooser will use a header bar at the top to show action widgets, or"
-" an action area at the bottom. This setting does not affect custom dialogs "
+"the font chooser will use a header bar at the top to show action widgets, or "
+"an action area at the bottom. This setting does not affect custom dialogs "
 "using GtkDialog directly, or message dialogs."
 msgstr ""
-"Of de ingebouwde GTK+ dialoogvensters zoals de bestandkiezer, de kleurkiezer"
-" of de lettertypekiezer een kopbalk zullen gebruiken aan de bovenkant om "
+"Of de ingebouwde GTK+ dialoogvensters zoals de bestandkiezer, de kleurkiezer "
+"of de lettertypekiezer een kopbalk zullen gebruiken aan de bovenkant om "
 "actiewidgets te tonen, of een actiegebied aan de onderkant. Deze instelling "
 "heeft geen invloed op dialoogvensters die GtkDialog direct gebruiken, of "
 "berichtdialogen."
 
-#: schemas/org.mate.interface.gschema.xml:105
+#: schemas/org.mate.interface.gschema.xml:110
 msgid "Use GTK3 overlay scrolling"
 msgstr "Gebruik GTK3-overlapschuiven"
 
-#: schemas/org.mate.interface.gschema.xml:106
+#: schemas/org.mate.interface.gschema.xml:111
 msgid ""
 "Whether built-in GTK+ scrolled windows will use overlay scrolling. Overlay "
 "scrolling hides and reduces the size of the scrollbar until it gets focus."
@@ -1184,54 +1088,54 @@ msgstr ""
 "Overlapschuiven verbergt en vermindert de grootte van de schuifbalk totdat "
 "hij scherpstelling krijgt."
 
-#: schemas/org.mate.interface.gschema.xml:110
+#: schemas/org.mate.interface.gschema.xml:115
 msgid "Enable Gtk toolkit-wide animations"
 msgstr "Gtk toolkit-wide animaties inschakelen"
 
-#: schemas/org.mate.interface.gschema.xml:111
+#: schemas/org.mate.interface.gschema.xml:116
 msgid "Whether to enable toolkit-wide animations."
 msgstr "Toolkit-wide animaties inschakelen/uitschakelen."
 
-#: schemas/org.mate.interface.gschema.xml:115
+#: schemas/org.mate.interface.gschema.xml:120
 msgid "Document font"
 msgstr "Documentlettertype"
 
-#: schemas/org.mate.interface.gschema.xml:116
+#: schemas/org.mate.interface.gschema.xml:121
 msgid "Name of the default font used for reading documents."
 msgstr "Naam van het standaardlettertype voor het lezen van documenten."
 
-#: schemas/org.mate.interface.gschema.xml:120
+#: schemas/org.mate.interface.gschema.xml:125
 msgid "Monospace font"
 msgstr "Niet-proportioneel lettertype"
 
-#: schemas/org.mate.interface.gschema.xml:121
+#: schemas/org.mate.interface.gschema.xml:126
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr ""
 "Naam van een niet-proportioneel lettertype voor gebruik in terminalvenster-"
 "achtige toepassingen."
 
-#: schemas/org.mate.interface.gschema.xml:125
+#: schemas/org.mate.interface.gschema.xml:130
 msgid "Use Custom Font"
 msgstr "Aangepast lettertype gebruiken"
 
-#: schemas/org.mate.interface.gschema.xml:126
+#: schemas/org.mate.interface.gschema.xml:131
 msgid "Whether to use a custom font in gtk+ applications."
 msgstr "Of gtk+-toepassingen een aangepast lettertype moeten gebruiken."
 
-#: schemas/org.mate.interface.gschema.xml:130
+#: schemas/org.mate.interface.gschema.xml:135
 msgid "Status Bar on Right"
 msgstr "Statusbalk aan de rechterkant"
 
-#: schemas/org.mate.interface.gschema.xml:131
+#: schemas/org.mate.interface.gschema.xml:136
 msgid "Whether to display a status bar meter on the right."
 msgstr "Of er een statusbalkmeter aan de rechterkant weergegeven moet worden."
 
-#: schemas/org.mate.interface.gschema.xml:135
+#: schemas/org.mate.interface.gschema.xml:140
 msgid "Module for GtkFileChooser"
 msgstr "Module voor GtkFileChooser"
 
-#: schemas/org.mate.interface.gschema.xml:136
+#: schemas/org.mate.interface.gschema.xml:141
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\" and \"gtk+\"."
@@ -1239,19 +1143,19 @@ msgstr ""
 "Te gebruiken modelmodule voor bestandssysteemweergave voor het "
 "GtkFileChooser-element. Mogelijke waardes zijn ‘gio’, ‘gnome-vfs’ en ‘gtk+’."
 
-#: schemas/org.mate.interface.gschema.xml:140
+#: schemas/org.mate.interface.gschema.xml:145
 msgid "Menubar accelerator"
 msgstr "Menubalk-sneltoets"
 
-#: schemas/org.mate.interface.gschema.xml:141
+#: schemas/org.mate.interface.gschema.xml:146
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "Sneltoets voor het openen van de menubalken."
 
-#: schemas/org.mate.interface.gschema.xml:145
+#: schemas/org.mate.interface.gschema.xml:150
 msgid "Show the 'Input Methods' menu"
 msgstr "'Invoermethoden'-menu tonen"
 
-#: schemas/org.mate.interface.gschema.xml:146
+#: schemas/org.mate.interface.gschema.xml:151
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
@@ -1259,11 +1163,11 @@ msgstr ""
 "Of de contextmenu's van tekstvelden een optie moeten bieden om de "
 "invoermethode te wijzigen."
 
-#: schemas/org.mate.interface.gschema.xml:150
+#: schemas/org.mate.interface.gschema.xml:155
 msgid "Show the 'Unicode Control Character' menu"
 msgstr "Het 'Unicode controleteken'-menu tonen"
 
-#: schemas/org.mate.interface.gschema.xml:151
+#: schemas/org.mate.interface.gschema.xml:156
 msgid ""
 "Whether the context menus of entries and text views should offer to insert "
 "control characters."
@@ -1271,63 +1175,56 @@ msgstr ""
 "Of de contextmenu's van tekstvelden een optie moeten bieden om "
 "controletekens in te voegen."
 
-#: schemas/org.mate.interface.gschema.xml:155
+#: schemas/org.mate.interface.gschema.xml:160
 msgid "Titlebar layout of GTK3 client-side decorated windows"
 msgstr "Titelbalkvormgeving van de GTK3 client-side gedecoreerde vensters"
 
-#: schemas/org.mate.interface.gschema.xml:156
+#: schemas/org.mate.interface.gschema.xml:161
 msgid ""
 "This setting determines which buttons should be put in the titlebar of "
-"client-side decorated windows, and whether they should be placed at the left"
-" of right. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
+"client-side decorated windows, and whether they should be placed at the left "
+"of right. See https://developer.gnome.org/gtk3/stable/GtkSettings."
+"html#GtkSettings--gtk-decoration-layout."
 msgstr ""
 "Deze instelling bepaalt welke knoppen in de titelbalk van client-side "
 "gedecoreerde vensters moeten worden gezet, en of deze links dan wel rechts "
-"moeten worden geplaatst. Zie "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
+"moeten worden geplaatst. Zie https://developer.gnome.org/gtk3/stable/"
+"GtkSettings.html#GtkSettings--gtk-decoration-layout."
 
-#: schemas/org.mate.interface.gschema.xml:160
+#: schemas/org.mate.interface.gschema.xml:165
 msgid "Use a global menubar for displaying application menus"
 msgstr ""
 "Gebruik een systeembrede menubalk voor het tonen van toepassingenmenu's"
 
-#: schemas/org.mate.interface.gschema.xml:161
-msgid ""
-"This setting determines where application menu will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
-msgstr ""
-"Deze instelling bepaalt waar er een toepassingenmenu wordt getoond - in een "
-"venster of op een paneel met het protocol MenuModel. Zie "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
-
-#: schemas/org.mate.interface.gschema.xml:165
-msgid "Use a global menubar for displaying window menubars"
-msgstr ""
-"Gebruik een systeembrede menubalk voor het tonen van venstermenubalken"
-
 #: schemas/org.mate.interface.gschema.xml:166
 msgid ""
-"This setting determines where window menubars will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"This setting determines where application menu will be displayed - in a "
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 msgstr ""
-"Deze instelling bepaalt waar er venstermenubalken worden getoond - in een "
-"venster of op een paneel met het protocol MenuModel. Zie "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"Deze instelling bepaalt waar er een toepassingenmenu wordt getoond - in een "
+"venster of op een paneel met het protocol MenuModel. Zie https://developer."
+"gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 
 #: schemas/org.mate.interface.gschema.xml:170
+msgid "Use a global menubar for displaying window menubars"
+msgstr "Gebruik een systeembrede menubalk voor het tonen van venstermenubalken"
+
+#: schemas/org.mate.interface.gschema.xml:171
+msgid ""
+"This setting determines where window menubars will be displayed - in a "
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
+msgstr ""
+"Deze instelling bepaalt waar er venstermenubalken worden getoond - in een "
+"venster of op een paneel met het protocol MenuModel. Zie https://developer."
+"gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
+
+#: schemas/org.mate.interface.gschema.xml:175
 msgid "Only show mnemonics on when the Alt key is pressed"
 msgstr "Toon alleen geheugensteuntjes wanneer de Alt-toets is ingedrukt"
 
-#: schemas/org.mate.interface.gschema.xml:171
+#: schemas/org.mate.interface.gschema.xml:176
 msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
@@ -1335,11 +1232,11 @@ msgstr ""
 "Of de geheugensteuntjes wel/niet getoond moeten worden wanneer gebruiker de "
 "Alt-toets indrukt."
 
-#: schemas/org.mate.interface.gschema.xml:176
+#: schemas/org.mate.interface.gschema.xml:181
 msgid "Window Scaling Factor"
 msgstr "Factor voor schalen van vensters"
 
-#: schemas/org.mate.interface.gschema.xml:177
+#: schemas/org.mate.interface.gschema.xml:182
 msgid ""
 "This controls the GTK scale factor that maps from window coordinates to the "
 "actual device pixels. On traditional systems this is 1, but on very high "
@@ -1347,16 +1244,16 @@ msgid ""
 "Set to 0 to auto-detect."
 msgstr ""
 "Dit beheerst de GTK-schaalfactor die venstercoördinaten doorsluist naar de "
-"daadwerkelijke beeldpunten van het apparaat. Op traditionele systemen is dit"
-" 1, maar op schermen met zeer hoge dichtheid (bijv. HiDPI, Retina) kan dit "
+"daadwerkelijke beeldpunten van het apparaat. Op traditionele systemen is dit "
+"1, maar op schermen met zeer hoge dichtheid (bijv. HiDPI, Retina) kan dit "
 "een hogere waarde zijn (vaak 1,5 of 2). Stel in op 0 voor automatische "
 "detectie."
 
-#: schemas/org.mate.interface.gschema.xml:181
+#: schemas/org.mate.interface.gschema.xml:186
 msgid "Scaling Factor for QT appllications"
 msgstr "Schaalfactor voor QT-toepassingen"
 
-#: schemas/org.mate.interface.gschema.xml:182
+#: schemas/org.mate.interface.gschema.xml:187
 msgid ""
 "This setting determines whether MATE controls the scale factor for QT "
 "applications. Enable to synchronize with the GTK scale factor when "
@@ -1368,11 +1265,11 @@ msgstr ""
 "bij het initialiseren van de sessie; schakel dit uit om deze waarde elders "
 "te beheersen. Vereist een herstart van uw sessie."
 
-#: schemas/org.mate.interface.gschema.xml:186
+#: schemas/org.mate.interface.gschema.xml:191
 msgid "Enable the primary paste selection"
 msgstr "Primaire plakselectie inschakelen"
 
-#: schemas/org.mate.interface.gschema.xml:187
+#: schemas/org.mate.interface.gschema.xml:192
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1386,12 +1283,12 @@ msgstr "Opdrachtregel uitschakelen"
 
 #: schemas/org.mate.lockdown.gschema.xml:6
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to"
-" be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to "
+"be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
 msgstr ""
-"De gebruiker verhinderen om toegang tot de terminal te krijgen of om een uit"
-" te voeren opdrachtregel op te geven. Dit schakelt bijvoorbeeld de toegang "
+"De gebruiker verhinderen om toegang tot de terminal te krijgen of om een uit "
+"te voeren opdrachtregel op te geven. Dit schakelt bijvoorbeeld de toegang "
 "uit tot het ‘Toepassing uitvoeren’-dialoogvenster van het paneel."
 
 #: schemas/org.mate.lockdown.gschema.xml:10
@@ -1416,8 +1313,8 @@ msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications' \"Print\" dialogs."
 msgstr ""
-"De gebruiker verhinderen af te drukken. Dit schakelt bijvoorbeeld de toegang"
-" uit tot de 'Afdrukken'-dialoogvensters van alle toepassingen."
+"De gebruiker verhinderen af te drukken. Dit schakelt bijvoorbeeld de toegang "
+"uit tot de 'Afdrukken'-dialoogvensters van alle toepassingen."
 
 #: schemas/org.mate.lockdown.gschema.xml:20
 msgid "Disable print setup"
@@ -1429,8 +1326,8 @@ msgid ""
 "disable access to all applications' \"Print Setup\" dialogs."
 msgstr ""
 "De gebruiker verhinderen om de afdrukinstellingen aan te passen. Dit "
-"schakelt bijvoorbeeld de toegang uit tot de "
-"‘Afdrukinstellingen’-dialoogvensters van alle toepassingen."
+"schakelt bijvoorbeeld de toegang uit tot de ‘Afdrukinstellingen’-"
+"dialoogvensters van alle toepassingen."
 
 #: schemas/org.mate.lockdown.gschema.xml:25
 msgid "Disable user switching"
@@ -1459,8 +1356,8 @@ msgstr "URL- en MIME-type afhandeling uitschakelen"
 #: schemas/org.mate.lockdown.gschema.xml:36
 msgid "Prevent running any URL or MIME type handler applications."
 msgstr ""
-"Voorkomen dat er toepassingen gestart worden voor het afhandelen van URL- of"
-" MIME-types."
+"Voorkomen dat er toepassingen gestart worden voor het afhandelen van URL- of "
+"MIME-types."
 
 #: schemas/org.mate.lockdown.gschema.xml:40
 msgid "Disable theme settings"
@@ -1484,8 +1381,7 @@ msgstr "Standaard-mengpaneel"
 
 #: schemas/org.mate.sound.gschema.xml:6
 msgid "The default mixer device used by the multimedia key bindings."
-msgstr ""
-"Het mengpaneel dat standaard gebruikt wordt voor de multimediatoetsen."
+msgstr "Het mengpaneel dat standaard gebruikt wordt voor de multimediatoetsen."
 
 #: schemas/org.mate.sound.gschema.xml:10
 msgid "Default mixer tracks"
@@ -1535,8 +1431,8 @@ msgstr "Hoger volume dan 100 % toestaan"
 
 #: schemas/org.mate.sound.gschema.xml:36
 msgid ""
-"If this is set to TRUE, the user will be allowed to set the output / speaker"
-" volume to above 100%. By setting the output volume above 100%, the sound "
+"If this is set to TRUE, the user will be allowed to set the output / speaker "
+"volume to above 100%. By setting the output volume above 100%, the sound "
 "server will amplify the audio above what the audio hardware can do cleanly. "
 "This can lead to audio quality degradation, but may be useful for listening "
 "to extremely quiet audio recordings, where the recording would otherwise be "
@@ -1585,8 +1481,8 @@ msgstr ""
 
 #: schemas/org.mate.thumbnailers.gschema.xml:11
 msgid ""
-"Thumbnails will not be created for files whose mime-type is contained in the"
-" list."
+"Thumbnails will not be created for files whose mime-type is contained in the "
+"list."
 msgstr ""
 "Miniaturen zullen niet worden aangemaakt voor bestanden waarvan de "
 "bestandsoort in deze lijst staat."
@@ -1643,8 +1539,97 @@ msgstr "Dialoogvenster voor kleurselectie"
 msgid "Choose colors from the palette or the screen"
 msgstr "Kies kleuren in het palet of op het scherm"
 
-#. Translators: Search terms to find this application. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: tools/mate-color-select.desktop.in:13
 msgid "MATE;color;chooser;pick;palette;screen;selection;"
 msgstr "MATE;kleur;kiezer;kiezen;palet;scherm;selectie;"
+
+#~ msgid "MATE Desktop Environment"
+#~ msgstr "MATE-werkomgeving"
+
+#~ msgid ""
+#~ "Copyright © 1997-2011 GNOME developers\n"
+#~ "Copyright © 2011 Perberos\n"
+#~ "Copyright © 2012-2023 MATE developers"
+#~ msgstr ""
+#~ "Auteursrecht © 1997-2011 GNOME-ontwikkelaars\n"
+#~ "Auteursrecht © 2011 Perberos\n"
+#~ "Auteursrecht © 2012-2023 MATE-ontwikkelaars"
+
+#~ msgid ""
+#~ "MATE provides an intuitive and attractive desktop to Linux users using "
+#~ "traditional metaphors."
+#~ msgstr ""
+#~ "MATE levert een intuïtieve en aantrekkelijke werkomgeving voor "
+#~ "Linuxgebruikers door middel van traditionele menu-indelingen."
+
+#~ msgid ""
+#~ "MATE includes most of what you see on your computer, including the file "
+#~ "manager, document viewer, image viewer, menus, and many applications."
+#~ msgstr ""
+#~ "MATE omvat het meeste van wat u op uw computer ziet, waaronder het "
+#~ "bestandsbeheer, de documentenlezer, de afbeeldingsweergave, de menu's en "
+#~ "vele toepassingen."
+
+#~ msgid ""
+#~ "MATE is a Free, usable, stable, accessible desktop environment for the "
+#~ "Unix-like family of operating systems."
+#~ msgstr ""
+#~ "MATE is een vrije, handige, stabiele, toegankelijke werkomgeving voor de "
+#~ "Unix-achtige familie van besturingssystemen."
+
+#~ msgid ""
+#~ "MATE is the continuation of GNOME 2. Hundreds of people have contributed "
+#~ "code to GNOME since it was started in 1997; many more have contributed in "
+#~ "other important ways, including translations, documentation, and quality "
+#~ "assurance."
+#~ msgstr ""
+#~ "MATE is een vork van GNOME 2. Honderden mensen hebben code bijgedragen "
+#~ "aan GNOME sinds het begon in 1997; velen anderen hebben op andere "
+#~ "manieren bijgedragen, met vertalingen, documentatie en kwaliteitsbewaking."
+
+#~ msgid ""
+#~ "GNOME 2 was the most popular Linux desktop but it’s no longer "
+#~ "available... MATE is here to provide that same desktop to you!"
+#~ msgstr ""
+#~ "GNOME 2 was de populairste werkomgeving van Linux, maar die is niet "
+#~ "langer beschikbaar... MATE is er om dezelfde werkomgeving te blijven "
+#~ "leveren!"
+
+#~ msgid ""
+#~ "The name “MATE” comes from yerba maté, a species of holly native to "
+#~ "subtropical South America. Its leaves contain caffeine and are used to "
+#~ "make infusions and a beverage called mate."
+#~ msgstr ""
+#~ "De naam 'MATE' komt van yerba maté, een inheemse ilexsoort in subtropisch "
+#~ "Zuid-Amerika. De bladeren bevatten cafeïne en worden gebruikt om "
+#~ "aftreksels van te maken en een drank die 'mate' genoemd wordt."
+
+#~ msgid "Use alpha"
+#~ msgstr "Gebruik alpha"
+
+#~ msgid "Whether or not to give the color an alpha value"
+#~ msgstr "Al dan niet de kleur een alphawaarde te geven"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "The title of the color selection dialog"
+#~ msgstr "De titel van de kleurkiezerdialoog"
+
+#~ msgid "Pick a Color"
+#~ msgstr "Kies een kleur"
+
+#~ msgid "Current Color"
+#~ msgstr "Huidige kleur"
+
+#~ msgid "The selected color"
+#~ msgstr "De geselecteerde kleur"
+
+#~ msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
+#~ msgstr ""
+#~ "De geselecteerde doorzichtigheid (0 volledig doorzichtig, 65535 volledig "
+#~ "ondoorzichtig)"
+
+#~ msgid "Received invalid color data\n"
+#~ msgstr "Ongeldige kleurgegevens ontvangen \n"

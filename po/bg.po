@@ -2,26 +2,26 @@
 # Copyright (C) YEAR MATE Developers
 # This file is distributed under the same license as the mate-desktop package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # sahwar <ve4ernik@gmail.com>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Georgi Georgiev (RacerBG) <g.georgiev.shumen@gmail.com>, 2021
 # Замфир Йончев <zamfir.yonchev@gmail.com>, 2021
 # Любомир Василев, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-desktop 1.27.2\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-desktop/\n"
-"POT-Creation-Date: 2023-09-02 16:57+0200\n"
+"POT-Creation-Date: 2026-01-14 23:32+0530\n"
 "PO-Revision-Date: 2018-03-11 16:44+0000\n"
 "Last-Translator: Любомир Василев, 2021\n"
 "Language-Team: Bulgarian (https://app.transifex.com/mate/teams/13566/bg/)\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators should localize the following string which will be
@@ -46,76 +46,6 @@ msgstr "Относно MATE"
 msgid "Learn more about MATE"
 msgstr "Научете повече за MATE"
 
-#: mate-about/mate-about.h:29
-msgid "MATE Desktop Environment"
-msgstr ""
-
-#: mate-about/mate-about.h:34
-msgid ""
-"Copyright © 1997-2011 GNOME developers\n"
-"Copyright © 2011 Perberos\n"
-"Copyright © 2012-2023 MATE developers"
-msgstr ""
-
-#: mate-about/mate-about.h:42
-msgid ""
-"MATE provides an intuitive and attractive desktop to Linux users using "
-"traditional metaphors."
-msgstr ""
-"MATE предоставя интуитивна и привлекателна работна среда за работни плотове "
-"за потребителите на Линукс, като използва традиционните метафори за графичен"
-" потребителски интерфейс (ГПИ) за една работна среда."
-
-#: mate-about/mate-about.h:45
-msgid ""
-"MATE includes most of what you see on your computer, including the file "
-"manager, document viewer, image viewer, menus, and many applications."
-msgstr ""
-"MATE включва повечето от това, което виждате на екрана на компютъра си, "
-"включително мениджър на файлове, програма за преглед на документи, програма "
-"за преглед на изображения, менюта и много приложения."
-
-#: mate-about/mate-about.h:48
-msgid ""
-"MATE is a Free, usable, stable, accessible desktop environment for the Unix-"
-"like family of operating systems."
-msgstr ""
-"„MATE“ е свободна, удобна, стабилна и достъпна работна среда за работен плот"
-" за семейството от операционни системи, които са подобни на Unix."
-
-#: mate-about/mate-about.h:51
-msgid ""
-"MATE is the continuation of GNOME 2. Hundreds of people have contributed "
-"code to GNOME since it was started in 1997; many more have contributed in "
-"other important ways, including translations, documentation, and quality "
-"assurance."
-msgstr ""
-"MATE е продължението на работната среда GNOME 2 (ГНОМ, версия 2). Хиляди "
-"хора са допринесли код към ГНОМ, откакто тя е започнала през 1997 г.; много "
-"повече хора са допринесли по други важни начини, включително чрез преводи, "
-"писане на документация и осигуряване на крайното качество."
-
-#: mate-about/mate-about.h:55
-msgid ""
-"GNOME 2 was the most popular Linux desktop but it’s no longer available... "
-"MATE is here to provide that same desktop to you!"
-msgstr ""
-"GNOME 2 (ГНОМ, версия 2) беше най-известната работна среда за работни "
-"плотове за Линукс, но тя вече не е на разположение… MATE е тук, за да Ви "
-"предостави същата графична работна среда!"
-
-#: mate-about/mate-about.h:58
-msgid ""
-"The name “MATE” comes from yerba maté, a species of holly native to "
-"subtropical South America. Its leaves contain caffeine and are used to make "
-"infusions and a beverage called mate."
-msgstr ""
-"Името „MATE“ идва от „Йерба мате“ (yerba maté) — растителен вид от семейство"
-" holly (джел, кошличар, бодлива зеленика), което е местно за и широко "
-"разпространено в субтропична Южна Америка. Листата на това растение съдържат"
-" кофеин и се използват за направата на настойка (билкова отвара), както и за"
-" напитка, наречена мате."
-
 #. Translators: "Unknown" here is used to identify a monitor for which
 #. * we don't know the vendor. When a vendor is known, the name of the
 #. * vendor is used.
@@ -124,176 +54,143 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#: libmate-desktop/mate-colorbutton.c:151
-msgid "Use alpha"
-msgstr "Използване на плътност"
-
-#: libmate-desktop/mate-colorbutton.c:152
-msgid "Whether or not to give the color an alpha value"
-msgstr "Дали към цвета да се добави и стойност за плътност"
-
-#: libmate-desktop/mate-colorbutton.c:166
-msgid "Title"
-msgstr "Заглавие"
-
-#: libmate-desktop/mate-colorbutton.c:167
-msgid "The title of the color selection dialog"
-msgstr "Заглавие на диалоговия прозорец за избор на цвят"
-
-#: libmate-desktop/mate-colorbutton.c:168
-#: libmate-desktop/mate-colorbutton.c:439
-msgid "Pick a Color"
-msgstr "Избор на цвят"
-
-#: libmate-desktop/mate-colorbutton.c:181 libmate-desktop/mate-colorsel.c:281
-msgid "Current Color"
-msgstr "Текущ цвят"
-
-#: libmate-desktop/mate-colorbutton.c:182
-msgid "The selected color"
-msgstr "Избраният цвят"
-
-#: libmate-desktop/mate-colorbutton.c:196 libmate-desktop/mate-colorsel.c:288
-msgid "Current Alpha"
-msgstr "Текуща плътност"
-
-#: libmate-desktop/mate-colorbutton.c:197
-msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
-msgstr ""
-"Избраната стойност на плътност (0 — напълно прозрачен, 65535 — напълно "
-"плътен цвят)"
-
-#: libmate-desktop/mate-colorbutton.c:335
-msgid "Received invalid color data\n"
-msgstr "Получени са неправилни данни за цвят\n"
-
-#: libmate-desktop/mate-colorsel.c:267
+#: libmate-desktop/mate-colorsel.c:271
 msgid "Has Opacity Control"
 msgstr "Включва плътност"
 
-#: libmate-desktop/mate-colorsel.c:268
+#: libmate-desktop/mate-colorsel.c:272
 msgid "Whether the color selector should allow setting opacity"
 msgstr "Дали изборът на цвят да позволява настройка на плътността"
 
-#: libmate-desktop/mate-colorsel.c:274
+#: libmate-desktop/mate-colorsel.c:278
 msgid "Has palette"
 msgstr "Включва палитра"
 
-#: libmate-desktop/mate-colorsel.c:275
+#: libmate-desktop/mate-colorsel.c:279
 msgid "Whether a palette should be used"
 msgstr "Дали трябва да се използва палитра"
 
-#: libmate-desktop/mate-colorsel.c:282
-msgid "The current color"
+#: libmate-desktop/mate-colorsel.c:285
+#, fuzzy
+msgid "Current RGBA"
+msgstr "Текуща плътност"
+
+#: libmate-desktop/mate-colorsel.c:286
+#, fuzzy
+msgid "The current RGBA color"
 msgstr "Текущият цвят"
 
-#: libmate-desktop/mate-colorsel.c:289
+#: libmate-desktop/mate-colorsel.c:295
+msgid "Current Alpha"
+msgstr "Текуща плътност"
+
+#: libmate-desktop/mate-colorsel.c:296
 msgid "The current opacity value (0 fully transparent, 65535 fully opaque)"
 msgstr ""
 "Текущата стойност на плътността (0 — напълно прозрачен, 65535 — напълно "
 "плътен цвят)"
 
-#: libmate-desktop/mate-colorsel.c:295
+#: libmate-desktop/mate-colorsel.c:302
 msgid "HEX String"
 msgstr "Шестнадесетичен низ"
 
-#: libmate-desktop/mate-colorsel.c:296
+#: libmate-desktop/mate-colorsel.c:303
 msgid "The hexadecimal string of current color"
 msgstr "Шестнадесетичният низ на текущия цвят"
 
-#: libmate-desktop/mate-colorsel.c:341
+#: libmate-desktop/mate-colorsel.c:348
 msgid ""
 "Select the color you want from the outer ring. Select the darkness or "
 "lightness of that color using the inner triangle."
 msgstr ""
-"Изберете желания цвят от външния пръстен. Изберете яркостта или наситеността"
-" на този цвят от вътрешния триъгълник."
+"Изберете желания цвят от външния пръстен. Изберете яркостта или наситеността "
+"на този цвят от вътрешния триъгълник."
 
-#: libmate-desktop/mate-colorsel.c:365
+#: libmate-desktop/mate-colorsel.c:372
 msgid ""
 "Click the eyedropper, then click a color anywhere on your screen to select "
 "that color."
 msgstr ""
-"Щракнете капкомера, а след това щракнете с него на някое място от екрана, за"
-" да изберете цвета му."
+"Щракнете капкомера, а след това щракнете с него на някое място от екрана, за "
+"да изберете цвета му."
 
-#: libmate-desktop/mate-colorsel.c:374
+#: libmate-desktop/mate-colorsel.c:381
 msgid "_Hue:"
 msgstr "_Оттенък:"
 
-#: libmate-desktop/mate-colorsel.c:375
+#: libmate-desktop/mate-colorsel.c:382
 msgid "Position on the color wheel."
 msgstr "Местоположението върху пръстена на цветовете."
 
-#: libmate-desktop/mate-colorsel.c:377
+#: libmate-desktop/mate-colorsel.c:384
 msgid "_Saturation:"
 msgstr "_Наситеност:"
 
-#: libmate-desktop/mate-colorsel.c:378
+#: libmate-desktop/mate-colorsel.c:385
 msgid "\"Deepness\" of the color."
 msgstr "„Дълбочината“ на цвета."
 
-#: libmate-desktop/mate-colorsel.c:379
+#: libmate-desktop/mate-colorsel.c:386
 msgid "_Value:"
 msgstr "С_тойност:"
 
-#: libmate-desktop/mate-colorsel.c:380
+#: libmate-desktop/mate-colorsel.c:387
 msgid "Brightness of the color."
 msgstr "Яркостта на цвета."
 
-#: libmate-desktop/mate-colorsel.c:381
+#: libmate-desktop/mate-colorsel.c:388
 msgid "_Red:"
 msgstr "_Червено:"
 
-#: libmate-desktop/mate-colorsel.c:382
+#: libmate-desktop/mate-colorsel.c:389
 msgid "Amount of red light in the color."
 msgstr "Количеството на червената светлина в цвета."
 
-#: libmate-desktop/mate-colorsel.c:383
+#: libmate-desktop/mate-colorsel.c:390
 msgid "_Green:"
 msgstr "_Зелено:"
 
-#: libmate-desktop/mate-colorsel.c:384
+#: libmate-desktop/mate-colorsel.c:391
 msgid "Amount of green light in the color."
 msgstr "Количеството на зелената светлина в цвета."
 
-#: libmate-desktop/mate-colorsel.c:385
+#: libmate-desktop/mate-colorsel.c:392
 msgid "_Blue:"
 msgstr "_Синьо:"
 
-#: libmate-desktop/mate-colorsel.c:386
+#: libmate-desktop/mate-colorsel.c:393
 msgid "Amount of blue light in the color."
 msgstr "Количеството на синята светлина в цвета."
 
-#: libmate-desktop/mate-colorsel.c:389
+#: libmate-desktop/mate-colorsel.c:396
 msgid "Op_acity:"
 msgstr "_Плътност:"
 
-#: libmate-desktop/mate-colorsel.c:396 libmate-desktop/mate-colorsel.c:406
+#: libmate-desktop/mate-colorsel.c:403 libmate-desktop/mate-colorsel.c:413
 msgid "Transparency of the color."
 msgstr "Прозрачността на цвета."
 
-#: libmate-desktop/mate-colorsel.c:413
+#: libmate-desktop/mate-colorsel.c:420
 msgid "Color _name:"
 msgstr "И_ме на цвета:"
 
-#: libmate-desktop/mate-colorsel.c:427
+#: libmate-desktop/mate-colorsel.c:434
 msgid ""
 "You can enter an HTML-style hexadecimal color value, or simply a color name "
 "such as 'orange' in this entry."
 msgstr ""
-"Тук можете да въведете шестнадесетичен код на цвят, както в HTML, или просто"
-" име на цвят, например „оранжев“."
+"Тук можете да въведете шестнадесетичен код на цвят, както в HTML, или просто "
+"име на цвят, например „оранжев“."
 
-#: libmate-desktop/mate-colorsel.c:457
+#: libmate-desktop/mate-colorsel.c:464
 msgid "_Palette:"
 msgstr "Па_литра:"
 
-#: libmate-desktop/mate-colorsel.c:487
+#: libmate-desktop/mate-colorsel.c:494
 msgid "Color Wheel"
 msgstr "Пръстен на цветовете"
 
-#: libmate-desktop/mate-colorsel.c:942
+#: libmate-desktop/mate-colorsel.c:949
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now. You can drag this color to a palette entry, or select this color as "
@@ -303,7 +200,7 @@ msgstr ""
 "Можете да завлачите този цвят в поле от палитрата, или да го изберете като "
 "текущ, като го завлачите в другото поле за образеца на цвета."
 
-#: libmate-desktop/mate-colorsel.c:945
+#: libmate-desktop/mate-colorsel.c:952
 msgid ""
 "The color you've chosen. You can drag this color to a palette entry to save "
 "it for use in the future."
@@ -311,36 +208,36 @@ msgstr ""
 "Избраният цвят. Можете да го завлачите в поле от палитрата, за да го "
 "запазите за бъдещо ползване."
 
-#: libmate-desktop/mate-colorsel.c:950
+#: libmate-desktop/mate-colorsel.c:957
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now."
 msgstr ""
 "Предходно избраният цвят, за сравнение с цвета, който избирате в момента."
 
-#: libmate-desktop/mate-colorsel.c:953
+#: libmate-desktop/mate-colorsel.c:960
 msgid "The color you've chosen."
 msgstr "Избраният цвят."
 
-#: libmate-desktop/mate-colorsel.c:1359
+#: libmate-desktop/mate-colorsel.c:1323
 msgid "gtk-color-sel"
 msgstr "gtk-color-sel"
 
-#: libmate-desktop/mate-colorsel.c:1364
+#: libmate-desktop/mate-colorsel.c:1328
 msgid "_Save color here"
 msgstr "Запазване на цвета _тук"
 
-#: libmate-desktop/mate-colorsel.c:1584
+#: libmate-desktop/mate-colorsel.c:1561
 msgid ""
-"Click this palette entry to make it the current color. To change this entry,"
-" drag a color swatch here or right-click it and select \"Save color here.\""
+"Click this palette entry to make it the current color. To change this entry, "
+"drag a color swatch here or right-click it and select \"Save color here.\""
 msgstr ""
 "Изберете това поле от палитрата, за да направите цвета в него текущ. За да "
 "промените цвета в това поле, завлачете нов цвят тук или щракнете с десен "
 "бутон и изберете „Запазване на цвета тук“."
 
 #: libmate-desktop/mate-colorseldialog.c:98
-#: libmate-desktop/mate-colorseldialog.c:184
+#: libmate-desktop/mate-colorseldialog.c:182
 msgid "Color Selection"
 msgstr "Избор на цвят"
 
@@ -372,15 +269,15 @@ msgstr "Бутон за помощ"
 msgid "The help button of the dialog."
 msgstr "Бутонът „Помощ“ в прозореца."
 
-#: libmate-desktop/mate-colorseldialog.c:162
+#: libmate-desktop/mate-colorseldialog.c:160
 msgid "_Cancel"
 msgstr "_Отказ"
 
-#: libmate-desktop/mate-colorseldialog.c:167
+#: libmate-desktop/mate-colorseldialog.c:165
 msgid "_OK"
 msgstr "_Добре"
 
-#: libmate-desktop/mate-colorseldialog.c:175
+#: libmate-desktop/mate-colorseldialog.c:173
 msgid "Help"
 msgstr "Помощ"
 
@@ -400,7 +297,7 @@ msgstr "Грешка при превъртането на файла „%s“: %
 #. Translators: the "name" mentioned here is the name of
 #. * an application or a document
 #: libmate-desktop/mate-desktop-item.c:378
-#: libmate-desktop/mate-desktop-item.c:3543
+#: libmate-desktop/mate-desktop-item.c:3547
 msgid "No name"
 msgstr "Без име"
 
@@ -423,23 +320,23 @@ msgstr "Липсва име на файл за запис"
 msgid "Starting %s"
 msgstr "Стартиране на %s"
 
-#: libmate-desktop/mate-desktop-item.c:2090
+#: libmate-desktop/mate-desktop-item.c:2094
 msgid "No URL to launch"
 msgstr "Липсва адрес за стартиране"
 
-#: libmate-desktop/mate-desktop-item.c:2106
+#: libmate-desktop/mate-desktop-item.c:2110
 msgid "Not a launchable item"
 msgstr "Не е обект за стартиране"
 
-#: libmate-desktop/mate-desktop-item.c:2115
+#: libmate-desktop/mate-desktop-item.c:2119
 msgid "No command (Exec) to launch"
 msgstr "Липсва команда (Exec) за стартиране"
 
-#: libmate-desktop/mate-desktop-item.c:2127
+#: libmate-desktop/mate-desktop-item.c:2131
 msgid "Bad command (Exec) to launch"
 msgstr "Лоша команда (Exec) за стартиране"
 
-#: libmate-desktop/mate-desktop-item.c:3600
+#: libmate-desktop/mate-desktop-item.c:3604
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "Неизвестно кодиране на: %s"
@@ -486,8 +383,8 @@ msgid ""
 "requested position/size for CRTC %d is outside the allowed limit: "
 "position=(%d, %d), size=(%d, %d), maximum=(%d, %d)"
 msgstr ""
-"заявената позиция/размер към %d-ата видео карта е извън позволения диапазон:"
-" позиция=(%d, %d), размер=(%d, %d), максимум=(%d, %d)"
+"заявената позиция/размер към %d-ата видео карта е извън позволения диапазон: "
+"позиция=(%d, %d), размер=(%d, %d), максимум=(%d, %d)"
 
 #: libmate-desktop/mate-rr.c:1784
 #, c-format
@@ -531,7 +428,8 @@ msgid ""
 "existing coordinates = (%d, %d), new coordinates = (%d, %d)\n"
 "existing rotation = %s, new rotation = %s"
 msgstr ""
-"изходът %s е с различни параметри от този, чието изображение трябва да повтори:\n"
+"изходът %s е с различни параметри от този, чието изображение трябва да "
+"повтори:\n"
 "текущ режим = %d, нов режим = %d\n"
 "текущи координати = (%d, %d), нови координати = (%d, %d)\n"
 "текущо завъртане = %s, ново завъртане = %s"
@@ -581,13 +479,13 @@ msgstr ""
 "изисканият виртуален размер не пасва на действащия: изискан=(%d, %d), "
 "минимален=(%d, %d), максимален=(%d, %d)"
 
-#. Keep this string in sync with mate-control-center/capplets/display/xrandr-
-#. capplet.c:get_display_name()
+#. Keep this string in sync with mate-control-center/capplets/display/xrandr-capplet.c:get_display_name()
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#: libmate-desktop/mate-rr-labeler.c:406
+#.
+#: libmate-desktop/mate-rr-labeler.c:426
 msgid "Mirror Screens"
 msgstr "Еднакво изображение на екраните"
 
@@ -625,8 +523,8 @@ msgstr "Първоначално забавяне в милисекунди"
 msgid ""
 "How many milliseconds to wait before mouse movement keys start to operate."
 msgstr ""
-"Колко милисекунди да се изчака преди включването на клавишите за движение на"
-" мишката."
+"Колко милисекунди да се изчака преди включването на клавишите за движение на "
+"мишката."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:54
 msgid "Minimum interval in milliseconds"
@@ -716,8 +614,8 @@ msgid ""
 "List of assistive technology applications to start when logging into the "
 "MATE desktop."
 msgstr ""
-"Списък с програмите за достъпност, които да се стартират в началото на сесия"
-" на MATE."
+"Списък с програмите за достъпност, които да се стартират в началото на сесия "
+"на MATE."
 
 #: schemas/org.mate.applications-at-mobility.gschema.xml:5
 msgid "Preferred Mobility assistive technology application"
@@ -733,8 +631,7 @@ msgstr ""
 
 #: schemas/org.mate.applications-at-mobility.gschema.xml:10
 msgid "Start preferred Mobility assistive technology application"
-msgstr ""
-"Стартиране на програмите за достъпност за хора с двигателни увреждания"
+msgstr "Стартиране на програмите за достъпност за хора с двигателни увреждания"
 
 #: schemas/org.mate.applications-at-mobility.gschema.xml:11
 msgid ""
@@ -758,13 +655,11 @@ msgstr ""
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:10
 msgid "Start preferred Visual assistive technology application"
-msgstr ""
-"Стартиране на програмите за достъпност за хора със зрителни увреждания"
+msgstr "Стартиране на програмите за достъпност за хора със зрителни увреждания"
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:11
 msgid ""
-"MATE to start preferred Visual assistive technology application during "
-"login."
+"MATE to start preferred Visual assistive technology application during login."
 msgstr ""
 "MATE да стартира предпочитаната програма за достъпност за хората със "
 "зрителни увреждания по време на влизане в сесията."
@@ -807,8 +702,7 @@ msgstr ""
 
 #: schemas/org.mate.applications-messenger.gschema.xml:6
 msgid ""
-"Instant Messaging program to use when starting applications that require "
-"one."
+"Instant Messaging program to use when starting applications that require one."
 msgstr ""
 
 #: schemas/org.mate.applications-office.gschema.xml:9
@@ -850,8 +744,7 @@ msgstr "Терминална програма"
 #: schemas/org.mate.applications-terminal.gschema.xml:6
 msgid "Terminal program to use when starting applications that require one."
 msgstr ""
-"Коя терминална програма да се ползва при стартирането на програми в "
-"терминал."
+"Коя терминална програма да се ползва при стартирането на програми в терминал."
 
 #: schemas/org.mate.applications-terminal.gschema.xml:10
 msgid "Exec Arguments"
@@ -861,8 +754,8 @@ msgstr "Аргументи на „exec“"
 msgid ""
 "Argument used to execute programs in the terminal defined by the 'exec' key."
 msgstr ""
-"Аргумент, с който се изпълняват програмите в терминала, определен чрез ключа"
-" „exec“."
+"Аргумент, с който се изпълняват програмите в терминала, определен чрез ключа "
+"„exec“."
 
 #: schemas/org.mate.background.gschema.xml.in:18
 msgid "Draw Desktop Background"
@@ -878,8 +771,7 @@ msgstr "Показване на иконките на работния плот"
 
 #: schemas/org.mate.background.gschema.xml.in:24
 msgid "Have MATE file manager (Caja) draw the desktop icons."
-msgstr ""
-"Файловият мениджър (Caja) на MATE да рисува иконките на работния плот."
+msgstr "Файловият мениджър (Caja) на MATE да рисува иконките на работния плот."
 
 #: schemas/org.mate.background.gschema.xml.in:28
 msgid "Fade the background on change"
@@ -890,8 +782,7 @@ msgid ""
 "If set to true, then MATE will change the desktop background with a fading "
 "effect."
 msgstr ""
-"Ако е избрано, MATE ще променя фона на работния плот с ефект на "
-"избледняване."
+"Ако е избрано, MATE ще променя фона на работния плот с ефект на избледняване."
 
 #: schemas/org.mate.background.gschema.xml.in:33
 msgid "Picture Options"
@@ -900,14 +791,14 @@ msgstr "Настройки на картината"
 #: schemas/org.mate.background.gschema.xml.in:34
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\","
-" \"spanned\"."
+"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\", "
+"\"spanned\"."
 msgstr ""
 "Указване как да се изобразява изображението указано от wallpaper_filename. "
-"Възможните стойности са: „wallpaper“ (нормално изобразяване), „centered“ "
-"(центриране), „scaled“ (пропорционално мащабиране), „stretched“ "
-"(непропорционално разтегляне), „zoom“ (мащабиране), „spanned“ (пренесено по "
-"екраните)."
+"Възможните стойности са: „wallpaper“ (нормално изобразяване), "
+"„centered“ (центриране), „scaled“ (пропорционално мащабиране), "
+"„stretched“ (непропорционално разтегляне), „zoom“ (мащабиране), "
+"„spanned“ (пренесено по екраните)."
 
 #: schemas/org.mate.background.gschema.xml.in:38
 msgid "Picture Filename"
@@ -938,8 +829,7 @@ msgid "Secondary Color"
 msgstr "Втори цвят"
 
 #: schemas/org.mate.background.gschema.xml.in:54
-msgid ""
-"Right or Bottom color when drawing gradients, not used for solid color."
+msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "Десен или долен цвят при преливки, не се използва при единствен цвят."
 
 #: schemas/org.mate.background.gschema.xml.in:58
@@ -996,11 +886,13 @@ msgid "Toolbar Style"
 msgstr "Стил на лентите с инструменти"
 
 #: schemas/org.mate.interface.gschema.xml:21
-msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
+msgid ""
+"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
+"\"text\"."
 msgstr ""
 "Стил на лентите с инструменти. Възможните стойности са: „both“ (текст под "
-"иконките), „both_horiz“ (текст до иконките), „icons“ (само иконки), и „text“"
-" (само текст)."
+"иконките), „both_horiz“ (текст до иконките), „icons“ (само иконки), и "
+"„text“ (само текст)."
 
 #: schemas/org.mate.interface.gschema.xml:25
 msgid "Menus Have Icons"
@@ -1043,10 +935,11 @@ msgid "Toolbar Icon Size"
 msgstr "Размер на иконките в лентите с инструменти"
 
 #: schemas/org.mate.interface.gschema.xml:46
-msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
+msgid ""
+"Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr ""
-"Размер на иконките в лентите с инструменти: или „small-toolbar“ (малки ленти"
-" с инструменти), или „large-toolbar“ (големи ленти с инструменти)."
+"Размер на иконките в лентите с инструменти: или „small-toolbar“ (малки ленти "
+"с инструменти), или „large-toolbar“ (големи ленти с инструменти)."
 
 #: schemas/org.mate.interface.gschema.xml:50
 msgid "Cursor Blink"
@@ -1095,119 +988,128 @@ msgstr ""
 "настройките на „gtk-color-scheme“"
 
 #: schemas/org.mate.interface.gschema.xml:80
+msgid "GTK color palette"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:81
+#, fuzzy
+msgid "Default color palette for MATE Color Selection"
+msgstr "Избор на цвят от MATE"
+
+#: schemas/org.mate.interface.gschema.xml:85
 msgid "Default font"
 msgstr "Стандартен шрифт"
 
-#: schemas/org.mate.interface.gschema.xml:81
+#: schemas/org.mate.interface.gschema.xml:86
 msgid "Name of the default font used by gtk+."
 msgstr "Име на стандартния шрифт, който се ползва от gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:85
+#: schemas/org.mate.interface.gschema.xml:90
 msgid "GTK IM Preedit Style"
 msgstr "Стил на предварителна редакция на метода за въвеждане на GTK"
 
-#: schemas/org.mate.interface.gschema.xml:86
+#: schemas/org.mate.interface.gschema.xml:91
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr ""
-"Име на метода за въвеждане на GTK+ с предварителна редакция, който се ползва"
-" от gtk+."
+"Име на метода за въвеждане на GTK+ с предварителна редакция, който се ползва "
+"от gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:90
+#: schemas/org.mate.interface.gschema.xml:95
 msgid "GTK IM Status Style"
 msgstr "Стил на състоянието на методите за въвеждане на GTK"
 
-#: schemas/org.mate.interface.gschema.xml:91
+#: schemas/org.mate.interface.gschema.xml:96
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr ""
 "Име на стила за състоянието на метода за въвеждане на GTK+, който се ползва "
 "от gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:95
+#: schemas/org.mate.interface.gschema.xml:100
 msgid "GTK IM Module"
 msgstr "Модул за въвеждане на GTK"
 
-#: schemas/org.mate.interface.gschema.xml:96
+#: schemas/org.mate.interface.gschema.xml:101
 msgid "Name of the input method module used by GTK+."
 msgstr "Име на модула за метода на въвеждане, използван от GTK+."
 
-#: schemas/org.mate.interface.gschema.xml:100
+#: schemas/org.mate.interface.gschema.xml:105
 msgid "Use GTK3 header bar"
 msgstr "Заглавна лента в стила на GTK3"
 
-#: schemas/org.mate.interface.gschema.xml:101
+#: schemas/org.mate.interface.gschema.xml:106
 msgid ""
 "Whether builtin GTK+ dialogs such as the file chooser, the color chooser or "
-"the font chooser will use a header bar at the top to show action widgets, or"
-" an action area at the bottom. This setting does not affect custom dialogs "
+"the font chooser will use a header bar at the top to show action widgets, or "
+"an action area at the bottom. This setting does not affect custom dialogs "
 "using GtkDialog directly, or message dialogs."
 msgstr ""
 "Дали вградените прозорци, използващи GTK+, като тези за избор на файл, цвят "
-"или шрифт, да имат заглавна лента с елементи за управление в горната си част"
-" или област за действия в долната си част. Тази настройка не се взема "
-"предвид от прозорците, които използват „GtkDialog“ директно, както и от "
-"прозорците за съобщения."
+"или шрифт, да имат заглавна лента с елементи за управление в горната си част "
+"или област за действия в долната си част. Тази настройка не се взема предвид "
+"от прозорците, които използват „GtkDialog“ директно, както и от прозорците "
+"за съобщения."
 
-#: schemas/org.mate.interface.gschema.xml:105
+#: schemas/org.mate.interface.gschema.xml:110
 msgid "Use GTK3 overlay scrolling"
 msgstr "Прикрито превъртане в стила на GTK3"
 
-#: schemas/org.mate.interface.gschema.xml:106
+#: schemas/org.mate.interface.gschema.xml:111
 msgid ""
 "Whether built-in GTK+ scrolled windows will use overlay scrolling. Overlay "
 "scrolling hides and reduces the size of the scrollbar until it gets focus."
 msgstr ""
-"Дали лентите за превъртане на вградените прозорци, използващи GTK+, да бъдат"
-" прикрити. Това означава, че лентите за превъртане ще бъдат скрити и с "
+"Дали лентите за превъртане на вградените прозорци, използващи GTK+, да бъдат "
+"прикрити. Това означава, че лентите за превъртане ще бъдат скрити и с "
 "намален размер, докато не бъдат посочени."
 
-#: schemas/org.mate.interface.gschema.xml:110
+#: schemas/org.mate.interface.gschema.xml:115
 msgid "Enable Gtk toolkit-wide animations"
 msgstr "Цялостни анимации на Gtk"
 
-#: schemas/org.mate.interface.gschema.xml:111
+#: schemas/org.mate.interface.gschema.xml:116
 msgid "Whether to enable toolkit-wide animations."
 msgstr "Дали да са включени цялостните анимации."
 
-#: schemas/org.mate.interface.gschema.xml:115
+#: schemas/org.mate.interface.gschema.xml:120
 msgid "Document font"
 msgstr "Шрифт за документите"
 
-#: schemas/org.mate.interface.gschema.xml:116
+#: schemas/org.mate.interface.gschema.xml:121
 msgid "Name of the default font used for reading documents."
 msgstr "Стандартен шрифт за четене на документи."
 
-#: schemas/org.mate.interface.gschema.xml:120
+#: schemas/org.mate.interface.gschema.xml:125
 msgid "Monospace font"
 msgstr "Едноразряден шрифт"
 
-#: schemas/org.mate.interface.gschema.xml:121
+#: schemas/org.mate.interface.gschema.xml:126
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr ""
 "Име на едноразрядния (с фиксирана широчина) шрифт, който да се използва на "
 "места като терминала."
 
-#: schemas/org.mate.interface.gschema.xml:125
+#: schemas/org.mate.interface.gschema.xml:130
 msgid "Use Custom Font"
 msgstr "Използване на шрифт по избор"
 
-#: schemas/org.mate.interface.gschema.xml:126
+#: schemas/org.mate.interface.gschema.xml:131
 msgid "Whether to use a custom font in gtk+ applications."
 msgstr "Дали да се ползва персонализиран шрифт в програмите на gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:130
+#: schemas/org.mate.interface.gschema.xml:135
 msgid "Status Bar on Right"
 msgstr "Лента за състоянието вдясно"
 
-#: schemas/org.mate.interface.gschema.xml:131
+#: schemas/org.mate.interface.gschema.xml:136
 msgid "Whether to display a status bar meter on the right."
 msgstr "Дали да се показва индикатор на лентата за състояние вдясно."
 
-#: schemas/org.mate.interface.gschema.xml:135
+#: schemas/org.mate.interface.gschema.xml:140
 msgid "Module for GtkFileChooser"
 msgstr "Модул за „GtkFileChooser“"
 
-#: schemas/org.mate.interface.gschema.xml:136
+#: schemas/org.mate.interface.gschema.xml:141
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\" and \"gtk+\"."
@@ -1215,112 +1117,106 @@ msgstr ""
 "Модул, който да се използва като модел на файловата система за графичния "
 "обект „GtkFileChooser“. Възможните стойности са: „gio“ и „gtk+“."
 
-#: schemas/org.mate.interface.gschema.xml:140
+#: schemas/org.mate.interface.gschema.xml:145
 msgid "Menubar accelerator"
 msgstr "Клавиш за лентата с менютата"
 
-#: schemas/org.mate.interface.gschema.xml:141
+#: schemas/org.mate.interface.gschema.xml:146
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "Клавиш за отваряне на лентите с менюта."
 
-#: schemas/org.mate.interface.gschema.xml:145
+#: schemas/org.mate.interface.gschema.xml:150
 msgid "Show the 'Input Methods' menu"
 msgstr "Показване на менюто „Методи за въвеждане“"
 
-#: schemas/org.mate.interface.gschema.xml:146
+#: schemas/org.mate.interface.gschema.xml:151
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
 msgstr ""
-"Дали контекстните менюта в местата за въвеждане на текст да дават възможност"
-" за смяна на метода за въвеждане."
+"Дали контекстните менюта в местата за въвеждане на текст да дават възможност "
+"за смяна на метода за въвеждане."
 
-#: schemas/org.mate.interface.gschema.xml:150
+#: schemas/org.mate.interface.gschema.xml:155
 msgid "Show the 'Unicode Control Character' menu"
 msgstr "Показване на менюто „Контролни знаци на Уникод“"
 
-#: schemas/org.mate.interface.gschema.xml:151
+#: schemas/org.mate.interface.gschema.xml:156
 msgid ""
 "Whether the context menus of entries and text views should offer to insert "
 "control characters."
 msgstr ""
-"Дали контекстните менюта в местата за въвеждане на текст да дават възможност"
-" за въвеждане на контролни знаци на Уникод."
-
-#: schemas/org.mate.interface.gschema.xml:155
-msgid "Titlebar layout of GTK3 client-side decorated windows"
-msgstr ""
-"Подредба на заглавната лента на украсяваните от страната на клиента прозорци"
-" чрез GTK3"
-
-#: schemas/org.mate.interface.gschema.xml:156
-msgid ""
-"This setting determines which buttons should be put in the titlebar of "
-"client-side decorated windows, and whether they should be placed at the left"
-" of right. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
-msgstr ""
-"Тази настройка определя това кои бутони да се появяват в заглавната лента на"
-" украсяваните от страната на клиента прозорци, както и дали те да бъдат "
-"поставяни вляво или вдясно. Вижте: "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
+"Дали контекстните менюта в местата за въвеждане на текст да дават възможност "
+"за въвеждане на контролни знаци на Уникод."
 
 #: schemas/org.mate.interface.gschema.xml:160
+msgid "Titlebar layout of GTK3 client-side decorated windows"
+msgstr ""
+"Подредба на заглавната лента на украсяваните от страната на клиента прозорци "
+"чрез GTK3"
+
+#: schemas/org.mate.interface.gschema.xml:161
+msgid ""
+"This setting determines which buttons should be put in the titlebar of "
+"client-side decorated windows, and whether they should be placed at the left "
+"of right. See https://developer.gnome.org/gtk3/stable/GtkSettings."
+"html#GtkSettings--gtk-decoration-layout."
+msgstr ""
+"Тази настройка определя това кои бутони да се появяват в заглавната лента на "
+"украсяваните от страната на клиента прозорци, както и дали те да бъдат "
+"поставяни вляво или вдясно. Вижте: https://developer.gnome.org/gtk3/stable/"
+"GtkSettings.html#GtkSettings--gtk-decoration-layout."
+
+#: schemas/org.mate.interface.gschema.xml:165
 msgid "Use a global menubar for displaying application menus"
 msgstr ""
 "Използване на глобална лента с менюта за показване на менютата на "
 "приложенията"
 
-#: schemas/org.mate.interface.gschema.xml:161
+#: schemas/org.mate.interface.gschema.xml:166
 msgid ""
 "This setting determines where application menu will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 msgstr ""
 "Тази настройка определя къде да се показват менютата на приложенията – в "
-"прозорец или в панел с протокола „MenuModel“. Вижте "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
+"прозорец или в панел с протокола „MenuModel“. Вижте https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 
-#: schemas/org.mate.interface.gschema.xml:165
+#: schemas/org.mate.interface.gschema.xml:170
 msgid "Use a global menubar for displaying window menubars"
 msgstr ""
 "Използване на глобална лента с менюта за показване на менютата на прозорците"
 
-#: schemas/org.mate.interface.gschema.xml:166
+#: schemas/org.mate.interface.gschema.xml:171
 msgid ""
 "This setting determines where window menubars will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
 msgstr ""
-"Тази настройка определя къде да се показват лентите с менюта на прозорците –"
-" в прозорец или в панел с протокола „MenuModel“. Вижте "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"Тази настройка определя къде да се показват лентите с менюта на прозорците – "
+"в прозорец или в панел с протокола „MenuModel“. Вижте https://developer."
+"gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
 
-#: schemas/org.mate.interface.gschema.xml:170
+#: schemas/org.mate.interface.gschema.xml:175
 msgid "Only show mnemonics on when the Alt key is pressed"
 msgstr ""
 "Подчертаване на буквите в менютата само когато е натиснат клавиша „Alt“"
 
-#: schemas/org.mate.interface.gschema.xml:171
+#: schemas/org.mate.interface.gschema.xml:176
 msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
 msgstr ""
-"Дали подсказките чрез подчертаване на буквите за клавишите, с които могат да"
-" се изпълняват командите в менютата, да се показват и скриват автоматично "
+"Дали подсказките чрез подчертаване на буквите за клавишите, с които могат да "
+"се изпълняват командите в менютата, да се показват и скриват автоматично "
 "когато потребителят натиска клавиша „Alt“."
 
-#: schemas/org.mate.interface.gschema.xml:176
+#: schemas/org.mate.interface.gschema.xml:181
 msgid "Window Scaling Factor"
 msgstr "Коефициент за мащабиране на прозорците"
 
-#: schemas/org.mate.interface.gschema.xml:177
+#: schemas/org.mate.interface.gschema.xml:182
 msgid ""
 "This controls the GTK scale factor that maps from window coordinates to the "
 "actual device pixels. On traditional systems this is 1, but on very high "
@@ -1328,11 +1224,11 @@ msgid ""
 "Set to 0 to auto-detect."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:181
+#: schemas/org.mate.interface.gschema.xml:186
 msgid "Scaling Factor for QT appllications"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:182
+#: schemas/org.mate.interface.gschema.xml:187
 msgid ""
 "This setting determines whether MATE controls the scale factor for QT "
 "applications. Enable to synchronize with the GTK scale factor when "
@@ -1340,11 +1236,11 @@ msgid ""
 "restarting your session."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:186
+#: schemas/org.mate.interface.gschema.xml:191
 msgid "Enable the primary paste selection"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:187
+#: schemas/org.mate.interface.gschema.xml:192
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1356,8 +1252,8 @@ msgstr "Забраняване на командния интерпретато�
 
 #: schemas/org.mate.lockdown.gschema.xml:6
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to"
-" be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to "
+"be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
 msgstr ""
 "Ограничаване на достъпа на потребителя до терминала или определяне на "
@@ -1385,8 +1281,8 @@ msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications' \"Print\" dialogs."
 msgstr ""
-"Забраняване на потребителя да разпечатва. Това ще спре достъпа, например, до"
-" всички прозорци за „Печат…“ в програмите."
+"Забраняване на потребителя да разпечатва. Това ще спре достъпа, например, до "
+"всички прозорци за „Печат…“ в програмите."
 
 #: schemas/org.mate.lockdown.gschema.xml:20
 msgid "Disable print setup"
@@ -1428,8 +1324,7 @@ msgstr "Забраняване на поддръжката на адреси и 
 #: schemas/org.mate.lockdown.gschema.xml:36
 msgid "Prevent running any URL or MIME type handler applications."
 msgstr ""
-"Забраняване на изпълнението на програми за обработка на адреси и типове "
-"MIME."
+"Забраняване на изпълнението на програми за обработка на адреси и типове MIME."
 
 #: schemas/org.mate.lockdown.gschema.xml:40
 msgid "Disable theme settings"
@@ -1504,8 +1399,8 @@ msgstr ""
 
 #: schemas/org.mate.sound.gschema.xml:36
 msgid ""
-"If this is set to TRUE, the user will be allowed to set the output / speaker"
-" volume to above 100%. By setting the output volume above 100%, the sound "
+"If this is set to TRUE, the user will be allowed to set the output / speaker "
+"volume to above 100%. By setting the output volume above 100%, the sound "
 "server will amplify the audio above what the audio hardware can do cleanly. "
 "This can lead to audio quality degradation, but may be useful for listening "
 "to extremely quiet audio recordings, where the recording would otherwise be "
@@ -1549,8 +1444,8 @@ msgstr ""
 
 #: schemas/org.mate.thumbnailers.gschema.xml:11
 msgid ""
-"Thumbnails will not be created for files whose mime-type is contained in the"
-" list."
+"Thumbnails will not be created for files whose mime-type is contained in the "
+"list."
 msgstr ""
 "Програмата за създаване на мини-изображения няма да генерира такива за "
 "типовете MIME, присъстващи в списъка."
@@ -1607,8 +1502,89 @@ msgstr "Прозорец за избор на цвят"
 msgid "Choose colors from the palette or the screen"
 msgstr "Изберете цветове от палитрата на екрана"
 
-#. Translators: Search terms to find this application. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: tools/mate-color-select.desktop.in:13
 msgid "MATE;color;chooser;pick;palette;screen;selection;"
 msgstr ""
+
+#~ msgid ""
+#~ "MATE provides an intuitive and attractive desktop to Linux users using "
+#~ "traditional metaphors."
+#~ msgstr ""
+#~ "MATE предоставя интуитивна и привлекателна работна среда за работни "
+#~ "плотове за потребителите на Линукс, като използва традиционните метафори "
+#~ "за графичен потребителски интерфейс (ГПИ) за една работна среда."
+
+#~ msgid ""
+#~ "MATE includes most of what you see on your computer, including the file "
+#~ "manager, document viewer, image viewer, menus, and many applications."
+#~ msgstr ""
+#~ "MATE включва повечето от това, което виждате на екрана на компютъра си, "
+#~ "включително мениджър на файлове, програма за преглед на документи, "
+#~ "програма за преглед на изображения, менюта и много приложения."
+
+#~ msgid ""
+#~ "MATE is a Free, usable, stable, accessible desktop environment for the "
+#~ "Unix-like family of operating systems."
+#~ msgstr ""
+#~ "„MATE“ е свободна, удобна, стабилна и достъпна работна среда за работен "
+#~ "плот за семейството от операционни системи, които са подобни на Unix."
+
+#~ msgid ""
+#~ "MATE is the continuation of GNOME 2. Hundreds of people have contributed "
+#~ "code to GNOME since it was started in 1997; many more have contributed in "
+#~ "other important ways, including translations, documentation, and quality "
+#~ "assurance."
+#~ msgstr ""
+#~ "MATE е продължението на работната среда GNOME 2 (ГНОМ, версия 2). Хиляди "
+#~ "хора са допринесли код към ГНОМ, откакто тя е започнала през 1997 г.; "
+#~ "много повече хора са допринесли по други важни начини, включително чрез "
+#~ "преводи, писане на документация и осигуряване на крайното качество."
+
+#~ msgid ""
+#~ "GNOME 2 was the most popular Linux desktop but it’s no longer "
+#~ "available... MATE is here to provide that same desktop to you!"
+#~ msgstr ""
+#~ "GNOME 2 (ГНОМ, версия 2) беше най-известната работна среда за работни "
+#~ "плотове за Линукс, но тя вече не е на разположение… MATE е тук, за да Ви "
+#~ "предостави същата графична работна среда!"
+
+#~ msgid ""
+#~ "The name “MATE” comes from yerba maté, a species of holly native to "
+#~ "subtropical South America. Its leaves contain caffeine and are used to "
+#~ "make infusions and a beverage called mate."
+#~ msgstr ""
+#~ "Името „MATE“ идва от „Йерба мате“ (yerba maté) — растителен вид от "
+#~ "семейство holly (джел, кошличар, бодлива зеленика), което е местно за и "
+#~ "широко разпространено в субтропична Южна Америка. Листата на това "
+#~ "растение съдържат кофеин и се използват за направата на настойка (билкова "
+#~ "отвара), както и за напитка, наречена мате."
+
+#~ msgid "Use alpha"
+#~ msgstr "Използване на плътност"
+
+#~ msgid "Whether or not to give the color an alpha value"
+#~ msgstr "Дали към цвета да се добави и стойност за плътност"
+
+#~ msgid "Title"
+#~ msgstr "Заглавие"
+
+#~ msgid "The title of the color selection dialog"
+#~ msgstr "Заглавие на диалоговия прозорец за избор на цвят"
+
+#~ msgid "Pick a Color"
+#~ msgstr "Избор на цвят"
+
+#~ msgid "Current Color"
+#~ msgstr "Текущ цвят"
+
+#~ msgid "The selected color"
+#~ msgstr "Избраният цвят"
+
+#~ msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
+#~ msgstr ""
+#~ "Избраната стойност на плътност (0 — напълно прозрачен, 65535 — напълно "
+#~ "плътен цвят)"
+
+#~ msgid "Received invalid color data\n"
+#~ msgstr "Получени са неправилни данни за цвят\n"

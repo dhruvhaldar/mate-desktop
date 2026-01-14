@@ -2,7 +2,7 @@
 # Copyright (C) YEAR MATE Developers
 # This file is distributed under the same license as the mate-desktop package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # 775405984, 2018
 # Cravix <dr.neemous@gmail.com>, 2018
@@ -14,19 +14,20 @@
 # 玉堂白鹤 <yjwork@qq.com>, 2021
 # OkayPJ <1535253694@qq.com>, 2021
 # Wenbin Lv <wenbin816@gmail.com>, 2023
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-desktop 1.27.2\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-desktop/\n"
-"POT-Creation-Date: 2023-09-02 16:57+0200\n"
+"POT-Creation-Date: 2026-01-14 23:32+0530\n"
 "PO-Revision-Date: 2018-03-11 16:44+0000\n"
 "Last-Translator: Wenbin Lv <wenbin816@gmail.com>, 2023\n"
-"Language-Team: Chinese (China) (https://app.transifex.com/mate/teams/13566/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/mate/teams/13566/"
+"zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Translators should localize the following string which will be
@@ -55,63 +56,6 @@ msgstr "关于 MATE"
 msgid "Learn more about MATE"
 msgstr "进一步了解 MATE"
 
-#: mate-about/mate-about.h:29
-msgid "MATE Desktop Environment"
-msgstr "MATE 桌面环境"
-
-#: mate-about/mate-about.h:34
-msgid ""
-"Copyright © 1997-2011 GNOME developers\n"
-"Copyright © 2011 Perberos\n"
-"Copyright © 2012-2023 MATE developers"
-msgstr ""
-"Copyright © 1997-2011 GNOME 开发者\n"
-"Copyright © 2011 Perberos\n"
-"Copyright © 2012-2023 MATE 开发者"
-
-#: mate-about/mate-about.h:42
-msgid ""
-"MATE provides an intuitive and attractive desktop to Linux users using "
-"traditional metaphors."
-msgstr "MATE 使用传统桌面概念，为 Linux 用户提供了一个直观而有吸引力的桌面。"
-
-#: mate-about/mate-about.h:45
-msgid ""
-"MATE includes most of what you see on your computer, including the file "
-"manager, document viewer, image viewer, menus, and many applications."
-msgstr "MATE 包含了文件管理器、文档查看器、图像查看器、菜单以及许多其他的应用程序。"
-
-#: mate-about/mate-about.h:48
-msgid ""
-"MATE is a Free, usable, stable, accessible desktop environment for the Unix-"
-"like family of operating systems."
-msgstr "MATE 是类 Unix 操作系统的一个自由、稳定且易于使用的桌面环境。"
-
-#: mate-about/mate-about.h:51
-msgid ""
-"MATE is the continuation of GNOME 2. Hundreds of people have contributed "
-"code to GNOME since it was started in 1997; many more have contributed in "
-"other important ways, including translations, documentation, and quality "
-"assurance."
-msgstr ""
-"MATE 是 GNOME 2 的延续。自从 1997 年 GNOME "
-"诞生以来，数以百计的志愿者为它编写代码。也有更多的志愿者以其他的方式为其添砖加瓦，例如翻译、编辑文档和质量保证。"
-
-#: mate-about/mate-about.h:55
-msgid ""
-"GNOME 2 was the most popular Linux desktop but it’s no longer available... "
-"MATE is here to provide that same desktop to you!"
-msgstr "GNOME 2 曾经是最受欢迎的 Linux 桌面，可惜现在已经无法获得……MATE 致力于将相同的桌面呈现给您！"
-
-#: mate-about/mate-about.h:58
-msgid ""
-"The name “MATE” comes from yerba maté, a species of holly native to "
-"subtropical South America. Its leaves contain caffeine and are used to make "
-"infusions and a beverage called mate."
-msgstr ""
-"“MATE”这一名字来源于“yerba "
-"maté”，一种原产于南美洲亚热带地区的冬青树。它的叶子中含有咖啡因，可以用来制作浸出液，以及一种名为“mate”的饮料。"
-
 #. Translators: "Unknown" here is used to identify a monitor for which
 #. * we don't know the vendor. When a vendor is known, the name of the
 #. * vendor is used.
@@ -120,204 +64,179 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "未知"
 
-#: libmate-desktop/mate-colorbutton.c:151
-msgid "Use alpha"
-msgstr "使用透明（Alpha）"
-
-#: libmate-desktop/mate-colorbutton.c:152
-msgid "Whether or not to give the color an alpha value"
-msgstr "是否给颜色赋予透明（Alpha）值"
-
-#: libmate-desktop/mate-colorbutton.c:166
-msgid "Title"
-msgstr "标题"
-
-#: libmate-desktop/mate-colorbutton.c:167
-msgid "The title of the color selection dialog"
-msgstr "颜色选择对话框的标题"
-
-#: libmate-desktop/mate-colorbutton.c:168
-#: libmate-desktop/mate-colorbutton.c:439
-msgid "Pick a Color"
-msgstr "拾取颜色"
-
-#: libmate-desktop/mate-colorbutton.c:181 libmate-desktop/mate-colorsel.c:281
-msgid "Current Color"
-msgstr "当前颜色"
-
-#: libmate-desktop/mate-colorbutton.c:182
-msgid "The selected color"
-msgstr "选中的颜色"
-
-#: libmate-desktop/mate-colorbutton.c:196 libmate-desktop/mate-colorsel.c:288
-msgid "Current Alpha"
-msgstr "当前 Alpha 值"
-
-#: libmate-desktop/mate-colorbutton.c:197
-msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
-msgstr "选择的不透明度值（0 表示完全透明，65535 表示完全不透明）"
-
-#: libmate-desktop/mate-colorbutton.c:335
-msgid "Received invalid color data\n"
-msgstr "接收到非法颜色数据\n"
-
-#: libmate-desktop/mate-colorsel.c:267
+#: libmate-desktop/mate-colorsel.c:271
 msgid "Has Opacity Control"
 msgstr "有透明控制"
 
-#: libmate-desktop/mate-colorsel.c:268
+#: libmate-desktop/mate-colorsel.c:272
 msgid "Whether the color selector should allow setting opacity"
 msgstr "颜色选择器是否允许设置透明颜色"
 
-#: libmate-desktop/mate-colorsel.c:274
+#: libmate-desktop/mate-colorsel.c:278
 msgid "Has palette"
 msgstr "有字符板"
 
-#: libmate-desktop/mate-colorsel.c:275
+#: libmate-desktop/mate-colorsel.c:279
 msgid "Whether a palette should be used"
 msgstr "是否要使用字符版"
 
-#: libmate-desktop/mate-colorsel.c:282
-msgid "The current color"
+#: libmate-desktop/mate-colorsel.c:285
+#, fuzzy
+msgid "Current RGBA"
+msgstr "当前 Alpha 值"
+
+#: libmate-desktop/mate-colorsel.c:286
+#, fuzzy
+msgid "The current RGBA color"
 msgstr "当前颜色"
 
-#: libmate-desktop/mate-colorsel.c:289
+#: libmate-desktop/mate-colorsel.c:295
+msgid "Current Alpha"
+msgstr "当前 Alpha 值"
+
+#: libmate-desktop/mate-colorsel.c:296
 msgid "The current opacity value (0 fully transparent, 65535 fully opaque)"
 msgstr "当前的不透明度值（0 表示完全透明，65535 表示完全不透明）"
 
-#: libmate-desktop/mate-colorsel.c:295
+#: libmate-desktop/mate-colorsel.c:302
 msgid "HEX String"
 msgstr "十六进制字符串"
 
-#: libmate-desktop/mate-colorsel.c:296
+#: libmate-desktop/mate-colorsel.c:303
 msgid "The hexadecimal string of current color"
 msgstr "当前颜色的十六进制字符串"
 
-#: libmate-desktop/mate-colorsel.c:341
+#: libmate-desktop/mate-colorsel.c:348
 msgid ""
 "Select the color you want from the outer ring. Select the darkness or "
 "lightness of that color using the inner triangle."
 msgstr "从外环选取您想要的颜色。用内部的三角形选择颜色的明暗。"
 
-#: libmate-desktop/mate-colorsel.c:365
+#: libmate-desktop/mate-colorsel.c:372
 msgid ""
 "Click the eyedropper, then click a color anywhere on your screen to select "
 "that color."
 msgstr "单击吸管，然后点击屏幕上的任意位置来选取那个颜色。"
 
-#: libmate-desktop/mate-colorsel.c:374
+#: libmate-desktop/mate-colorsel.c:381
 msgid "_Hue:"
 msgstr "色调(_H)："
 
-#: libmate-desktop/mate-colorsel.c:375
+#: libmate-desktop/mate-colorsel.c:382
 msgid "Position on the color wheel."
 msgstr "在色轮上的位置。"
 
-#: libmate-desktop/mate-colorsel.c:377
+#: libmate-desktop/mate-colorsel.c:384
 msgid "_Saturation:"
 msgstr "饱和度(_S)："
 
-#: libmate-desktop/mate-colorsel.c:378
+#: libmate-desktop/mate-colorsel.c:385
 msgid "\"Deepness\" of the color."
 msgstr "颜色的“深度”。"
 
-#: libmate-desktop/mate-colorsel.c:379
+#: libmate-desktop/mate-colorsel.c:386
 msgid "_Value:"
 msgstr "明度(_V)："
 
-#: libmate-desktop/mate-colorsel.c:380
+#: libmate-desktop/mate-colorsel.c:387
 msgid "Brightness of the color."
 msgstr "颜色的亮度。"
 
-#: libmate-desktop/mate-colorsel.c:381
+#: libmate-desktop/mate-colorsel.c:388
 msgid "_Red:"
 msgstr "红(_R)："
 
-#: libmate-desktop/mate-colorsel.c:382
+#: libmate-desktop/mate-colorsel.c:389
 msgid "Amount of red light in the color."
 msgstr "颜色中红光的量。"
 
-#: libmate-desktop/mate-colorsel.c:383
+#: libmate-desktop/mate-colorsel.c:390
 msgid "_Green:"
 msgstr "绿(_G)："
 
-#: libmate-desktop/mate-colorsel.c:384
+#: libmate-desktop/mate-colorsel.c:391
 msgid "Amount of green light in the color."
 msgstr "颜色中绿光的量。"
 
-#: libmate-desktop/mate-colorsel.c:385
+#: libmate-desktop/mate-colorsel.c:392
 msgid "_Blue:"
 msgstr "蓝(_B)："
 
-#: libmate-desktop/mate-colorsel.c:386
+#: libmate-desktop/mate-colorsel.c:393
 msgid "Amount of blue light in the color."
 msgstr "颜色中蓝光的量。"
 
-#: libmate-desktop/mate-colorsel.c:389
+#: libmate-desktop/mate-colorsel.c:396
 msgid "Op_acity:"
 msgstr "不透明度(_O)："
 
-#: libmate-desktop/mate-colorsel.c:396 libmate-desktop/mate-colorsel.c:406
+#: libmate-desktop/mate-colorsel.c:403 libmate-desktop/mate-colorsel.c:413
 msgid "Transparency of the color."
 msgstr "颜色的透明度。"
 
-#: libmate-desktop/mate-colorsel.c:413
+#: libmate-desktop/mate-colorsel.c:420
 msgid "Color _name:"
 msgstr "颜色名(_N)："
 
-#: libmate-desktop/mate-colorsel.c:427
+#: libmate-desktop/mate-colorsel.c:434
 msgid ""
 "You can enter an HTML-style hexadecimal color value, or simply a color name "
 "such as 'orange' in this entry."
-msgstr "您可以在此输入一个 HTML 风格的十六进制颜色值，或直接使用颜色的名字，比如“orange”（橙色）。"
+msgstr ""
+"您可以在此输入一个 HTML 风格的十六进制颜色值，或直接使用颜色的名字，比"
+"如“orange”（橙色）。"
 
-#: libmate-desktop/mate-colorsel.c:457
+#: libmate-desktop/mate-colorsel.c:464
 msgid "_Palette:"
 msgstr "字符板(_P)："
 
-#: libmate-desktop/mate-colorsel.c:487
+#: libmate-desktop/mate-colorsel.c:494
 msgid "Color Wheel"
 msgstr "色轮"
 
-#: libmate-desktop/mate-colorsel.c:942
+#: libmate-desktop/mate-colorsel.c:949
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now. You can drag this color to a palette entry, or select this color as "
 "current by dragging it to the other color swatch alongside."
-msgstr "之前选择的颜色，用于和当前选择的颜色对比。您可以将该颜色拖入调色板，或者将它拖到挨着它的另一个色块上以设为当前选中颜色。"
+msgstr ""
+"之前选择的颜色，用于和当前选择的颜色对比。您可以将该颜色拖入调色板，或者将它"
+"拖到挨着它的另一个色块上以设为当前选中颜色。"
 
-#: libmate-desktop/mate-colorsel.c:945
+#: libmate-desktop/mate-colorsel.c:952
 msgid ""
 "The color you've chosen. You can drag this color to a palette entry to save "
 "it for use in the future."
 msgstr "您已选的颜色。您可以拖拽这个颜色至调色板来保存它，以便下一次使用。"
 
-#: libmate-desktop/mate-colorsel.c:950
+#: libmate-desktop/mate-colorsel.c:957
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now."
 msgstr "之前选择的颜色，可以与您当前选择的颜色比较。"
 
-#: libmate-desktop/mate-colorsel.c:953
+#: libmate-desktop/mate-colorsel.c:960
 msgid "The color you've chosen."
 msgstr "您已选的颜色。"
 
-#: libmate-desktop/mate-colorsel.c:1359
+#: libmate-desktop/mate-colorsel.c:1323
 msgid "gtk-color-sel"
 msgstr "gtk-color-sel"
 
-#: libmate-desktop/mate-colorsel.c:1364
+#: libmate-desktop/mate-colorsel.c:1328
 msgid "_Save color here"
 msgstr "在此保存颜色(_S)"
 
-#: libmate-desktop/mate-colorsel.c:1584
+#: libmate-desktop/mate-colorsel.c:1561
 msgid ""
-"Click this palette entry to make it the current color. To change this entry,"
-" drag a color swatch here or right-click it and select \"Save color here.\""
-msgstr "点击此调色板项目来将其设置为当前颜色。要更改此项目，拖动一个色块至此，或者右键点击它并选择“在此保存颜色”。"
+"Click this palette entry to make it the current color. To change this entry, "
+"drag a color swatch here or right-click it and select \"Save color here.\""
+msgstr ""
+"点击此调色板项目来将其设置为当前颜色。要更改此项目，拖动一个色块至此，或者右"
+"键点击它并选择“在此保存颜色”。"
 
 #: libmate-desktop/mate-colorseldialog.c:98
-#: libmate-desktop/mate-colorseldialog.c:184
+#: libmate-desktop/mate-colorseldialog.c:182
 msgid "Color Selection"
 msgstr "颜色选择"
 
@@ -349,15 +268,15 @@ msgstr "帮助按钮"
 msgid "The help button of the dialog."
 msgstr "对话框中的帮助按钮。"
 
-#: libmate-desktop/mate-colorseldialog.c:162
+#: libmate-desktop/mate-colorseldialog.c:160
 msgid "_Cancel"
 msgstr "取消(_C)"
 
-#: libmate-desktop/mate-colorseldialog.c:167
+#: libmate-desktop/mate-colorseldialog.c:165
 msgid "_OK"
 msgstr "确定(_O)"
 
-#: libmate-desktop/mate-colorseldialog.c:175
+#: libmate-desktop/mate-colorseldialog.c:173
 msgid "Help"
 msgstr "帮助"
 
@@ -377,7 +296,7 @@ msgstr "倒回文件“%1$s”时发生错误：%2$s"
 #. Translators: the "name" mentioned here is the name of
 #. * an application or a document
 #: libmate-desktop/mate-desktop-item.c:378
-#: libmate-desktop/mate-desktop-item.c:3543
+#: libmate-desktop/mate-desktop-item.c:3547
 msgid "No name"
 msgstr "未命名"
 
@@ -400,23 +319,23 @@ msgstr "未输入保存文件名"
 msgid "Starting %s"
 msgstr "正在启动 %s"
 
-#: libmate-desktop/mate-desktop-item.c:2090
+#: libmate-desktop/mate-desktop-item.c:2094
 msgid "No URL to launch"
 msgstr "没有 URL 来启动"
 
-#: libmate-desktop/mate-desktop-item.c:2106
+#: libmate-desktop/mate-desktop-item.c:2110
 msgid "Not a launchable item"
 msgstr "非可启动项目"
 
-#: libmate-desktop/mate-desktop-item.c:2115
+#: libmate-desktop/mate-desktop-item.c:2119
 msgid "No command (Exec) to launch"
 msgstr "没有要执行的命令"
 
-#: libmate-desktop/mate-desktop-item.c:2127
+#: libmate-desktop/mate-desktop-item.c:2131
 msgid "Bad command (Exec) to launch"
 msgstr "要执行的命令无效"
 
-#: libmate-desktop/mate-desktop-item.c:3600
+#: libmate-desktop/mate-desktop-item.c:3604
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "未知的字符编码：%s"
@@ -459,7 +378,9 @@ msgstr "无法获取关于输出 %d 的信息"
 msgid ""
 "requested position/size for CRTC %d is outside the allowed limit: "
 "position=(%d, %d), size=(%d, %d), maximum=(%d, %d)"
-msgstr "CRTC %d 需要的位置/大小在允许范围之外：位置=(%d, %d)，大小=(%d, %d)，最大=(%d, %d)"
+msgstr ""
+"CRTC %d 需要的位置/大小在允许范围之外：位置=(%d, %d)，大小=(%d, %d)，最大"
+"=(%d, %d)"
 
 #: libmate-desktop/mate-rr.c:1784
 #, c-format
@@ -549,15 +470,16 @@ msgstr ""
 msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
 "minimum=(%d, %d), maximum=(%d, %d)"
-msgstr "需要的虚拟大小大于可用大小：需求=(%d, %d)，最小=(%d, %d)，最大=(%d, %d)"
+msgstr ""
+"需要的虚拟大小大于可用大小：需求=(%d, %d)，最小=(%d, %d)，最大=(%d, %d)"
 
-#. Keep this string in sync with mate-control-center/capplets/display/xrandr-
-#. capplet.c:get_display_name()
+#. Keep this string in sync with mate-control-center/capplets/display/xrandr-capplet.c:get_display_name()
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#: libmate-desktop/mate-rr-labeler.c:406
+#.
+#: libmate-desktop/mate-rr-labeler.c:426
 msgid "Mirror Screens"
 msgstr "镜像屏幕"
 
@@ -639,7 +561,9 @@ msgstr "启用修饰键时，提示音之间的延迟"
 msgid ""
 "Delay in milliseconds between two beeps when enabling a modifier while "
 "togglekeys are enabled. Only works with the 'internal' backend."
-msgstr "在启用切换键时，启用修饰键时发出的两次提示音之间的延迟，单位为毫秒。仅适用于“internal”后端。"
+msgstr ""
+"在启用切换键时，启用修饰键时发出的两次提示音之间的延迟，单位为毫秒。仅适用"
+"于“internal”后端。"
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:103
 msgid "Beep count when disabling a modifier"
@@ -659,7 +583,9 @@ msgstr "禁用修饰键时，提示音之间的延迟"
 msgid ""
 "Delay in milliseconds between two beeps when disabling a modifier while "
 "togglekeys are enabled. Only works with the 'internal' backend."
-msgstr "在启用切换键时，禁用修饰键时发出的两次提示音之间的延迟，单位为毫秒。仅适用于“internal”后端。"
+msgstr ""
+"在启用切换键时，禁用修饰键时发出的两次提示音之间的延迟，单位为毫秒。仅适用"
+"于“internal”后端。"
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:114
 msgid "Implementation to use when togglekeys are enabled"
@@ -671,7 +597,8 @@ msgid ""
 "include 'xkb' (the stock X implementation) and 'internal' (a MATE-specific "
 "and more configurable implementation)."
 msgstr ""
-"选择提供切换键功能的后端。有效的值包括“xkb”（原始的 X 实现）以及“internal”（一个 MATE 特定的，可配置性更佳的实现）。"
+"选择提供切换键功能的后端。有效的值包括“xkb”（原始的 X 实现）以"
+"及“internal”（一个 MATE 特定的，可配置性更佳的实现）。"
 
 #: schemas/org.mate.accessibility-startup.gschema.xml:5
 msgid "Startup Assistive Technology Applications"
@@ -719,8 +646,7 @@ msgstr "启动首选的视觉辅助技术应用程序"
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:11
 msgid ""
-"MATE to start preferred Visual assistive technology application during "
-"login."
+"MATE to start preferred Visual assistive technology application during login."
 msgstr "MATE 将会在登录时启动首选视觉辅助技术应用程序。"
 
 #: schemas/org.mate.applications-browser.gschema.xml:5
@@ -761,8 +687,7 @@ msgstr "即时通讯应用程序"
 
 #: schemas/org.mate.applications-messenger.gschema.xml:6
 msgid ""
-"Instant Messaging program to use when starting applications that require "
-"one."
+"Instant Messaging program to use when starting applications that require one."
 msgstr "启动需要即时通讯程序的应用程序时使用的即时通讯程序。"
 
 #: schemas/org.mate.applications-office.gschema.xml:9
@@ -847,11 +772,12 @@ msgstr "图片选项"
 #: schemas/org.mate.background.gschema.xml.in:34
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\","
-" \"spanned\"."
+"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\", "
+"\"spanned\"."
 msgstr ""
-"决定如何显示 wallpaper_filename "
-"指定的图片。可用的值有：“none”（无）、“wallpaper”（墙纸）、“centered”（居中）、“scaled”（成比例）、“stretched”（拉伸）、“zoom”（缩放）和“spanned”（延展）。"
+"决定如何显示 wallpaper_filename 指定的图片。可用的值"
+"有：“none”（无）、“wallpaper”（墙纸）、“centered”（居中）、“scaled”（成比"
+"例）、“stretched”（拉伸）、“zoom”（缩放）和“spanned”（延展）。"
 
 #: schemas/org.mate.background.gschema.xml.in:38
 msgid "Picture Filename"
@@ -882,8 +808,7 @@ msgid "Secondary Color"
 msgstr "副色"
 
 #: schemas/org.mate.background.gschema.xml.in:54
-msgid ""
-"Right or Bottom color when drawing gradients, not used for solid color."
+msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "绘制渐变时右侧或下侧的颜色，绘制纯色时不使用。"
 
 #: schemas/org.mate.background.gschema.xml.in:58
@@ -937,8 +862,12 @@ msgid "Toolbar Style"
 msgstr "工具栏样式"
 
 #: schemas/org.mate.interface.gschema.xml:21
-msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
-msgstr "工具栏样式。有效的值有“both”（两者）、“both-horiz”（两者水平排列）、“icons”（图标）、和 “text”（文本）。"
+msgid ""
+"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
+"\"text\"."
+msgstr ""
+"工具栏样式。有效的值有“both”（两者）、“both-horiz”（两者水平排"
+"列）、“icons”（图标）、和 “text”（文本）。"
 
 #: schemas/org.mate.interface.gschema.xml:25
 msgid "Menus Have Icons"
@@ -977,7 +906,8 @@ msgid "Toolbar Icon Size"
 msgstr "工具栏图标尺寸"
 
 #: schemas/org.mate.interface.gschema.xml:46
-msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
+msgid ""
+"Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr "工具栏图标的大小，“small-toolbar”（小）或者“large-toolbar”（大）。"
 
 #: schemas/org.mate.interface.gschema.xml:50
@@ -1022,232 +952,243 @@ msgstr "符号名称和颜色的对应列表"
 msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
-msgstr "一个由“\\n”分隔的“name:color”列表，就像在“gtk-color-scheme”设置中定义的那样"
+msgstr ""
+"一个由“\\n”分隔的“name:color”列表，就像在“gtk-color-scheme”设置中定义的那样"
 
 #: schemas/org.mate.interface.gschema.xml:80
+msgid "GTK color palette"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:81
+#, fuzzy
+msgid "Default color palette for MATE Color Selection"
+msgstr "MATE 颜色选择"
+
+#: schemas/org.mate.interface.gschema.xml:85
 msgid "Default font"
 msgstr "默认字体"
 
-#: schemas/org.mate.interface.gschema.xml:81
+#: schemas/org.mate.interface.gschema.xml:86
 msgid "Name of the default font used by gtk+."
 msgstr "gtk+ 使用的默认字体的名称。"
 
-#: schemas/org.mate.interface.gschema.xml:85
+#: schemas/org.mate.interface.gschema.xml:90
 msgid "GTK IM Preedit Style"
 msgstr "GTK 输入法预编辑模式"
 
-#: schemas/org.mate.interface.gschema.xml:86
+#: schemas/org.mate.interface.gschema.xml:91
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "用于 gtk+ 的 GTK+ 输入法预编辑样式的名称。"
 
-#: schemas/org.mate.interface.gschema.xml:90
+#: schemas/org.mate.interface.gschema.xml:95
 msgid "GTK IM Status Style"
 msgstr "GTK 输入法状态样式"
 
-#: schemas/org.mate.interface.gschema.xml:91
+#: schemas/org.mate.interface.gschema.xml:96
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "用于 gtk+ 的 GTK+ 输入法状态样式的名称。"
 
-#: schemas/org.mate.interface.gschema.xml:95
+#: schemas/org.mate.interface.gschema.xml:100
 msgid "GTK IM Module"
 msgstr "GTK 输入法模块"
 
-#: schemas/org.mate.interface.gschema.xml:96
+#: schemas/org.mate.interface.gschema.xml:101
 msgid "Name of the input method module used by GTK+."
 msgstr "GTK+ 所使用的输入法模块名称。"
 
-#: schemas/org.mate.interface.gschema.xml:100
+#: schemas/org.mate.interface.gschema.xml:105
 msgid "Use GTK3 header bar"
 msgstr "使用 GTK3 顶栏"
 
-#: schemas/org.mate.interface.gschema.xml:101
+#: schemas/org.mate.interface.gschema.xml:106
 msgid ""
 "Whether builtin GTK+ dialogs such as the file chooser, the color chooser or "
-"the font chooser will use a header bar at the top to show action widgets, or"
-" an action area at the bottom. This setting does not affect custom dialogs "
+"the font chooser will use a header bar at the top to show action widgets, or "
+"an action area at the bottom. This setting does not affect custom dialogs "
 "using GtkDialog directly, or message dialogs."
 msgstr ""
-"是否在 GTK+ 内置对话框，如文件选择器、颜色选择器以及字体选择器中使用带有各类操作的顶栏以及底栏按钮。该设置不影响任何使用 GtkDialog "
-"的自定义对话框或消息框。"
+"是否在 GTK+ 内置对话框，如文件选择器、颜色选择器以及字体选择器中使用带有各类"
+"操作的顶栏以及底栏按钮。该设置不影响任何使用 GtkDialog 的自定义对话框或消息"
+"框。"
 
-#: schemas/org.mate.interface.gschema.xml:105
+#: schemas/org.mate.interface.gschema.xml:110
 msgid "Use GTK3 overlay scrolling"
 msgstr "使用 GTK3 复合式滚动条"
 
-#: schemas/org.mate.interface.gschema.xml:106
+#: schemas/org.mate.interface.gschema.xml:111
 msgid ""
 "Whether built-in GTK+ scrolled windows will use overlay scrolling. Overlay "
 "scrolling hides and reduces the size of the scrollbar until it gets focus."
-msgstr "嵌入式 GTK+ 滚动窗口是否使用复合滚动。复合滚动可以在失去焦点时缩小或隐藏滚动条。"
+msgstr ""
+"嵌入式 GTK+ 滚动窗口是否使用复合滚动。复合滚动可以在失去焦点时缩小或隐藏滚动"
+"条。"
 
-#: schemas/org.mate.interface.gschema.xml:110
+#: schemas/org.mate.interface.gschema.xml:115
 msgid "Enable Gtk toolkit-wide animations"
 msgstr "使用 GTK 全局动画"
 
-#: schemas/org.mate.interface.gschema.xml:111
+#: schemas/org.mate.interface.gschema.xml:116
 msgid "Whether to enable toolkit-wide animations."
 msgstr "是否允许工具箱级的动画。"
 
-#: schemas/org.mate.interface.gschema.xml:115
+#: schemas/org.mate.interface.gschema.xml:120
 msgid "Document font"
 msgstr "文档字体"
 
-#: schemas/org.mate.interface.gschema.xml:116
+#: schemas/org.mate.interface.gschema.xml:121
 msgid "Name of the default font used for reading documents."
 msgstr "用于阅读文档的默认字体的名称。"
 
-#: schemas/org.mate.interface.gschema.xml:120
+#: schemas/org.mate.interface.gschema.xml:125
 msgid "Monospace font"
 msgstr "等宽字体"
 
-#: schemas/org.mate.interface.gschema.xml:121
+#: schemas/org.mate.interface.gschema.xml:126
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "用于终端等处的等宽字体的名称。"
 
-#: schemas/org.mate.interface.gschema.xml:125
+#: schemas/org.mate.interface.gschema.xml:130
 msgid "Use Custom Font"
 msgstr "使用自定义字体"
 
-#: schemas/org.mate.interface.gschema.xml:126
+#: schemas/org.mate.interface.gschema.xml:131
 msgid "Whether to use a custom font in gtk+ applications."
 msgstr "是否在 gtk+ 程序中使用自定义字体。"
 
-#: schemas/org.mate.interface.gschema.xml:130
+#: schemas/org.mate.interface.gschema.xml:135
 msgid "Status Bar on Right"
 msgstr "右方状态栏"
 
-#: schemas/org.mate.interface.gschema.xml:131
+#: schemas/org.mate.interface.gschema.xml:136
 msgid "Whether to display a status bar meter on the right."
 msgstr "是否在右边显示状态栏指示。"
 
-#: schemas/org.mate.interface.gschema.xml:135
+#: schemas/org.mate.interface.gschema.xml:140
 msgid "Module for GtkFileChooser"
 msgstr "用于 GtkFileChooser 的模块"
 
-#: schemas/org.mate.interface.gschema.xml:136
+#: schemas/org.mate.interface.gschema.xml:141
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\" and \"gtk+\"."
-msgstr "GtkFileChooser 部件所用的文件系统模型的模块。可供选择的值是“gio”和“gtk+”。"
+msgstr ""
+"GtkFileChooser 部件所用的文件系统模型的模块。可供选择的值是“gio”和“gtk+”。"
 
-#: schemas/org.mate.interface.gschema.xml:140
+#: schemas/org.mate.interface.gschema.xml:145
 msgid "Menubar accelerator"
 msgstr "菜单栏快捷键"
 
-#: schemas/org.mate.interface.gschema.xml:141
+#: schemas/org.mate.interface.gschema.xml:146
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "打开菜单栏的键盘快捷键。"
 
-#: schemas/org.mate.interface.gschema.xml:145
+#: schemas/org.mate.interface.gschema.xml:150
 msgid "Show the 'Input Methods' menu"
 msgstr "显示“输入法”菜单"
 
-#: schemas/org.mate.interface.gschema.xml:146
+#: schemas/org.mate.interface.gschema.xml:151
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
 msgstr "输入框和文本视图中的快捷菜单是否应提供更改输入法的选项。"
 
-#: schemas/org.mate.interface.gschema.xml:150
+#: schemas/org.mate.interface.gschema.xml:155
 msgid "Show the 'Unicode Control Character' menu"
 msgstr "显示“Unicode 控制字符”菜单"
 
-#: schemas/org.mate.interface.gschema.xml:151
+#: schemas/org.mate.interface.gschema.xml:156
 msgid ""
 "Whether the context menus of entries and text views should offer to insert "
 "control characters."
 msgstr "输入框和文本视图中的快捷菜单是否应提供插入控制字符的选项。"
 
-#: schemas/org.mate.interface.gschema.xml:155
+#: schemas/org.mate.interface.gschema.xml:160
 msgid "Titlebar layout of GTK3 client-side decorated windows"
 msgstr "GTK3 客户端装饰的窗口的标题栏布局"
 
-#: schemas/org.mate.interface.gschema.xml:156
+#: schemas/org.mate.interface.gschema.xml:161
 msgid ""
 "This setting determines which buttons should be put in the titlebar of "
-"client-side decorated windows, and whether they should be placed at the left"
-" of right. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
+"client-side decorated windows, and whether they should be placed at the left "
+"of right. See https://developer.gnome.org/gtk3/stable/GtkSettings."
+"html#GtkSettings--gtk-decoration-layout."
 msgstr ""
-"此设置确定哪些按钮应放在客户端装饰的窗口的标题栏, 以及它们应该放在左侧还是右侧。详情请见 "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout。"
+"此设置确定哪些按钮应放在客户端装饰的窗口的标题栏, 以及它们应该放在左侧还是右"
+"侧。详情请见 https://developer.gnome.org/gtk3/stable/GtkSettings."
+"html#GtkSettings--gtk-decoration-layout。"
 
-#: schemas/org.mate.interface.gschema.xml:160
+#: schemas/org.mate.interface.gschema.xml:165
 msgid "Use a global menubar for displaying application menus"
 msgstr "使用全局菜单栏显示应用程序菜单"
 
-#: schemas/org.mate.interface.gschema.xml:161
+#: schemas/org.mate.interface.gschema.xml:166
 msgid ""
 "This setting determines where application menu will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 msgstr ""
-"此设置确定在何处显示应用程序菜单：在窗口中，或在使用 MenuModel "
-"的面板上。详情：https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings"
-"--gtk-shell-shows-app-menu。"
+"此设置确定在何处显示应用程序菜单：在窗口中，或在使用 MenuModel 的面板上。详"
+"情：https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--"
+"gtk-shell-shows-app-menu。"
 
-#: schemas/org.mate.interface.gschema.xml:165
+#: schemas/org.mate.interface.gschema.xml:170
 msgid "Use a global menubar for displaying window menubars"
 msgstr "使用全局菜单栏显示窗口菜单栏"
 
-#: schemas/org.mate.interface.gschema.xml:166
+#: schemas/org.mate.interface.gschema.xml:171
 msgid ""
 "This setting determines where window menubars will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
 msgstr ""
-"此设置确定在何处显示窗口菜单栏：在窗口中，或在使用 MenuModel "
-"的面板上。详情：https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings"
-"--gtk-shell-shows-menubar。"
+"此设置确定在何处显示窗口菜单栏：在窗口中，或在使用 MenuModel 的面板上。详情："
+"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
+"shell-shows-menubar。"
 
-#: schemas/org.mate.interface.gschema.xml:170
+#: schemas/org.mate.interface.gschema.xml:175
 msgid "Only show mnemonics on when the Alt key is pressed"
 msgstr "只在 Alt 键按下时显示助记符"
 
-#: schemas/org.mate.interface.gschema.xml:171
+#: schemas/org.mate.interface.gschema.xml:176
 msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
 msgstr "助记符是否应该在用户按下 Alt 键时自动显示或隐藏。"
 
-#: schemas/org.mate.interface.gschema.xml:176
+#: schemas/org.mate.interface.gschema.xml:181
 msgid "Window Scaling Factor"
 msgstr "窗口缩放倍数"
 
-#: schemas/org.mate.interface.gschema.xml:177
+#: schemas/org.mate.interface.gschema.xml:182
 msgid ""
 "This controls the GTK scale factor that maps from window coordinates to the "
 "actual device pixels. On traditional systems this is 1, but on very high "
 "density displays (e.g. HiDPI, Retina) this can be a higher value (often 2). "
 "Set to 0 to auto-detect."
 msgstr ""
-"从窗口坐标映射到实际设备像素的 GTK 缩放倍数。 在传统系统中的值是1，但在高分屏上（例如 HiDPI、Retina）的值可能更高（通常为 "
-"2）。设置为 0 以自动检测。"
+"从窗口坐标映射到实际设备像素的 GTK 缩放倍数。 在传统系统中的值是1，但在高分屏"
+"上（例如 HiDPI、Retina）的值可能更高（通常为 2）。设置为 0 以自动检测。"
 
-#: schemas/org.mate.interface.gschema.xml:181
+#: schemas/org.mate.interface.gschema.xml:186
 msgid "Scaling Factor for QT appllications"
 msgstr "QT 应用的缩放倍数"
 
-#: schemas/org.mate.interface.gschema.xml:182
+#: schemas/org.mate.interface.gschema.xml:187
 msgid ""
 "This setting determines whether MATE controls the scale factor for QT "
 "applications. Enable to synchronize with the GTK scale factor when "
 "initializing the session, disable to control this value elsewhere. Requires "
 "restarting your session."
 msgstr ""
-"此设置决定是否要 MATE 控制 QT 应用程序的缩放倍数。启用此项会在初始化会话时与 GTK "
-"缩放倍数同步，禁用此项以通过其他方式控制此值。需要重新启动会话应用更改。"
+"此设置决定是否要 MATE 控制 QT 应用程序的缩放倍数。启用此项会在初始化会话时与 "
+"GTK 缩放倍数同步，禁用此项以通过其他方式控制此值。需要重新启动会话应用更改。"
 
-#: schemas/org.mate.interface.gschema.xml:186
+#: schemas/org.mate.interface.gschema.xml:191
 msgid "Enable the primary paste selection"
 msgstr "启用主粘贴区"
 
-#: schemas/org.mate.interface.gschema.xml:187
+#: schemas/org.mate.interface.gschema.xml:192
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1259,10 +1200,12 @@ msgstr "禁用命令行"
 
 #: schemas/org.mate.lockdown.gschema.xml:6
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to"
-" be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to "
+"be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
-msgstr "阻止用户访问终端或指定要执行的命令行。例如，这将禁用对面板的“运行应用程序”对话框的访问。"
+msgstr ""
+"阻止用户访问终端或指定要执行的命令行。例如，这将禁用对面板的“运行应用程序”对"
+"话框的访问。"
 
 #: schemas/org.mate.lockdown.gschema.xml:10
 msgid "Disable saving files to disk"
@@ -1272,7 +1215,8 @@ msgstr "禁止写入文件到磁盘"
 msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
-msgstr "阻止用户将文件保存到磁盘。例如，这将禁止访问任何应用程序的“另存为”对话框。"
+msgstr ""
+"阻止用户将文件保存到磁盘。例如，这将禁止访问任何应用程序的“另存为”对话框。"
 
 #: schemas/org.mate.lockdown.gschema.xml:15
 msgid "Disable printing"
@@ -1292,7 +1236,8 @@ msgstr "禁用打印机设置"
 msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications' \"Print Setup\" dialogs."
-msgstr "阻止用户修改打印设置。例如，这将禁止访问任何应用程序的“打印设置”对话框。"
+msgstr ""
+"阻止用户修改打印设置。例如，这将禁止访问任何应用程序的“打印设置”对话框。"
 
 #: schemas/org.mate.lockdown.gschema.xml:25
 msgid "Disable user switching"
@@ -1390,15 +1335,17 @@ msgstr "允许输出音量超过 100%"
 
 #: schemas/org.mate.sound.gschema.xml:36
 msgid ""
-"If this is set to TRUE, the user will be allowed to set the output / speaker"
-" volume to above 100%. By setting the output volume above 100%, the sound "
+"If this is set to TRUE, the user will be allowed to set the output / speaker "
+"volume to above 100%. By setting the output volume above 100%, the sound "
 "server will amplify the audio above what the audio hardware can do cleanly. "
 "This can lead to audio quality degradation, but may be useful for listening "
 "to extremely quiet audio recordings, where the recording would otherwise be "
 "completely useless."
 msgstr ""
-"如果此项设置为 TRUE，将允许用户将输出或扬声器音量设置为超过 100%。当输出音量设置为超过 100% "
-"时，声音服务器会将音频放大至音频硬件无法自行处理的程度。这可能会导致音频质量降低，但是在需要收听极其小声的录音时可能会有用，不然的话录音会完全无法听清。"
+"如果此项设置为 TRUE，将允许用户将输出或扬声器音量设置为超过 100%。当输出音量"
+"设置为超过 100% 时，声音服务器会将音频放大至音频硬件无法自行处理的程度。这可"
+"能会导致音频质量降低，但是在需要收听极其小声的录音时可能会有用，不然的话录音"
+"会完全无法听清。"
 
 #: schemas/org.mate.thumbnail-cache.gschema.xml:6
 msgid ""
@@ -1429,8 +1376,8 @@ msgstr "禁止使用外部缩略图程序的 mime 类型列表"
 
 #: schemas/org.mate.thumbnailers.gschema.xml:11
 msgid ""
-"Thumbnails will not be created for files whose mime-type is contained in the"
-" list."
+"Thumbnails will not be created for files whose mime-type is contained in the "
+"list."
 msgstr "对于具有列表中 mime 类型的文件将不会创建缩略图。"
 
 #: schemas/org.mate.typing-break.gschema.xml:5
@@ -1485,8 +1432,91 @@ msgstr "颜色选择对话框"
 msgid "Choose colors from the palette or the screen"
 msgstr "在调色板或屏幕上选取颜色"
 
-#. Translators: Search terms to find this application. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: tools/mate-color-select.desktop.in:13
 msgid "MATE;color;chooser;pick;palette;screen;selection;"
-msgstr "MATE;color;chooser;pick;palette;screen;selection;颜色;选择器;拾取;调色板;屏幕;选择;"
+msgstr ""
+"MATE;color;chooser;pick;palette;screen;selection;颜色;选择器;拾取;调色板;屏"
+"幕;选择;"
+
+#~ msgid "MATE Desktop Environment"
+#~ msgstr "MATE 桌面环境"
+
+#~ msgid ""
+#~ "Copyright © 1997-2011 GNOME developers\n"
+#~ "Copyright © 2011 Perberos\n"
+#~ "Copyright © 2012-2023 MATE developers"
+#~ msgstr ""
+#~ "Copyright © 1997-2011 GNOME 开发者\n"
+#~ "Copyright © 2011 Perberos\n"
+#~ "Copyright © 2012-2023 MATE 开发者"
+
+#~ msgid ""
+#~ "MATE provides an intuitive and attractive desktop to Linux users using "
+#~ "traditional metaphors."
+#~ msgstr ""
+#~ "MATE 使用传统桌面概念，为 Linux 用户提供了一个直观而有吸引力的桌面。"
+
+#~ msgid ""
+#~ "MATE includes most of what you see on your computer, including the file "
+#~ "manager, document viewer, image viewer, menus, and many applications."
+#~ msgstr ""
+#~ "MATE 包含了文件管理器、文档查看器、图像查看器、菜单以及许多其他的应用程"
+#~ "序。"
+
+#~ msgid ""
+#~ "MATE is a Free, usable, stable, accessible desktop environment for the "
+#~ "Unix-like family of operating systems."
+#~ msgstr "MATE 是类 Unix 操作系统的一个自由、稳定且易于使用的桌面环境。"
+
+#~ msgid ""
+#~ "MATE is the continuation of GNOME 2. Hundreds of people have contributed "
+#~ "code to GNOME since it was started in 1997; many more have contributed in "
+#~ "other important ways, including translations, documentation, and quality "
+#~ "assurance."
+#~ msgstr ""
+#~ "MATE 是 GNOME 2 的延续。自从 1997 年 GNOME 诞生以来，数以百计的志愿者为它"
+#~ "编写代码。也有更多的志愿者以其他的方式为其添砖加瓦，例如翻译、编辑文档和质"
+#~ "量保证。"
+
+#~ msgid ""
+#~ "GNOME 2 was the most popular Linux desktop but it’s no longer "
+#~ "available... MATE is here to provide that same desktop to you!"
+#~ msgstr ""
+#~ "GNOME 2 曾经是最受欢迎的 Linux 桌面，可惜现在已经无法获得……MATE 致力于将相"
+#~ "同的桌面呈现给您！"
+
+#~ msgid ""
+#~ "The name “MATE” comes from yerba maté, a species of holly native to "
+#~ "subtropical South America. Its leaves contain caffeine and are used to "
+#~ "make infusions and a beverage called mate."
+#~ msgstr ""
+#~ "“MATE”这一名字来源于“yerba maté”，一种原产于南美洲亚热带地区的冬青树。它的"
+#~ "叶子中含有咖啡因，可以用来制作浸出液，以及一种名为“mate”的饮料。"
+
+#~ msgid "Use alpha"
+#~ msgstr "使用透明（Alpha）"
+
+#~ msgid "Whether or not to give the color an alpha value"
+#~ msgstr "是否给颜色赋予透明（Alpha）值"
+
+#~ msgid "Title"
+#~ msgstr "标题"
+
+#~ msgid "The title of the color selection dialog"
+#~ msgstr "颜色选择对话框的标题"
+
+#~ msgid "Pick a Color"
+#~ msgstr "拾取颜色"
+
+#~ msgid "Current Color"
+#~ msgstr "当前颜色"
+
+#~ msgid "The selected color"
+#~ msgstr "选中的颜色"
+
+#~ msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
+#~ msgstr "选择的不透明度值（0 表示完全透明，65535 表示完全不透明）"
+
+#~ msgid "Received invalid color data\n"
+#~ msgstr "接收到非法颜色数据\n"

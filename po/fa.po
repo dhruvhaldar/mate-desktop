@@ -2,7 +2,7 @@
 # Copyright (C) YEAR MATE Developers
 # This file is distributed under the same license as the mate-desktop package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # royaniva <royaniva@outlook.com>, 2018
 # hypermit <hypermit@gmail.com>, 2018
@@ -11,19 +11,19 @@
 # Mahdi Pourghasem <mahdipourghasem@gmail.com>, 2021
 # sir_hawell <arash.cordi@gmail.com>, 2021
 # Borderliner <psyringe@yandex.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-desktop 1.27.2\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-desktop/\n"
-"POT-Creation-Date: 2023-09-02 16:57+0200\n"
+"POT-Creation-Date: 2026-01-14 23:32+0530\n"
 "PO-Revision-Date: 2018-03-11 16:44+0000\n"
 "Last-Translator: Borderliner <psyringe@yandex.com>, 2021\n"
 "Language-Team: Persian (https://app.transifex.com/mate/teams/13566/fa/)\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Translators should localize the following string which will be
@@ -40,70 +40,6 @@ msgstr "درباره‌ی ماته"
 msgid "Learn more about MATE"
 msgstr "درباره ماته بیشتر بدانید"
 
-#: mate-about/mate-about.h:29
-msgid "MATE Desktop Environment"
-msgstr ""
-
-#: mate-about/mate-about.h:34
-msgid ""
-"Copyright © 1997-2011 GNOME developers\n"
-"Copyright © 2011 Perberos\n"
-"Copyright © 2012-2023 MATE developers"
-msgstr ""
-
-#: mate-about/mate-about.h:42
-msgid ""
-"MATE provides an intuitive and attractive desktop to Linux users using "
-"traditional metaphors."
-msgstr ""
-"ماته با استفاده از اصول سنتی، میزکاری جذاب و قابل درکی را برای کاربران "
-"لینوکس فراهم می‌کند."
-
-#: mate-about/mate-about.h:45
-msgid ""
-"MATE includes most of what you see on your computer, including the file "
-"manager, document viewer, image viewer, menus, and many applications."
-msgstr ""
-"ماته شامل تمام چیزهایی است که شما در یک کامپیوتر می‌بینید، از جمله برنامه "
-"مدیریت فایل، نمایش اسناد، نمایش عکس‌، منو‌ها و برنامه‌های بسیار دیگر."
-
-#: mate-about/mate-about.h:48
-msgid ""
-"MATE is a Free, usable, stable, accessible desktop environment for the Unix-"
-"like family of operating systems."
-msgstr ""
-"ماته میزکاری رایگان، قابل استفاده، پایدار و در دسترس برای خانواده سیستم "
-"عاملهای شبه یونیکس می باشد."
-
-#: mate-about/mate-about.h:51
-msgid ""
-"MATE is the continuation of GNOME 2. Hundreds of people have contributed "
-"code to GNOME since it was started in 1997; many more have contributed in "
-"other important ways, including translations, documentation, and quality "
-"assurance."
-msgstr ""
-"ماته ادامه گنوم 2 است. از زمانی که گنوم در سال 1997 شروع شد، صدها نفر به "
-"پروژه از طریق کد کمک کرده‌اند. بسیاری دیگر نیز از راه‌های دیگر کمک کرده‌اند،"
-" از جمله ترجمه، تهیه اسناد و تضمین کیفیت."
-
-#: mate-about/mate-about.h:55
-msgid ""
-"GNOME 2 was the most popular Linux desktop but it’s no longer available... "
-"MATE is here to provide that same desktop to you!"
-msgstr ""
-"گنوم 2 مشهورترین میزکار برای لینوکس بود، اما دیگر وجود ندارد... ماته اینجاست"
-" تا همان میزکار را برای شما فراهم کند!"
-
-#: mate-about/mate-about.h:58
-msgid ""
-"The name “MATE” comes from yerba maté, a species of holly native to "
-"subtropical South America. Its leaves contain caffeine and are used to make "
-"infusions and a beverage called mate."
-msgstr ""
-"نام ماته از اسم «yerba maté» برگرفته شده، که یک نوع درخت راج بومی در مناطق "
-"نیمه گرمسیر آمریکای جنوبی است. برگ‌های آن حاوی کافئین هستند که از آنها برای "
-"ساخت محلول‌ها و نوشیدنی‌هایی به اسم ماته استفاده می‌کنند."
-
 #. Translators: "Unknown" here is used to identify a monitor for which
 #. * we don't know the vendor. When a vendor is known, the name of the
 #. * vendor is used.
@@ -112,156 +48,125 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "ناشناخته"
 
-#: libmate-desktop/mate-colorbutton.c:151
-msgid "Use alpha"
-msgstr "از آلفا استفاده کن"
-
-#: libmate-desktop/mate-colorbutton.c:152
-msgid "Whether or not to give the color an alpha value"
-msgstr "آیا به رنگ مقدار آلفا داده شود یا خیر"
-
-#: libmate-desktop/mate-colorbutton.c:166
-msgid "Title"
-msgstr "عنوان"
-
-#: libmate-desktop/mate-colorbutton.c:167
-msgid "The title of the color selection dialog"
-msgstr "عنوان پنجره انتخاب رنگ"
-
-#: libmate-desktop/mate-colorbutton.c:168
-#: libmate-desktop/mate-colorbutton.c:439
-msgid "Pick a Color"
-msgstr "یک رنگ انتخاب کنید"
-
-#: libmate-desktop/mate-colorbutton.c:181 libmate-desktop/mate-colorsel.c:281
-msgid "Current Color"
-msgstr "رنگ فعلی"
-
-#: libmate-desktop/mate-colorbutton.c:182
-msgid "The selected color"
-msgstr "رنگ انتخابی"
-
-#: libmate-desktop/mate-colorbutton.c:196 libmate-desktop/mate-colorsel.c:288
-msgid "Current Alpha"
-msgstr "آلفای فعلی"
-
-#: libmate-desktop/mate-colorbutton.c:197
-msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
-msgstr "مقدار کدری انتخابی (0 کاملا شفاف، 65535 کاملا کدر)"
-
-#: libmate-desktop/mate-colorbutton.c:335
-msgid "Received invalid color data\n"
-msgstr "داده‌های رنگ نامعتبر دریافت شد\n"
-
-#: libmate-desktop/mate-colorsel.c:267
+#: libmate-desktop/mate-colorsel.c:271
 msgid "Has Opacity Control"
 msgstr "دارای کنترل شفافیت می‌باشد"
 
-#: libmate-desktop/mate-colorsel.c:268
+#: libmate-desktop/mate-colorsel.c:272
 msgid "Whether the color selector should allow setting opacity"
 msgstr "آیا انتخاب کننده رنگ اجازه تنظیم کدری را بدهد یا خیر"
 
-#: libmate-desktop/mate-colorsel.c:274
+#: libmate-desktop/mate-colorsel.c:278
 msgid "Has palette"
 msgstr "دارای پالت می‌باشد"
 
-#: libmate-desktop/mate-colorsel.c:275
+#: libmate-desktop/mate-colorsel.c:279
 msgid "Whether a palette should be used"
 msgstr "أیا باید از پالت استفاده شود یا خیر"
 
-#: libmate-desktop/mate-colorsel.c:282
-msgid "The current color"
+#: libmate-desktop/mate-colorsel.c:285
+#, fuzzy
+msgid "Current RGBA"
+msgstr "آلفای فعلی"
+
+#: libmate-desktop/mate-colorsel.c:286
+#, fuzzy
+msgid "The current RGBA color"
 msgstr "رنگ فعلی"
 
-#: libmate-desktop/mate-colorsel.c:289
+#: libmate-desktop/mate-colorsel.c:295
+msgid "Current Alpha"
+msgstr "آلفای فعلی"
+
+#: libmate-desktop/mate-colorsel.c:296
 msgid "The current opacity value (0 fully transparent, 65535 fully opaque)"
 msgstr "مقدار کدری فعلی (0 کاملا شفاف، 65535 کاملا کدر)"
 
-#: libmate-desktop/mate-colorsel.c:295
+#: libmate-desktop/mate-colorsel.c:302
 msgid "HEX String"
 msgstr "رشته هگز"
 
-#: libmate-desktop/mate-colorsel.c:296
+#: libmate-desktop/mate-colorsel.c:303
 msgid "The hexadecimal string of current color"
 msgstr "رشته هگز رنگ فعلی"
 
-#: libmate-desktop/mate-colorsel.c:341
+#: libmate-desktop/mate-colorsel.c:348
 msgid ""
 "Select the color you want from the outer ring. Select the darkness or "
 "lightness of that color using the inner triangle."
 msgstr ""
-"از حلقه بیرونی، رنگی را که میخواهید انتخاب کنید. از مثلث درونی نیز، تیرگی یا"
-" روشنی رنگ را انتخاب کنید."
+"از حلقه بیرونی، رنگی را که میخواهید انتخاب کنید. از مثلث درونی نیز، تیرگی یا "
+"روشنی رنگ را انتخاب کنید."
 
-#: libmate-desktop/mate-colorsel.c:365
+#: libmate-desktop/mate-colorsel.c:372
 msgid ""
 "Click the eyedropper, then click a color anywhere on your screen to select "
 "that color."
 msgstr ""
-"بر روی قطره‌چکان کلیک کنید، و سپس روی هر نقطه ای در صفحه کلیک کنید تا رنگ آن"
-" نقطه انتخاب شود."
+"بر روی قطره‌چکان کلیک کنید، و سپس روی هر نقطه ای در صفحه کلیک کنید تا رنگ آن "
+"نقطه انتخاب شود."
 
-#: libmate-desktop/mate-colorsel.c:374
+#: libmate-desktop/mate-colorsel.c:381
 msgid "_Hue:"
 msgstr "_پرده رنگ"
 
-#: libmate-desktop/mate-colorsel.c:375
+#: libmate-desktop/mate-colorsel.c:382
 msgid "Position on the color wheel."
 msgstr "موقعیت برروی چرخ رنگ"
 
-#: libmate-desktop/mate-colorsel.c:377
+#: libmate-desktop/mate-colorsel.c:384
 msgid "_Saturation:"
 msgstr "_غلظت رنگ"
 
-#: libmate-desktop/mate-colorsel.c:378
+#: libmate-desktop/mate-colorsel.c:385
 msgid "\"Deepness\" of the color."
 msgstr "«عمق» رنگ"
 
-#: libmate-desktop/mate-colorsel.c:379
+#: libmate-desktop/mate-colorsel.c:386
 msgid "_Value:"
 msgstr "_مقدار"
 
-#: libmate-desktop/mate-colorsel.c:380
+#: libmate-desktop/mate-colorsel.c:387
 msgid "Brightness of the color."
 msgstr "روشنایی رنگ"
 
-#: libmate-desktop/mate-colorsel.c:381
+#: libmate-desktop/mate-colorsel.c:388
 msgid "_Red:"
 msgstr "_قرمز"
 
-#: libmate-desktop/mate-colorsel.c:382
+#: libmate-desktop/mate-colorsel.c:389
 msgid "Amount of red light in the color."
 msgstr "مقدار نور قرمز در رنگ"
 
-#: libmate-desktop/mate-colorsel.c:383
+#: libmate-desktop/mate-colorsel.c:390
 msgid "_Green:"
 msgstr "_سبز"
 
-#: libmate-desktop/mate-colorsel.c:384
+#: libmate-desktop/mate-colorsel.c:391
 msgid "Amount of green light in the color."
 msgstr "مقدار نور سبز در رنگ"
 
-#: libmate-desktop/mate-colorsel.c:385
+#: libmate-desktop/mate-colorsel.c:392
 msgid "_Blue:"
 msgstr "_آبی"
 
-#: libmate-desktop/mate-colorsel.c:386
+#: libmate-desktop/mate-colorsel.c:393
 msgid "Amount of blue light in the color."
 msgstr "مقدار نور آبی در رنگ"
 
-#: libmate-desktop/mate-colorsel.c:389
+#: libmate-desktop/mate-colorsel.c:396
 msgid "Op_acity:"
 msgstr "_کدری"
 
-#: libmate-desktop/mate-colorsel.c:396 libmate-desktop/mate-colorsel.c:406
+#: libmate-desktop/mate-colorsel.c:403 libmate-desktop/mate-colorsel.c:413
 msgid "Transparency of the color."
 msgstr "شفافیت رنگ"
 
-#: libmate-desktop/mate-colorsel.c:413
+#: libmate-desktop/mate-colorsel.c:420
 msgid "Color _name:"
 msgstr "_نام رنگ"
 
-#: libmate-desktop/mate-colorsel.c:427
+#: libmate-desktop/mate-colorsel.c:434
 msgid ""
 "You can enter an HTML-style hexadecimal color value, or simply a color name "
 "such as 'orange' in this entry."
@@ -269,15 +174,15 @@ msgstr ""
 "در این ورودی، شما میتوانید مقدار رنگ هگز به شیوه HTML‌ بدهید، یا اینکه نام "
 "رنگ (مثلا «نارنجی») را وارد کنید."
 
-#: libmate-desktop/mate-colorsel.c:457
+#: libmate-desktop/mate-colorsel.c:464
 msgid "_Palette:"
 msgstr "_‌پالت:"
 
-#: libmate-desktop/mate-colorsel.c:487
+#: libmate-desktop/mate-colorsel.c:494
 msgid "Color Wheel"
 msgstr "چرخ رنگ"
 
-#: libmate-desktop/mate-colorsel.c:942
+#: libmate-desktop/mate-colorsel.c:949
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now. You can drag this color to a palette entry, or select this color as "
@@ -287,7 +192,7 @@ msgstr ""
 "میتوانید این رنگ را بر روی ورودی پالت بکشید، یا رنگ فعلی را بکشید و آنرا با "
 "رنگ در نوار دیگر جایگزین کنید."
 
-#: libmate-desktop/mate-colorsel.c:945
+#: libmate-desktop/mate-colorsel.c:952
 msgid ""
 "The color you've chosen. You can drag this color to a palette entry to save "
 "it for use in the future."
@@ -295,35 +200,35 @@ msgstr ""
 "رنگی که انتخاب کرده‌اید. شما میتوانید این رنگ را بر روی یک ورودی پالت بکشید "
 "تا آنرا ذخیره کرده و در آینده استفاده نمائید."
 
-#: libmate-desktop/mate-colorsel.c:950
+#: libmate-desktop/mate-colorsel.c:957
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now."
 msgstr "رنگی که قبلا انتخاب کرده بودید، برای مقایسه با رنگ انتخابی فعلی."
 
-#: libmate-desktop/mate-colorsel.c:953
+#: libmate-desktop/mate-colorsel.c:960
 msgid "The color you've chosen."
 msgstr "رنگی که انتخاب کرده‌اید."
 
-#: libmate-desktop/mate-colorsel.c:1359
+#: libmate-desktop/mate-colorsel.c:1323
 msgid "gtk-color-sel"
 msgstr "gtk-color-sel"
 
-#: libmate-desktop/mate-colorsel.c:1364
+#: libmate-desktop/mate-colorsel.c:1328
 msgid "_Save color here"
 msgstr "_رنگ را اینجا ذخیره کن"
 
-#: libmate-desktop/mate-colorsel.c:1584
+#: libmate-desktop/mate-colorsel.c:1561
 msgid ""
-"Click this palette entry to make it the current color. To change this entry,"
-" drag a color swatch here or right-click it and select \"Save color here.\""
+"Click this palette entry to make it the current color. To change this entry, "
+"drag a color swatch here or right-click it and select \"Save color here.\""
 msgstr ""
-"روی این ورودی پالت کلیک کنید تا به عنوان رنگ فعلی انتخاب شود. برای تغییر این"
-" ورودی، یک نوار رنگ را به اینجا بکشید، یا بر روی آن کلیک راست کرده و گزینه "
+"روی این ورودی پالت کلیک کنید تا به عنوان رنگ فعلی انتخاب شود. برای تغییر این "
+"ورودی، یک نوار رنگ را به اینجا بکشید، یا بر روی آن کلیک راست کرده و گزینه "
 "«رنگ را اینجا ذخیره کن» را انتخاب کنید."
 
 #: libmate-desktop/mate-colorseldialog.c:98
-#: libmate-desktop/mate-colorseldialog.c:184
+#: libmate-desktop/mate-colorseldialog.c:182
 msgid "Color Selection"
 msgstr "انتخاب رنگ"
 
@@ -355,15 +260,15 @@ msgstr "دکمه راهنما"
 msgid "The help button of the dialog."
 msgstr "رکمه راهنمای پنجره"
 
-#: libmate-desktop/mate-colorseldialog.c:162
+#: libmate-desktop/mate-colorseldialog.c:160
 msgid "_Cancel"
 msgstr "ان_صراف"
 
-#: libmate-desktop/mate-colorseldialog.c:167
+#: libmate-desktop/mate-colorseldialog.c:165
 msgid "_OK"
 msgstr ""
 
-#: libmate-desktop/mate-colorseldialog.c:175
+#: libmate-desktop/mate-colorseldialog.c:173
 msgid "Help"
 msgstr "راهنما"
 
@@ -383,7 +288,7 @@ msgstr "خطا در برگرداندن پرونده‌ی «%s»: %s"
 #. Translators: the "name" mentioned here is the name of
 #. * an application or a document
 #: libmate-desktop/mate-desktop-item.c:378
-#: libmate-desktop/mate-desktop-item.c:3543
+#: libmate-desktop/mate-desktop-item.c:3547
 msgid "No name"
 msgstr "بدون نام"
 
@@ -406,23 +311,23 @@ msgstr "نام پرونده‌ای برای ذخیره کردن موجود نی�
 msgid "Starting %s"
 msgstr "در حال آغاز %s"
 
-#: libmate-desktop/mate-desktop-item.c:2090
+#: libmate-desktop/mate-desktop-item.c:2094
 msgid "No URL to launch"
 msgstr "نشانی برای راه‌اندازی موجود نیست"
 
-#: libmate-desktop/mate-desktop-item.c:2106
+#: libmate-desktop/mate-desktop-item.c:2110
 msgid "Not a launchable item"
 msgstr "این مورد قابل راه اندازی نیست"
 
-#: libmate-desktop/mate-desktop-item.c:2115
+#: libmate-desktop/mate-desktop-item.c:2119
 msgid "No command (Exec) to launch"
 msgstr "فرمان (Exec) برای راه‌اندازی موجود نیست"
 
-#: libmate-desktop/mate-desktop-item.c:2127
+#: libmate-desktop/mate-desktop-item.c:2131
 msgid "Bad command (Exec) to launch"
 msgstr "فرمان (Exec) برای راه‌اندازی اشتباه است"
 
-#: libmate-desktop/mate-desktop-item.c:3600
+#: libmate-desktop/mate-desktop-item.c:3604
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "کدگذاری ناشناخته در: %s"
@@ -551,13 +456,13 @@ msgid ""
 "minimum=(%d, %d), maximum=(%d, %d)"
 msgstr ""
 
-#. Keep this string in sync with mate-control-center/capplets/display/xrandr-
-#. capplet.c:get_display_name()
+#. Keep this string in sync with mate-control-center/capplets/display/xrandr-capplet.c:get_display_name()
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#: libmate-desktop/mate-rr-labeler.c:406
+#.
+#: libmate-desktop/mate-rr-labeler.c:426
 msgid "Mirror Screens"
 msgstr "صفحات نمایش یکسان"
 
@@ -718,8 +623,7 @@ msgstr ""
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:11
 msgid ""
-"MATE to start preferred Visual assistive technology application during "
-"login."
+"MATE to start preferred Visual assistive technology application during login."
 msgstr ""
 
 #: schemas/org.mate.applications-browser.gschema.xml:5
@@ -760,8 +664,7 @@ msgstr ""
 
 #: schemas/org.mate.applications-messenger.gschema.xml:6
 msgid ""
-"Instant Messaging program to use when starting applications that require "
-"one."
+"Instant Messaging program to use when starting applications that require one."
 msgstr ""
 
 #: schemas/org.mate.applications-office.gschema.xml:9
@@ -847,8 +750,8 @@ msgstr "گزینه‌های عکس"
 #: schemas/org.mate.background.gschema.xml.in:34
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\","
-" \"spanned\"."
+"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\", "
+"\"spanned\"."
 msgstr ""
 
 #: schemas/org.mate.background.gschema.xml.in:38
@@ -880,11 +783,9 @@ msgid "Secondary Color"
 msgstr "رنگ‌ فرعی "
 
 #: schemas/org.mate.background.gschema.xml.in:54
-msgid ""
-"Right or Bottom color when drawing gradients, not used for solid color."
+msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
-"رنگ راست یا پایین برای وقتی شیب‌ها رسم می‌شوند، برای رنگ یکدست استفاده "
-"نمی‌شود."
+"رنگ راست یا پایین برای وقتی شیب‌ها رسم می‌شوند، برای رنگ یکدست استفاده نمی‌شود."
 
 #: schemas/org.mate.background.gschema.xml.in:58
 msgid "Color Shading Type"
@@ -937,7 +838,9 @@ msgid "Toolbar Style"
 msgstr "سبک نوار ابزار"
 
 #: schemas/org.mate.interface.gschema.xml:21
-msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
+msgid ""
+"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
+"\"text\"."
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:25
@@ -977,7 +880,8 @@ msgid "Toolbar Icon Size"
 msgstr "اندازه‌ی شمایل نوار ابزار"
 
 #: schemas/org.mate.interface.gschema.xml:46
-msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
+msgid ""
+"Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:50
@@ -1025,190 +929,195 @@ msgid ""
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:80
+msgid "GTK color palette"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:81
+msgid "Default color palette for MATE Color Selection"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:85
 msgid "Default font"
 msgstr "قلم پیش‌فرض"
 
-#: schemas/org.mate.interface.gschema.xml:81
+#: schemas/org.mate.interface.gschema.xml:86
 msgid "Name of the default font used by gtk+."
 msgstr "نام قلم پیش‌فرض که توسط gtk+ استفاده می‌شود."
 
-#: schemas/org.mate.interface.gschema.xml:85
+#: schemas/org.mate.interface.gschema.xml:90
 msgid "GTK IM Preedit Style"
 msgstr "سبک GTK IM Preedit"
 
-#: schemas/org.mate.interface.gschema.xml:86
+#: schemas/org.mate.interface.gschema.xml:91
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "نام روش ورودی GTK+، سبک پیش‌ویرایش که توسط gtk+ استفاده می‌شود."
 
-#: schemas/org.mate.interface.gschema.xml:90
+#: schemas/org.mate.interface.gschema.xml:95
 msgid "GTK IM Status Style"
 msgstr "سبک وضعیت GTK IM"
 
-#: schemas/org.mate.interface.gschema.xml:91
+#: schemas/org.mate.interface.gschema.xml:96
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "نام روش ورودی GTK+، سبک وضعیت که توسط gtk+ استفاده می‌شود."
 
-#: schemas/org.mate.interface.gschema.xml:95
+#: schemas/org.mate.interface.gschema.xml:100
 msgid "GTK IM Module"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:96
+#: schemas/org.mate.interface.gschema.xml:101
 msgid "Name of the input method module used by GTK+."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:100
+#: schemas/org.mate.interface.gschema.xml:105
 msgid "Use GTK3 header bar"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:101
+#: schemas/org.mate.interface.gschema.xml:106
 msgid ""
 "Whether builtin GTK+ dialogs such as the file chooser, the color chooser or "
-"the font chooser will use a header bar at the top to show action widgets, or"
-" an action area at the bottom. This setting does not affect custom dialogs "
+"the font chooser will use a header bar at the top to show action widgets, or "
+"an action area at the bottom. This setting does not affect custom dialogs "
 "using GtkDialog directly, or message dialogs."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:105
+#: schemas/org.mate.interface.gschema.xml:110
 msgid "Use GTK3 overlay scrolling"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:106
+#: schemas/org.mate.interface.gschema.xml:111
 msgid ""
 "Whether built-in GTK+ scrolled windows will use overlay scrolling. Overlay "
 "scrolling hides and reduces the size of the scrollbar until it gets focus."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:110
+#: schemas/org.mate.interface.gschema.xml:115
 msgid "Enable Gtk toolkit-wide animations"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:111
+#: schemas/org.mate.interface.gschema.xml:116
 msgid "Whether to enable toolkit-wide animations."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:115
+#: schemas/org.mate.interface.gschema.xml:120
 msgid "Document font"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:116
+#: schemas/org.mate.interface.gschema.xml:121
 msgid "Name of the default font used for reading documents."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:120
+#: schemas/org.mate.interface.gschema.xml:125
 msgid "Monospace font"
 msgstr "قلم تک عرض"
 
-#: schemas/org.mate.interface.gschema.xml:121
+#: schemas/org.mate.interface.gschema.xml:126
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "نام قلم تک‌ عرض برای استفاده در مکان‌هایی مانند پایانه‌ها"
 
-#: schemas/org.mate.interface.gschema.xml:125
+#: schemas/org.mate.interface.gschema.xml:130
 msgid "Use Custom Font"
 msgstr "استفاده از قلم سفارشی"
 
-#: schemas/org.mate.interface.gschema.xml:126
+#: schemas/org.mate.interface.gschema.xml:131
 msgid "Whether to use a custom font in gtk+ applications."
 msgstr "این که آیا در برنامه‌های gtk+ از قلم سفارشی استفاده بشود یا نه."
 
-#: schemas/org.mate.interface.gschema.xml:130
+#: schemas/org.mate.interface.gschema.xml:135
 msgid "Status Bar on Right"
 msgstr "نوار وضعیت در راست"
 
-#: schemas/org.mate.interface.gschema.xml:131
+#: schemas/org.mate.interface.gschema.xml:136
 msgid "Whether to display a status bar meter on the right."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:135
+#: schemas/org.mate.interface.gschema.xml:140
 msgid "Module for GtkFileChooser"
 msgstr "پیمانه برای GtkFileChooser"
 
-#: schemas/org.mate.interface.gschema.xml:136
+#: schemas/org.mate.interface.gschema.xml:141
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\" and \"gtk+\"."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:140
+#: schemas/org.mate.interface.gschema.xml:145
 msgid "Menubar accelerator"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:141
+#: schemas/org.mate.interface.gschema.xml:146
 msgid "Keyboard shortcut to open the menu bars."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:145
+#: schemas/org.mate.interface.gschema.xml:150
 msgid "Show the 'Input Methods' menu"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:146
+#: schemas/org.mate.interface.gschema.xml:151
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:150
+#: schemas/org.mate.interface.gschema.xml:155
 msgid "Show the 'Unicode Control Character' menu"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:151
+#: schemas/org.mate.interface.gschema.xml:156
 msgid ""
 "Whether the context menus of entries and text views should offer to insert "
 "control characters."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:155
-msgid "Titlebar layout of GTK3 client-side decorated windows"
-msgstr ""
-
-#: schemas/org.mate.interface.gschema.xml:156
-msgid ""
-"This setting determines which buttons should be put in the titlebar of "
-"client-side decorated windows, and whether they should be placed at the left"
-" of right. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
-msgstr ""
-
 #: schemas/org.mate.interface.gschema.xml:160
-msgid "Use a global menubar for displaying application menus"
+msgid "Titlebar layout of GTK3 client-side decorated windows"
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:161
 msgid ""
-"This setting determines where application menu will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
+"This setting determines which buttons should be put in the titlebar of "
+"client-side decorated windows, and whether they should be placed at the left "
+"of right. See https://developer.gnome.org/gtk3/stable/GtkSettings."
+"html#GtkSettings--gtk-decoration-layout."
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:165
-msgid "Use a global menubar for displaying window menubars"
+msgid "Use a global menubar for displaying application menus"
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:166
 msgid ""
-"This setting determines where window menubars will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"This setting determines where application menu will be displayed - in a "
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:170
-msgid "Only show mnemonics on when the Alt key is pressed"
+msgid "Use a global menubar for displaying window menubars"
 msgstr ""
 
 #: schemas/org.mate.interface.gschema.xml:171
+msgid ""
+"This setting determines where window menubars will be displayed - in a "
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:175
+msgid "Only show mnemonics on when the Alt key is pressed"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:176
 msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:176
+#: schemas/org.mate.interface.gschema.xml:181
 msgid "Window Scaling Factor"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:177
+#: schemas/org.mate.interface.gschema.xml:182
 msgid ""
 "This controls the GTK scale factor that maps from window coordinates to the "
 "actual device pixels. On traditional systems this is 1, but on very high "
@@ -1216,11 +1125,11 @@ msgid ""
 "Set to 0 to auto-detect."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:181
+#: schemas/org.mate.interface.gschema.xml:186
 msgid "Scaling Factor for QT appllications"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:182
+#: schemas/org.mate.interface.gschema.xml:187
 msgid ""
 "This setting determines whether MATE controls the scale factor for QT "
 "applications. Enable to synchronize with the GTK scale factor when "
@@ -1228,11 +1137,11 @@ msgid ""
 "restarting your session."
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:186
+#: schemas/org.mate.interface.gschema.xml:191
 msgid "Enable the primary paste selection"
 msgstr ""
 
-#: schemas/org.mate.interface.gschema.xml:187
+#: schemas/org.mate.interface.gschema.xml:192
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1244,13 +1153,12 @@ msgstr "از کار انداختن خط فرمان"
 
 #: schemas/org.mate.lockdown.gschema.xml:6
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to"
-" be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to "
+"be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
 msgstr ""
 "جلوگیری از دسترسی کاربر به پایانه یا مشخص کردن خط فرمان برای اجرا. برای "
-"مثال، ممکن است دسترسی به محاوره‌ی «اجرای برنامه» در تابلو را از کار "
-"بیاندازد."
+"مثال، ممکن است دسترسی به محاوره‌ی «اجرای برنامه» در تابلو را از کار بیاندازد."
 
 #: schemas/org.mate.lockdown.gschema.xml:10
 msgid "Disable saving files to disk"
@@ -1261,8 +1169,8 @@ msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
 msgstr ""
-"جلوگیری از ذخیره‌ی پرونده‌ها در دیسک توسط کاربر. برای مثال، ممکن است دسترسی "
-"به محاوره‌ی «ذخیره به نام» را در تمام برنامه‌ها از کار بیاندازد."
+"جلوگیری از ذخیره‌ی پرونده‌ها در دیسک توسط کاربر. برای مثال، ممکن است دسترسی به "
+"محاوره‌ی «ذخیره به نام» را در تمام برنامه‌ها از کار بیاندازد."
 
 #: schemas/org.mate.lockdown.gschema.xml:15
 msgid "Disable printing"
@@ -1273,8 +1181,8 @@ msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications' \"Print\" dialogs."
 msgstr ""
-"جلوگیری از چاپ توسط کاربر. برای مثال، ممکن است دسترسی به محاوره‌ی «چاپ» را "
-"در تمام برنامه‌ها از کار بیاندازد."
+"جلوگیری از چاپ توسط کاربر. برای مثال، ممکن است دسترسی به محاوره‌ی «چاپ» را در "
+"تمام برنامه‌ها از کار بیاندازد."
 
 #: schemas/org.mate.lockdown.gschema.xml:20
 msgid "Disable print setup"
@@ -1384,8 +1292,8 @@ msgstr ""
 
 #: schemas/org.mate.sound.gschema.xml:36
 msgid ""
-"If this is set to TRUE, the user will be allowed to set the output / speaker"
-" volume to above 100%. By setting the output volume above 100%, the sound "
+"If this is set to TRUE, the user will be allowed to set the output / speaker "
+"volume to above 100%. By setting the output volume above 100%, the sound "
 "server will amplify the audio above what the audio hardware can do cleanly. "
 "This can lead to audio quality degradation, but may be useful for listening "
 "to extremely quiet audio recordings, where the recording would otherwise be "
@@ -1421,8 +1329,8 @@ msgstr ""
 
 #: schemas/org.mate.thumbnailers.gschema.xml:11
 msgid ""
-"Thumbnails will not be created for files whose mime-type is contained in the"
-" list."
+"Thumbnails will not be created for files whose mime-type is contained in the "
+"list."
 msgstr ""
 
 #: schemas/org.mate.typing-break.gschema.xml:5
@@ -1477,8 +1385,81 @@ msgstr ""
 msgid "Choose colors from the palette or the screen"
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: tools/mate-color-select.desktop.in:13
 msgid "MATE;color;chooser;pick;palette;screen;selection;"
 msgstr ""
+
+#~ msgid ""
+#~ "MATE provides an intuitive and attractive desktop to Linux users using "
+#~ "traditional metaphors."
+#~ msgstr ""
+#~ "ماته با استفاده از اصول سنتی، میزکاری جذاب و قابل درکی را برای کاربران "
+#~ "لینوکس فراهم می‌کند."
+
+#~ msgid ""
+#~ "MATE includes most of what you see on your computer, including the file "
+#~ "manager, document viewer, image viewer, menus, and many applications."
+#~ msgstr ""
+#~ "ماته شامل تمام چیزهایی است که شما در یک کامپیوتر می‌بینید، از جمله برنامه "
+#~ "مدیریت فایل، نمایش اسناد، نمایش عکس‌، منو‌ها و برنامه‌های بسیار دیگر."
+
+#~ msgid ""
+#~ "MATE is a Free, usable, stable, accessible desktop environment for the "
+#~ "Unix-like family of operating systems."
+#~ msgstr ""
+#~ "ماته میزکاری رایگان، قابل استفاده، پایدار و در دسترس برای خانواده سیستم "
+#~ "عاملهای شبه یونیکس می باشد."
+
+#~ msgid ""
+#~ "MATE is the continuation of GNOME 2. Hundreds of people have contributed "
+#~ "code to GNOME since it was started in 1997; many more have contributed in "
+#~ "other important ways, including translations, documentation, and quality "
+#~ "assurance."
+#~ msgstr ""
+#~ "ماته ادامه گنوم 2 است. از زمانی که گنوم در سال 1997 شروع شد، صدها نفر به "
+#~ "پروژه از طریق کد کمک کرده‌اند. بسیاری دیگر نیز از راه‌های دیگر کمک کرده‌اند، "
+#~ "از جمله ترجمه، تهیه اسناد و تضمین کیفیت."
+
+#~ msgid ""
+#~ "GNOME 2 was the most popular Linux desktop but it’s no longer "
+#~ "available... MATE is here to provide that same desktop to you!"
+#~ msgstr ""
+#~ "گنوم 2 مشهورترین میزکار برای لینوکس بود، اما دیگر وجود ندارد... ماته "
+#~ "اینجاست تا همان میزکار را برای شما فراهم کند!"
+
+#~ msgid ""
+#~ "The name “MATE” comes from yerba maté, a species of holly native to "
+#~ "subtropical South America. Its leaves contain caffeine and are used to "
+#~ "make infusions and a beverage called mate."
+#~ msgstr ""
+#~ "نام ماته از اسم «yerba maté» برگرفته شده، که یک نوع درخت راج بومی در "
+#~ "مناطق نیمه گرمسیر آمریکای جنوبی است. برگ‌های آن حاوی کافئین هستند که از "
+#~ "آنها برای ساخت محلول‌ها و نوشیدنی‌هایی به اسم ماته استفاده می‌کنند."
+
+#~ msgid "Use alpha"
+#~ msgstr "از آلفا استفاده کن"
+
+#~ msgid "Whether or not to give the color an alpha value"
+#~ msgstr "آیا به رنگ مقدار آلفا داده شود یا خیر"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "The title of the color selection dialog"
+#~ msgstr "عنوان پنجره انتخاب رنگ"
+
+#~ msgid "Pick a Color"
+#~ msgstr "یک رنگ انتخاب کنید"
+
+#~ msgid "Current Color"
+#~ msgstr "رنگ فعلی"
+
+#~ msgid "The selected color"
+#~ msgstr "رنگ انتخابی"
+
+#~ msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
+#~ msgstr "مقدار کدری انتخابی (0 کاملا شفاف، 65535 کاملا کدر)"
+
+#~ msgid "Received invalid color data\n"
+#~ msgstr "داده‌های رنگ نامعتبر دریافت شد\n"

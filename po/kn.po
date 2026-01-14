@@ -2,24 +2,24 @@
 # Copyright (C) YEAR MATE Developers
 # This file is distributed under the same license as the mate-desktop package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Yogesh K S <yogesh@karnatakaeducation.org.in>, 2021
 # Sai Vinoba <saivinoba@sumati.net>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-desktop 1.27.2\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-desktop/\n"
-"POT-Creation-Date: 2023-09-02 16:57+0200\n"
+"POT-Creation-Date: 2026-01-14 23:32+0530\n"
 "PO-Revision-Date: 2018-03-11 16:44+0000\n"
 "Last-Translator: Sai Vinoba <saivinoba@sumati.net>, 2021\n"
 "Language-Team: Kannada (https://app.transifex.com/mate/teams/13566/kn/)\n"
+"Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #. Translators should localize the following string which will be
@@ -27,8 +27,8 @@ msgstr ""
 #: mate-about/mate-about.c:68
 msgid "translator-credits"
 msgstr ""
-"ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>, ಕಾರ್ತಿಕ ಹೊಳ್ಳ "
-"<karthikholla87@gmail.com>, ಸಾಯಿ ವಿನೋಬ <saivinoba@sumati.net>"
+"ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>, ಕಾರ್ತಿಕ ಹೊಳ್ಳ <karthikholla87@gmail.com>, "
+"ಸಾಯಿ ವಿನೋಬ <saivinoba@sumati.net>"
 
 #: mate-about/mate-about.desktop.in:3
 msgid "About MATE"
@@ -38,71 +38,6 @@ msgstr "ಮಾಟೆ ಯ ಬಗ್ಗೆ"
 msgid "Learn more about MATE"
 msgstr "ಮಾಟೆ ಯ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
 
-#: mate-about/mate-about.h:29
-msgid "MATE Desktop Environment"
-msgstr "ಮಾಟೆ ಎಣಿಕೆತೆರೆ ಸುತ್ತಣ"
-
-#: mate-about/mate-about.h:34
-msgid ""
-"Copyright © 1997-2011 GNOME developers\n"
-"Copyright © 2011 Perberos\n"
-"Copyright © 2012-2023 MATE developers"
-msgstr ""
-
-#: mate-about/mate-about.h:42
-msgid ""
-"MATE provides an intuitive and attractive desktop to Linux users using "
-"traditional metaphors."
-msgstr ""
-"ಮಾಟೆಯು ನಡವಳಿಕೆಯ ಮಾರ‍್ಪುರುಳನ್ನು ಬಳಸಿಕೊಂಡು ಒಳಅರಿವುಳ್ಳ ಮತ್ತು ಸೊಗಸಾದ ಒಂದು "
-"ಎಣಿಕೆತೆರೆಯನ್ನು ಲಿನಕ್ಸ್ ಬಳಕೆದಾರರಿಗೆ ಒದಗಿಸುತ್ತದೆ."
-
-#: mate-about/mate-about.h:45
-msgid ""
-"MATE includes most of what you see on your computer, including the file "
-"manager, document viewer, image viewer, menus, and many applications."
-msgstr ""
-"ಮಾಟೆಯು ನೀವು ನಿಮ್ಮ ಎಣ್ಣುಕದಲ್ಲಿ ನೋಡುವ ಹೆಚ್ಚಿನದನ್ನು, ಕಡತ ನೀಸುಗ, ಬರೆಗುರುತು "
-"ನೋಡುಗ, ತಿಟ್ಟ ನೋಡುಗ, ಪರಿವಿಡಿಗಳು ಮತ್ತು ಅನೇಕ ಬಳಕಗಳನ್ನು ಒಳಗೊಂಡಿದೆ."
-
-#: mate-about/mate-about.h:48
-msgid ""
-"MATE is a Free, usable, stable, accessible desktop environment for the Unix-"
-"like family of operating systems."
-msgstr ""
-"ಮಾಟೆಯು ಯೂನಿಕ್ಸ್-ಅಂತ ನಡೆಸೇರ್ಪಾಟುಗಳಿಗೆ ಒಂದು ತಡೆಯಿಲ್ಲದ, ಬಳಸಬಹುದಾದ, ಗಟ್ಟಿಯಾದ, "
-"ನಿಲುಕುವಂತ ಎಣಿಕತೆರೆ ಸುತ್ತಣವಾಗಿದೆ."
-
-#: mate-about/mate-about.h:51
-msgid ""
-"MATE is the continuation of GNOME 2. Hundreds of people have contributed "
-"code to GNOME since it was started in 1997; many more have contributed in "
-"other important ways, including translations, documentation, and quality "
-"assurance."
-msgstr ""
-"ಮಾಟೆಯು ಗ್ನೋಮ್ 2 ರ ಮುಂದುವರಿಕೆಯಾಗಿದೆ. 1997 ರಲ್ಲಿ ತೊಡಗಿದಾಗಿನಿಂದ ನೂರಾರು ಜನರು "
-"ಗ್ನೋಮ್ ಗೆ ಗುಟ್ಟುಬರಹ ಕೊಡುಗೆ ನೀಡಿದ್ದಾರೆ; ಇನ್ನೂ ಹೆಚ್ಚಿನವರು ನುಡಿಮಾರ್ಪುಗಳು, "
-"ದಸ್ತಾವೇಜನ್ನು ಮತ್ತು ಪರಿಚೆ ನಂಬಿಸಿಕೆ ಸೇರಿದಂತೆ ಇತರ ಹಲವು ಅರಿದು ಬಗೆಗಳಲ್ಲಿ ಕೊಡುಗೆ "
-"ನೀಡಿದ್ದಾರೆ."
-
-#: mate-about/mate-about.h:55
-msgid ""
-"GNOME 2 was the most popular Linux desktop but it’s no longer available... "
-"MATE is here to provide that same desktop to you!"
-msgstr ""
-"ಗ್ನೋಮ್ 2 ಹೆಚ್ಚಿನಮಂದಿ ಮೆಚ್ಚುವ ಲಿನಕ್ಸ್ ಎಣಿಕತೆರೆ ಆಗಿತ್ತು ಆದರೆ ಅದು ಈಗ ದೊರಕದು... "
-"ಅದೇ ಎಣಿಕತೆರೆಯನ್ನು ನಿಮಗೆ ದೊರಕಿಸಲು ಮಾಟೆ ಇಲ್ಲಿದೆ!"
-
-#: mate-about/mate-about.h:58
-msgid ""
-"The name “MATE” comes from yerba maté, a species of holly native to "
-"subtropical South America. Its leaves contain caffeine and are used to make "
-"infusions and a beverage called mate."
-msgstr ""
-"\"MATE\" ಎಂಬ ಹೆಸರು ಮರಿಬಿಸುಪುನೆಲೆ ದಕ್ಷಿಣ ಅಮೆರಿಕಾದ ನಾಡಿನ 'ಯೆರ್ಬಾ ಮಾಟೆ' ಎಂಬ "
-"ಸಸಿಯ ಪಂಗಡದಿಂದ ಬಂದಿದೆ. ಇದರ ಎಲೆಗಳು ಕೆಫೀನ್ ಅನ್ನು ಹೊಂದಿದ್ದು ಕಷಾಯ ಹಾಗು ಮಾಟೆ ಎಂಬ "
-"ಕುಡಿಹವನ್ನು ಮಾಡಲು ಬಳಸಲಾಗುತ್ತದೆ."
-
 #. Translators: "Unknown" here is used to identify a monitor for which
 #. * we don't know the vendor. When a vendor is known, the name of the
 #. * vendor is used.
@@ -111,218 +46,186 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "ತಿಳಿಯದ"
 
-#: libmate-desktop/mate-colorbutton.c:151
-msgid "Use alpha"
-msgstr "ಆಲ್ಫಾ ಬಳಸು"
-
-#: libmate-desktop/mate-colorbutton.c:152
-msgid "Whether or not to give the color an alpha value"
-msgstr "ಬಣ್ಣಕ್ಕೆ ಆಲ್ಫಾ ಬೆಲೆಯನ್ನು ನೀಡಬೇಕೆ ಅಥವಾ ಬೇಡವೇ"
-
-#: libmate-desktop/mate-colorbutton.c:166
-msgid "Title"
-msgstr "ತಲೆಬರಹ"
-
-#: libmate-desktop/mate-colorbutton.c:167
-msgid "The title of the color selection dialog"
-msgstr "ಬಣ್ಣ ಆಯ್ಕೆ ಮಾತುಕತೆಯ ತಲೆಬರಹ"
-
-#: libmate-desktop/mate-colorbutton.c:168
-#: libmate-desktop/mate-colorbutton.c:439
-msgid "Pick a Color"
-msgstr "ಒಂದು ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
-
-#: libmate-desktop/mate-colorbutton.c:181 libmate-desktop/mate-colorsel.c:281
-msgid "Current Color"
-msgstr "ಈಗಿರುವ ಬಣ್ಣ"
-
-#: libmate-desktop/mate-colorbutton.c:182
-msgid "The selected color"
-msgstr "ಆರಿಸಲಾದ ಬಣ್ಣ"
-
-#: libmate-desktop/mate-colorbutton.c:196 libmate-desktop/mate-colorsel.c:288
-msgid "Current Alpha"
-msgstr "ಈಗಿನ ಆಲ್ಫಾ"
-
-#: libmate-desktop/mate-colorbutton.c:197
-msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
-msgstr "ಆಯ್ಕೆಮಾಡಿದ ತೂರದ ಬೆಲೆ (0 ತುಂಬು ಸಿಲುವು, 65535 ತುಂಬು ತೂರದ)"
-
-#: libmate-desktop/mate-colorbutton.c:335
-msgid "Received invalid color data\n"
-msgstr "ಸರಿಯಿಲ್ಲದ ಬಣ್ಣದ ತಿಳಿಹವನ್ನು ಪಡೆಯಲಾಗಿದೆ\n"
-
-#: libmate-desktop/mate-colorsel.c:267
+#: libmate-desktop/mate-colorsel.c:271
 msgid "Has Opacity Control"
 msgstr "ತೂರದ ಹತೋಟಿ ಹೊಂದಿದೆ"
 
-#: libmate-desktop/mate-colorsel.c:268
+#: libmate-desktop/mate-colorsel.c:272
 msgid "Whether the color selector should allow setting opacity"
 msgstr "ಬಣ್ಣಆಯ್ಕೆಯು ತೂರದಿಕೆ ಗೊತ್ತುಪಡಿಸಲು ಒಪ್ಪಬಹುದೇ"
 
-#: libmate-desktop/mate-colorsel.c:274
+#: libmate-desktop/mate-colorsel.c:278
 msgid "Has palette"
 msgstr "ಬಣ್ಣಹಲಗೆ ಹೊಂದಿದೆ"
 
-#: libmate-desktop/mate-colorsel.c:275
+#: libmate-desktop/mate-colorsel.c:279
 msgid "Whether a palette should be used"
 msgstr "ಬಣ್ಣಹಲಗೆಯನ್ನು ಬಳಸಬೇಕೆ"
 
-#: libmate-desktop/mate-colorsel.c:282
-msgid "The current color"
+#: libmate-desktop/mate-colorsel.c:285
+#, fuzzy
+msgid "Current RGBA"
+msgstr "ಈಗಿನ ಆಲ್ಫಾ"
+
+#: libmate-desktop/mate-colorsel.c:286
+#, fuzzy
+msgid "The current RGBA color"
 msgstr "ಈಗಿನ ಬಣ್ಣ"
 
-#: libmate-desktop/mate-colorsel.c:289
+#: libmate-desktop/mate-colorsel.c:295
+msgid "Current Alpha"
+msgstr "ಈಗಿನ ಆಲ್ಫಾ"
+
+#: libmate-desktop/mate-colorsel.c:296
 msgid "The current opacity value (0 fully transparent, 65535 fully opaque)"
 msgstr "ಈಗಿನ ತೂರದಿಕೆ ಬೆಲೆ (0 ತುಂಬು ಸಿಲುವು, 65535 ಸಂಪೂರ್ಣ ತೂರದ)"
 
-#: libmate-desktop/mate-colorsel.c:295
+#: libmate-desktop/mate-colorsel.c:302
 msgid "HEX String"
 msgstr "ಹದಿನಾರೆಣಿಕೆ ನೂಲು"
 
-#: libmate-desktop/mate-colorsel.c:296
+#: libmate-desktop/mate-colorsel.c:303
 msgid "The hexadecimal string of current color"
 msgstr "ಹದಿನಾರೆಣಿಕೆ ನೂಲಿನ ಈಗಿನ ಬಣ್ಣ"
 
-#: libmate-desktop/mate-colorsel.c:341
+#: libmate-desktop/mate-colorsel.c:348
 msgid ""
 "Select the color you want from the outer ring. Select the darkness or "
 "lightness of that color using the inner triangle."
 msgstr ""
-"ಹೊರಸುರುಳಿಯಿಂದ ನಿಮಗೆ ಬೇಕಾದ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಒಳ ಮುಮ್ಮೂಲೆ ಬಳಸಿಕೊಂಡು ಆ ಬಣ್ಣದ"
-" ಇರುಳು ಅಥವಾ ಬೆಳಗು ಆಯ್ಕೆಮಾಡಿ."
+"ಹೊರಸುರುಳಿಯಿಂದ ನಿಮಗೆ ಬೇಕಾದ ಬಣ್ಣವನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಒಳ ಮುಮ್ಮೂಲೆ ಬಳಸಿಕೊಂಡು ಆ ಬಣ್ಣದ "
+"ಇರುಳು ಅಥವಾ ಬೆಳಗು ಆಯ್ಕೆಮಾಡಿ."
 
-#: libmate-desktop/mate-colorsel.c:365
+#: libmate-desktop/mate-colorsel.c:372
 msgid ""
 "Click the eyedropper, then click a color anywhere on your screen to select "
 "that color."
 msgstr ""
-"ಕಣ್ತೊಟ್ಟುಕ ಅನ್ನು ಒತ್ತಿ, ಮತ್ತೆ ತೆರೆಮೇಲೆ ಎಲ್ಲಿಯಾದರೂ ಒತ್ತುವುದರೊಂದಿಗೆ ಆ "
-"ಬಣ್ಣವನ್ನು ಆಯಿರಿ."
+"ಕಣ್ತೊಟ್ಟುಕ ಅನ್ನು ಒತ್ತಿ, ಮತ್ತೆ ತೆರೆಮೇಲೆ ಎಲ್ಲಿಯಾದರೂ ಒತ್ತುವುದರೊಂದಿಗೆ ಆ ಬಣ್ಣವನ್ನು ಆಯಿರಿ."
 
-#: libmate-desktop/mate-colorsel.c:374
+#: libmate-desktop/mate-colorsel.c:381
 msgid "_Hue:"
 msgstr "ಹ್ಯೂ (_H):"
 
-#: libmate-desktop/mate-colorsel.c:375
+#: libmate-desktop/mate-colorsel.c:382
 msgid "Position on the color wheel."
 msgstr "ಗಾಲಿಯ ಮೇಲಿನ ಇರುವೆಡೆ."
 
-#: libmate-desktop/mate-colorsel.c:377
+#: libmate-desktop/mate-colorsel.c:384
 msgid "_Saturation:"
 msgstr "ಊರಿಸುವಿಕೆ (_S):"
 
-#: libmate-desktop/mate-colorsel.c:378
+#: libmate-desktop/mate-colorsel.c:385
 msgid "\"Deepness\" of the color."
 msgstr "ಬಣ್ಣದ \"ಕಡುತನ\"."
 
-#: libmate-desktop/mate-colorsel.c:379
+#: libmate-desktop/mate-colorsel.c:386
 msgid "_Value:"
 msgstr "ಬೆಲೆ (_V):"
 
-#: libmate-desktop/mate-colorsel.c:380
+#: libmate-desktop/mate-colorsel.c:387
 msgid "Brightness of the color."
 msgstr "ಬಣ್ಣದ ಹೊಳಪು."
 
-#: libmate-desktop/mate-colorsel.c:381
+#: libmate-desktop/mate-colorsel.c:388
 msgid "_Red:"
 msgstr "ಕೆಂಪು (_R):"
 
-#: libmate-desktop/mate-colorsel.c:382
+#: libmate-desktop/mate-colorsel.c:389
 msgid "Amount of red light in the color."
 msgstr "ಬಣ್ಣದಲ್ಲಿ ಕೆಂಪು ಬೆಳಕಿನ ಮೊತ್ತ."
 
-#: libmate-desktop/mate-colorsel.c:383
+#: libmate-desktop/mate-colorsel.c:390
 msgid "_Green:"
 msgstr "ಹಸಿರು (_G):"
 
-#: libmate-desktop/mate-colorsel.c:384
+#: libmate-desktop/mate-colorsel.c:391
 msgid "Amount of green light in the color."
 msgstr "ಬಣ್ಣದಲ್ಲಿ ಹಸಿರು ಬೆಳಕಿನ ಮೊತ್ತ."
 
-#: libmate-desktop/mate-colorsel.c:385
+#: libmate-desktop/mate-colorsel.c:392
 msgid "_Blue:"
 msgstr "ನೀಲಿ (_B):"
 
-#: libmate-desktop/mate-colorsel.c:386
+#: libmate-desktop/mate-colorsel.c:393
 msgid "Amount of blue light in the color."
 msgstr "ಬಣ್ಣದಲ್ಲಿ ನೀಲಿ ಬೆಳಕಿನ ಮೊತ್ತ."
 
-#: libmate-desktop/mate-colorsel.c:389
+#: libmate-desktop/mate-colorsel.c:396
 msgid "Op_acity:"
 msgstr "ತೂರದಿಕೆ (_a):"
 
-#: libmate-desktop/mate-colorsel.c:396 libmate-desktop/mate-colorsel.c:406
+#: libmate-desktop/mate-colorsel.c:403 libmate-desktop/mate-colorsel.c:413
 msgid "Transparency of the color."
 msgstr "ಬಣ್ಣದ ಸಿಲುವು."
 
-#: libmate-desktop/mate-colorsel.c:413
+#: libmate-desktop/mate-colorsel.c:420
 msgid "Color _name:"
 msgstr "ಬಣ್ಣದ ಹೆಸರು (_n):"
 
-#: libmate-desktop/mate-colorsel.c:427
+#: libmate-desktop/mate-colorsel.c:434
 msgid ""
 "You can enter an HTML-style hexadecimal color value, or simply a color name "
 "such as 'orange' in this entry."
 msgstr ""
-"ನೀವು ಎಚ್.ಟಿ.ಎಮ್.ಎಲ್. ಬಗೆಯ ಹದಿನಾರೆಣಿಕೆಯ ಬಣ್ಣದ ಬೆಲೆಯನ್ನು ಬರೆಯಬಹುದು, ಇಲ್ಲವೆ "
-"ಬಣ್ಣದ ಹೆಸರನ್ನು ಬರೆಯಬಹುದು."
+"ನೀವು ಎಚ್.ಟಿ.ಎಮ್.ಎಲ್. ಬಗೆಯ ಹದಿನಾರೆಣಿಕೆಯ ಬಣ್ಣದ ಬೆಲೆಯನ್ನು ಬರೆಯಬಹುದು, ಇಲ್ಲವೆ ಬಣ್ಣದ "
+"ಹೆಸರನ್ನು ಬರೆಯಬಹುದು."
 
-#: libmate-desktop/mate-colorsel.c:457
+#: libmate-desktop/mate-colorsel.c:464
 msgid "_Palette:"
 msgstr "ಬಣ್ಣಹಲಗೆ (_P):"
 
-#: libmate-desktop/mate-colorsel.c:487
+#: libmate-desktop/mate-colorsel.c:494
 msgid "Color Wheel"
 msgstr "ಬಣ್ಣದ ಗಾಲಿ"
 
-#: libmate-desktop/mate-colorsel.c:942
+#: libmate-desktop/mate-colorsel.c:949
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now. You can drag this color to a palette entry, or select this color as "
 "current by dragging it to the other color swatch alongside."
 msgstr ""
-"ಹಿಂದೆ ಆಯ್ಕೆಮಾಡಿದ ಬಣ್ಣ, ನೀವು ಈಗ ಆಯ್ಕೆಮಾಡುತ್ತಿರುವ ಬಣ್ಣದೊಡನೆ ಹೋಲಿಸಲು. ನೀವು ಈ "
-"ಬಣ್ಣವನ್ನು ಬಣ್ಣಹಲಗೆ ಮೇಲೆ ಎಳೆಯಬಹುದು, ಇಲ್ಲವೆ ಈ ಬಣ್ಣವನ್ನು ಬದಿಗಿರುವ ಬೇರೆ ಬಣ್ಣದ "
-"ಎತ್ತುಗೆ ಮೇಲೆ ಎಳೆಯುವುದರಿಂದ ಈಗಿನದಾಗಿಸಬಹುದು."
+"ಹಿಂದೆ ಆಯ್ಕೆಮಾಡಿದ ಬಣ್ಣ, ನೀವು ಈಗ ಆಯ್ಕೆಮಾಡುತ್ತಿರುವ ಬಣ್ಣದೊಡನೆ ಹೋಲಿಸಲು. ನೀವು ಈ ಬಣ್ಣವನ್ನು "
+"ಬಣ್ಣಹಲಗೆ ಮೇಲೆ ಎಳೆಯಬಹುದು, ಇಲ್ಲವೆ ಈ ಬಣ್ಣವನ್ನು ಬದಿಗಿರುವ ಬೇರೆ ಬಣ್ಣದ ಎತ್ತುಗೆ ಮೇಲೆ "
+"ಎಳೆಯುವುದರಿಂದ ಈಗಿನದಾಗಿಸಬಹುದು."
 
-#: libmate-desktop/mate-colorsel.c:945
+#: libmate-desktop/mate-colorsel.c:952
 msgid ""
 "The color you've chosen. You can drag this color to a palette entry to save "
 "it for use in the future."
 msgstr ""
-"ನೀವು ಆಯ್ದ ಬಣ್ಣ. ನೀವು ಈ ಬಣ್ಣವನ್ನು ಬಣ್ಣಹಲಗೆಯ ಮೇಲೆ ಎಳೆಯುವುದರೊಂದಿಗೆ ಮುಂದಿನದಕ್ಕೆ"
-" ಉಳಿಸಬಹುದು."
+"ನೀವು ಆಯ್ದ ಬಣ್ಣ. ನೀವು ಈ ಬಣ್ಣವನ್ನು ಬಣ್ಣಹಲಗೆಯ ಮೇಲೆ ಎಳೆಯುವುದರೊಂದಿಗೆ ಮುಂದಿನದಕ್ಕೆ "
+"ಉಳಿಸಬಹುದು."
 
-#: libmate-desktop/mate-colorsel.c:950
+#: libmate-desktop/mate-colorsel.c:957
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now."
 msgstr "ನೀವು ಹಿಂದೆ ಆಯ್ದ ಬಣ್ಣ, ಈಗ ಆಯುತ್ತಿರುವ ಬಣ್ಣದೊಂದಿಗೆ ಹೊಂದಿಸಲು."
 
-#: libmate-desktop/mate-colorsel.c:953
+#: libmate-desktop/mate-colorsel.c:960
 msgid "The color you've chosen."
 msgstr "ನೀವು ಆಯ್ದ ಬಣ್ಣ."
 
-#: libmate-desktop/mate-colorsel.c:1359
+#: libmate-desktop/mate-colorsel.c:1323
 msgid "gtk-color-sel"
 msgstr "gtk-color-sel"
 
-#: libmate-desktop/mate-colorsel.c:1364
+#: libmate-desktop/mate-colorsel.c:1328
 msgid "_Save color here"
 msgstr "ಬಣ್ಣವನ್ನು ಇಲ್ಲಿ ಉಳಿಸು (_S)"
 
-#: libmate-desktop/mate-colorsel.c:1584
+#: libmate-desktop/mate-colorsel.c:1561
 msgid ""
-"Click this palette entry to make it the current color. To change this entry,"
-" drag a color swatch here or right-click it and select \"Save color here.\""
+"Click this palette entry to make it the current color. To change this entry, "
+"drag a color swatch here or right-click it and select \"Save color here.\""
 msgstr ""
-"ಈ ಬಣ್ಣಹಲಗೆ ಸೇರಿಕೆಯನ್ನು ಒತ್ತಿ ಅದನ್ನು ಈಗಿನ ಬಣ್ಣವಾಗಿಸಿ. ಈ ಸೇರಿಕೆಯನ್ನು ಬದಲಿಸಲು, "
-"ಬಣ್ಣದ ಎತ್ತುಗೆಯನ್ನು ಇಲ್ಲಿ ಎಳೆಯಿರಿ ಇಲ್ಲವೆ ಬಲ-ಕ್ಲಿಕಿಸಿ ಮತ್ತು \"ಬಣ್ಣವನ್ನು ಇಲ್ಲಿ "
-"ಉಳಿಸು\" ಅನ್ನು ಆಯಿರಿ."
+"ಈ ಬಣ್ಣಹಲಗೆ ಸೇರಿಕೆಯನ್ನು ಒತ್ತಿ ಅದನ್ನು ಈಗಿನ ಬಣ್ಣವಾಗಿಸಿ. ಈ ಸೇರಿಕೆಯನ್ನು ಬದಲಿಸಲು, ಬಣ್ಣದ "
+"ಎತ್ತುಗೆಯನ್ನು ಇಲ್ಲಿ ಎಳೆಯಿರಿ ಇಲ್ಲವೆ ಬಲ-ಕ್ಲಿಕಿಸಿ ಮತ್ತು \"ಬಣ್ಣವನ್ನು ಇಲ್ಲಿ ಉಳಿಸು\" ಅನ್ನು "
+"ಆಯಿರಿ."
 
 #: libmate-desktop/mate-colorseldialog.c:98
-#: libmate-desktop/mate-colorseldialog.c:184
+#: libmate-desktop/mate-colorseldialog.c:182
 msgid "Color Selection"
 msgstr "ಬಣ್ಣದ ಆಯ್ಕೆ"
 
@@ -354,15 +257,15 @@ msgstr "ನೆರವು ಗುಂಡಿ"
 msgid "The help button of the dialog."
 msgstr "ಮಾತುಕತೆಯ ನೆರವು ಗುಂಡಿ."
 
-#: libmate-desktop/mate-colorseldialog.c:162
+#: libmate-desktop/mate-colorseldialog.c:160
 msgid "_Cancel"
 msgstr "ನೀಗು (_C)"
 
-#: libmate-desktop/mate-colorseldialog.c:167
+#: libmate-desktop/mate-colorseldialog.c:165
 msgid "_OK"
 msgstr "ಸರಿ (_O)"
 
-#: libmate-desktop/mate-colorseldialog.c:175
+#: libmate-desktop/mate-colorseldialog.c:173
 msgid "Help"
 msgstr "ಸಹಾಯ"
 
@@ -382,7 +285,7 @@ msgstr "'%s' ಕಡತವನ್ನು ಮತ್ತೆ ಸುತ್ತುವಲ�
 #. Translators: the "name" mentioned here is the name of
 #. * an application or a document
 #: libmate-desktop/mate-desktop-item.c:378
-#: libmate-desktop/mate-desktop-item.c:3543
+#: libmate-desktop/mate-desktop-item.c:3547
 msgid "No name"
 msgstr "ಹೆಸರಿಲ್ಲದ"
 
@@ -405,23 +308,23 @@ msgstr "ಉಳಿಸಲು ಯಾವುದೆ ಕಡತದ ಹೆಸರಿಲ್
 msgid "Starting %s"
 msgstr "%s ಅನ್ನು ತೊಡಗಿಸಲಾಗುತ್ತಿದೆ"
 
-#: libmate-desktop/mate-desktop-item.c:2090
+#: libmate-desktop/mate-desktop-item.c:2094
 msgid "No URL to launch"
 msgstr "ತೊಡಗಿಸಲು ಯಾವುದೆ ಯು.ಆರ್.ಎಲ್. ಇಲ್ಲ"
 
-#: libmate-desktop/mate-desktop-item.c:2106
+#: libmate-desktop/mate-desktop-item.c:2110
 msgid "Not a launchable item"
 msgstr "ತೊಡಗಿಸಬಹುದಾದ ಅಡಕವಾಗಿಲ್ಲ"
 
-#: libmate-desktop/mate-desktop-item.c:2115
+#: libmate-desktop/mate-desktop-item.c:2119
 msgid "No command (Exec) to launch"
 msgstr "ಏರಿಸಲು ಯಾವುದೇ ಅಪ್ಪಣೆ (Exec) ಇಲ್ಲ"
 
-#: libmate-desktop/mate-desktop-item.c:2127
+#: libmate-desktop/mate-desktop-item.c:2131
 msgid "Bad command (Exec) to launch"
 msgstr "ಏರಿಸಲು ಸರಿಯಲ್ಲದ ಅಪ್ಪಣೆ (Exec)"
 
-#: libmate-desktop/mate-desktop-item.c:3600
+#: libmate-desktop/mate-desktop-item.c:3604
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "ಇದರ ಗೊತ್ತಿರದ ಎನ್ಕೋಡಿಂಗ್: %s"
@@ -429,8 +332,7 @@ msgstr "ಇದರ ಗೊತ್ತಿರದ ಎನ್ಕೋಡಿಂಗ್: %s"
 #: libmate-desktop/mate-desktop-utils.c:150
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr ""
-"ಟರ್ಮಿನಲ್ ಕಂಡುಬಂದಿಲ್ಲ, xterm ಅನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ, ಅದೂ ಕೂಡ ಕೆಲಸ ಮಾಡದೆ "
-"ಇರಬಹುದಾದರೂ"
+"ಟರ್ಮಿನಲ್ ಕಂಡುಬಂದಿಲ್ಲ, xterm ಅನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ, ಅದೂ ಕೂಡ ಕೆಲಸ ಮಾಡದೆ ಇರಬಹುದಾದರೂ"
 
 #: libmate-desktop/mate-languages.c:746
 msgid "Unspecified"
@@ -531,7 +433,8 @@ msgstr "ಸಿ.ಆರ್.ಟಿ.ಸಿ. %d ಯ ಬಗೆಗಳನ್ನು ಕ�
 #, c-format
 msgid "CRTC %d: trying mode %dx%d@%dHz with output at %dx%d@%dHz (pass %d)\n"
 msgstr ""
-"ಸಿ.ಆರ್.ಟಿ.ಸಿ. %d: ಬಗೆ %dx%d@%dHz ಅನ್ನು %dx%d@%dHz (pass %d) ನ ಔಟ್ಪುಟ್ ಜೊತೆಗೆ ಕಯ್ನೋಡಲಾಗುತ್ತಿದೆ\n"
+"ಸಿ.ಆರ್.ಟಿ.ಸಿ. %d: ಬಗೆ %dx%d@%dHz ಅನ್ನು %dx%d@%dHz (pass %d) ನ ಔಟ್ಪುಟ್ ಜೊತೆಗೆ "
+"ಕಯ್ನೋಡಲಾಗುತ್ತಿದೆ\n"
 " \n"
 
 #: libmate-desktop/mate-rr-config.c:1772
@@ -561,16 +464,16 @@ msgid ""
 "required virtual size does not fit available size: requested=(%d, %d), "
 "minimum=(%d, %d), maximum=(%d, %d)"
 msgstr ""
-"ಅಗತ್ಯವಿರುವ ವರ್ಚುವಲ್ ಗಾತ್ರವು ಲಭ್ಯವಿರುವ ಗಾತ್ರಕ್ಕೆ ಸರಿಹೊಂದುವುದಿಲ್ಲ: ಮನವಿ "
-"ಮಾಡಿದ್ದು=(%d, %d), ಕನಿಷ್ಟ=(%d, %d), ಗರಿಷ್ಟ=(%d, %d)"
+"ಅಗತ್ಯವಿರುವ ವರ್ಚುವಲ್ ಗಾತ್ರವು ಲಭ್ಯವಿರುವ ಗಾತ್ರಕ್ಕೆ ಸರಿಹೊಂದುವುದಿಲ್ಲ: ಮನವಿ ಮಾಡಿದ್ದು=(%d, "
+"%d), ಕನಿಷ್ಟ=(%d, %d), ಗರಿಷ್ಟ=(%d, %d)"
 
-#. Keep this string in sync with mate-control-center/capplets/display/xrandr-
-#. capplet.c:get_display_name()
+#. Keep this string in sync with mate-control-center/capplets/display/xrandr-capplet.c:get_display_name()
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#: libmate-desktop/mate-rr-labeler.c:406
+#.
+#: libmate-desktop/mate-rr-labeler.c:426
 msgid "Mirror Screens"
 msgstr "ತೆರೆಗಳ ಪ್ರತಿಬಿಂಬ"
 
@@ -581,8 +484,7 @@ msgstr "ಕನಿಷ್ಟ ಕಾಲಾವಧಿ ಮಿಲಿಸೆಕೆಂಡ�
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:26
 msgid "Ignore multiple presses of the _same_ key within @delay milliseconds."
 msgstr ""
-"@delay ನಲ್ಲಿನ _same_ key ಮಿಲಿಸೆಕೆಂಡುಗಳ ನಂತರದ ಅನೇಕ ಬಾರಿ ಒತ್ತುವಿಕೆಗಳನ್ನು "
-"ಆಲಕ್ಷಿಸು."
+"@delay ನಲ್ಲಿನ _same_ key ಮಿಲಿಸೆಕೆಂಡುಗಳ ನಂತರದ ಅನೇಕ ಬಾರಿ ಒತ್ತುವಿಕೆಗಳನ್ನು ಆಲಕ್ಷಿಸು."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:36
 msgid "Pixels per seconds"
@@ -607,9 +509,7 @@ msgstr "ಆರಂಭಿಕ ವಿಳಂಬ, ಮಿಲಿಸೆಕೆಂಡುಗ
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:47
 msgid ""
 "How many milliseconds to wait before mouse movement keys start to operate."
-msgstr ""
-"ಮೌಸ್‌ನ ಕೀಲಿಯು ಕಾರ್ಯನಿರ್ವಹಿಸಲು ಆರಂಭಿಸುವ ಮೊದಲು ಎಷ್ಟು ಮಿಲಿಸೆಕೆಂಡುಗಳಷ್ಟು "
-"ಕಾಯಬೇಕು."
+msgstr "ಮೌಸ್‌ನ ಕೀಲಿಯು ಕಾರ್ಯನಿರ್ವಹಿಸಲು ಆರಂಭಿಸುವ ಮೊದಲು ಎಷ್ಟು ಮಿಲಿಸೆಕೆಂಡುಗಳಷ್ಟು ಕಾಯಬೇಕು."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:54
 msgid "Minimum interval in milliseconds"
@@ -619,8 +519,7 @@ msgstr "ಕನಿಷ್ಟ ಕಾಲಾವಧಿ, ಮಿಲಿಸೆಕೆಂಡ
 msgid ""
 "Do not accept a key as being pressed unless held for @delay milliseconds."
 msgstr ""
-"@delay ಮಿಲಿಸೆಕೆಂಡುಗಳಷ್ಟು ಹೊತ್ತು ಕೀಲಿಗಳನ್ನು ಒತ್ತಿ ಹಿಡಿಯದ ಹೊರತು ಅದನ್ನು "
-"ಅಂಗೀಕರಿಸಬೇಡ."
+"@delay ಮಿಲಿಸೆಕೆಂಡುಗಳಷ್ಟು ಹೊತ್ತು ಕೀಲಿಗಳನ್ನು ಒತ್ತಿ ಹಿಡಿಯದ ಹೊರತು ಅದನ್ನು ಅಂಗೀಕರಿಸಬೇಡ."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:71
 msgid ""
@@ -651,8 +550,8 @@ msgid ""
 "Number of beeps to emit when enabling a modifier while togglekeys are "
 "enabled. Only works with the 'internal' backend."
 msgstr ""
-"ಹೊರಳುಕೀಲಿಗಳು ಅಳವುಗೊಂಡಿರುವಾಗ ಮಾರ್ಪಾಡಿಗನನ್ನು ಅಳವುಗೊಳಿಸಿದರೆ ಆಗ ಹೊರಸೂಸಬೇಕಾದ ಬೀಪ್"
-" ಗಳ ಎಣಿಕೆ. ಬರಿಯ 'ಒಳಗಣ' ಹೆಡಬದಿಯೊಂದಿಗೆ ಕೆಲಸಮಾಡುತ್ತದೆ."
+"ಹೊರಳುಕೀಲಿಗಳು ಅಳವುಗೊಂಡಿರುವಾಗ ಮಾರ್ಪಾಡಿಗನನ್ನು ಅಳವುಗೊಳಿಸಿದರೆ ಆಗ ಹೊರಸೂಸಬೇಕಾದ ಬೀಪ್ ಗಳ "
+"ಎಣಿಕೆ. ಬರಿಯ 'ಒಳಗಣ' ಹೆಡಬದಿಯೊಂದಿಗೆ ಕೆಲಸಮಾಡುತ್ತದೆ."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:97
 msgid "Delay between beeps when enabling a modifier"
@@ -663,8 +562,8 @@ msgid ""
 "Delay in milliseconds between two beeps when enabling a modifier while "
 "togglekeys are enabled. Only works with the 'internal' backend."
 msgstr ""
-"ಹೊರಳುಕೀಲಿಗಳು ಅಳವುಗೊಂಡಿರುವಾಗ ಮಾರ್ಪಡಿಗನ್ನು ಅಳವೀಯುವುದಾದರೆ ಎರಡು ಬೀಪ್ಗಳ ನಡುವಿನ "
-"ತಡ, ಮಿಲಿಸೆಕೆಂಡುಗಳಲ್ಲಿ. ಬರಿಯ 'ಒಳಗಣ' ಹೆಡಬದಿಯೊಂದಿಗೆ ಕೆಲಸಮಾಡುತ್ತದೆ."
+"ಹೊರಳುಕೀಲಿಗಳು ಅಳವುಗೊಂಡಿರುವಾಗ ಮಾರ್ಪಡಿಗನ್ನು ಅಳವೀಯುವುದಾದರೆ ಎರಡು ಬೀಪ್ಗಳ ನಡುವಿನ ತಡ, "
+"ಮಿಲಿಸೆಕೆಂಡುಗಳಲ್ಲಿ. ಬರಿಯ 'ಒಳಗಣ' ಹೆಡಬದಿಯೊಂದಿಗೆ ಕೆಲಸಮಾಡುತ್ತದೆ."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:103
 msgid "Beep count when disabling a modifier"
@@ -675,8 +574,8 @@ msgid ""
 "Number of beeps to emit when disabling a modifier while togglekeys are "
 "enabled. Only works with the 'internal' backend."
 msgstr ""
-"ಹೊರಳುಕೀಲಿಗಳು ಅಳವುಗೊಂಡಿರುವಾಗ ಮಾರ್ಪಾಡಿಗನನ್ನು ಹೆಳವುಗೊಳಿಸಿದರೆ ಆಗ ಹೊರಸೂಸಬೇಕಾದ "
-"ಬೀಪ್ ಗಳ ಎಣಿಕೆ. ಬರಿಯ 'ಒಳಗಣ' ಹೆಡಬದಿಯೊಂದಿಗೆ ಕೆಲಸಮಾಡುತ್ತದೆ."
+"ಹೊರಳುಕೀಲಿಗಳು ಅಳವುಗೊಂಡಿರುವಾಗ ಮಾರ್ಪಾಡಿಗನನ್ನು ಹೆಳವುಗೊಳಿಸಿದರೆ ಆಗ ಹೊರಸೂಸಬೇಕಾದ ಬೀಪ್ "
+"ಗಳ ಎಣಿಕೆ. ಬರಿಯ 'ಒಳಗಣ' ಹೆಡಬದಿಯೊಂದಿಗೆ ಕೆಲಸಮಾಡುತ್ತದೆ."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:109
 msgid "Delay between beeps when disabling a modifier"
@@ -687,8 +586,8 @@ msgid ""
 "Delay in milliseconds between two beeps when disabling a modifier while "
 "togglekeys are enabled. Only works with the 'internal' backend."
 msgstr ""
-"ಹೊರಳುಕೀಲಿಗಳು ಅಳವುಗೊಂಡಿರುವಾಗ ಮಾರ್ಪಡಿಗನ್ನು ಹೆಳವುಗೊಳಿಸುವುದಾದರೆ ಎರಡು ಬೀಪ್ಗಳ "
-"ನಡುವಿನ ತಡ, ಮಿಲಿಸೆಕೆಂಡುಗಳಲ್ಲಿ. ಬರಿಯ 'ಒಳಗಣ' ಹೆಡಬದಿಯೊಂದಿಗೆ ಕೆಲಸಮಾಡುತ್ತದೆ."
+"ಹೊರಳುಕೀಲಿಗಳು ಅಳವುಗೊಂಡಿರುವಾಗ ಮಾರ್ಪಡಿಗನ್ನು ಹೆಳವುಗೊಳಿಸುವುದಾದರೆ ಎರಡು ಬೀಪ್ಗಳ ನಡುವಿನ "
+"ತಡ, ಮಿಲಿಸೆಕೆಂಡುಗಳಲ್ಲಿ. ಬರಿಯ 'ಒಳಗಣ' ಹೆಡಬದಿಯೊಂದಿಗೆ ಕೆಲಸಮಾಡುತ್ತದೆ."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:114
 msgid "Implementation to use when togglekeys are enabled"
@@ -700,9 +599,9 @@ msgid ""
 "include 'xkb' (the stock X implementation) and 'internal' (a MATE-specific "
 "and more configurable implementation)."
 msgstr ""
-"ಹೊರಳುಕೀಲಿಗಳ ಪರಿಚೆಯನ್ನು ಒದಗಿಸಲು ಬಳಸಬೇಕಾದ ಹೆಡಬದಿಯನ್ನು ಆರಿಸುತ್ತದೆ. ಒಳಗೊಂಡ "
-"ಸರಿಯಾದ ಬೆಲೆಗಳೆಂದರೆ 'xkb' (ಕಲೆತ X ನ ನೆರವರಿಕೆ) ಮತ್ತು 'ಒಳಗಣ' (ಮಾಟೆ ತಕ್ಕ ಮತ್ತು "
-"ಹೆಚ್ಚು ಒಗ್ಗಿಸಬಲ್ಲ ನೆರವರಿಕೆ)."
+"ಹೊರಳುಕೀಲಿಗಳ ಪರಿಚೆಯನ್ನು ಒದಗಿಸಲು ಬಳಸಬೇಕಾದ ಹೆಡಬದಿಯನ್ನು ಆರಿಸುತ್ತದೆ. ಒಳಗೊಂಡ ಸರಿಯಾದ "
+"ಬೆಲೆಗಳೆಂದರೆ 'xkb' (ಕಲೆತ X ನ ನೆರವರಿಕೆ) ಮತ್ತು 'ಒಳಗಣ' (ಮಾಟೆ ತಕ್ಕ ಮತ್ತು ಹೆಚ್ಚು "
+"ಒಗ್ಗಿಸಬಲ್ಲ ನೆರವರಿಕೆ)."
 
 #: schemas/org.mate.accessibility-startup.gschema.xml:5
 msgid "Startup Assistive Technology Applications"
@@ -713,8 +612,7 @@ msgid ""
 "List of assistive technology applications to start when logging into the "
 "MATE desktop."
 msgstr ""
-"MATE ಎಣ್ಣುಕತೆರೆಗೆ ಪ್ರವೇಶಿಸಿದಾಗ ಆರಂಭಿಸಬೇಕಿರುವ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನ ಅನ್ವಯಗಳ "
-"ಪಟ್ಟಿಗಳು."
+"MATE ಎಣ್ಣುಕತೆರೆಗೆ ಪ್ರವೇಶಿಸಿದಾಗ ಆರಂಭಿಸಬೇಕಿರುವ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನ ಅನ್ವಯಗಳ ಪಟ್ಟಿಗಳು."
 
 #: schemas/org.mate.applications-at-mobility.gschema.xml:5
 msgid "Preferred Mobility assistive technology application"
@@ -725,8 +623,7 @@ msgid ""
 "Preferred Mobility assistive technology application to be used for login, "
 "menu, or command line."
 msgstr ""
-"ಪ್ರವೇಶ, ಮೆನು, ಅಥವ ಆಜ್ಞಾಸಾಲಿನಲ್ಲಿ ಬಳಸಬೇಕಿರುವ ಇಚ್ಛೆಯ ಚಲನಾ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನ "
-"ಅನ್ವಯ."
+"ಪ್ರವೇಶ, ಮೆನು, ಅಥವ ಆಜ್ಞಾಸಾಲಿನಲ್ಲಿ ಬಳಸಬೇಕಿರುವ ಇಚ್ಛೆಯ ಚಲನಾ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನ ಅನ್ವಯ."
 
 #: schemas/org.mate.applications-at-mobility.gschema.xml:10
 msgid "Start preferred Mobility assistive technology application"
@@ -736,8 +633,7 @@ msgstr "ಇಚ್ಛೆಯ ಚಲನಾ ಸಹಾಯಕ ತಂತ್ರಜ್ಞ
 msgid ""
 "MATE to start preferred Mobility assistive technology application during "
 "login."
-msgstr ""
-"ಪ್ರವೇಶದ ಸಮಯದಲ್ಲಿ MATE ಆರಂಭಿಸಬೇಕಿರುವ ಇಚ್ಛೆಯ ಚಲನಾ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನ ಅನ್ವಯ."
+msgstr "ಪ್ರವೇಶದ ಸಮಯದಲ್ಲಿ MATE ಆರಂಭಿಸಬೇಕಿರುವ ಇಚ್ಛೆಯ ಚಲನಾ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನ ಅನ್ವಯ."
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:5
 msgid "Preferred Visual assistive technology application"
@@ -748,8 +644,7 @@ msgid ""
 "Preferred Visual assistive technology application to be used for login, "
 "menu, or command line."
 msgstr ""
-"ಒಳನಡೆ, ಪರಿವಿಡಿ ಇಲ್ಲವೆ ಅಪ್ಪಣೆಸಾಲುಗಳಿಗೆ ಬಳಸಬೇಕಾದ ಆಯ್ಕೆಯ ಕಣ್ಣಿನ ನೆರವಿಗ ಚಳಕದರಿಮೆ"
-" ಬಳಕ."
+"ಒಳನಡೆ, ಪರಿವಿಡಿ ಇಲ್ಲವೆ ಅಪ್ಪಣೆಸಾಲುಗಳಿಗೆ ಬಳಸಬೇಕಾದ ಆಯ್ಕೆಯ ಕಣ್ಣಿನ ನೆರವಿಗ ಚಳಕದರಿಮೆ ಬಳಕ."
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:10
 msgid "Start preferred Visual assistive technology application"
@@ -757,10 +652,8 @@ msgstr "ಇಚ್ಛೆಯ ದೃಶ್ಯರೂಪದ ಸಹಾಯಕ ತಂತ
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:11
 msgid ""
-"MATE to start preferred Visual assistive technology application during "
-"login."
-msgstr ""
-"ಪ್ರವೇಶದ ಸಮಯದಲ್ಲಿ MATE ಆರಂಭಿಸಬೇಕಿರುವ ಇಚ್ಛೆಯ ದೃಶ್ಯರೂಪದ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನ ಅನ್ವಯ."
+"MATE to start preferred Visual assistive technology application during login."
+msgstr "ಪ್ರವೇಶದ ಸಮಯದಲ್ಲಿ MATE ಆರಂಭಿಸಬೇಕಿರುವ ಇಚ್ಛೆಯ ದೃಶ್ಯರೂಪದ ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನ ಅನ್ವಯ."
 
 #: schemas/org.mate.applications-browser.gschema.xml:5
 msgid "Default browser"
@@ -802,8 +695,7 @@ msgstr "ಚಿಟಿಕೆಸುದ್ದಿ ಬಳಕ"
 
 #: schemas/org.mate.applications-messenger.gschema.xml:6
 msgid ""
-"Instant Messaging program to use when starting applications that require "
-"one."
+"Instant Messaging program to use when starting applications that require one."
 msgstr "ಬೇಕಾಗಿದ್ದಲ್ಲಿ ಬಳಕಗಳನ್ನು ತೊಡಗಿಸುವಾಗ ಬಳಸಬೇಕಾದ ಚಿಟಿಕೆಸುದ್ದಿ ಹಮ್ಮು."
 
 #: schemas/org.mate.applications-office.gschema.xml:9
@@ -844,9 +736,7 @@ msgstr "ಟರ್ಮಿನಲ್ ಅನ್ವಯ"
 
 #: schemas/org.mate.applications-terminal.gschema.xml:6
 msgid "Terminal program to use when starting applications that require one."
-msgstr ""
-"ಟರ್ಮಿನಲ್‌ ಪ್ರೊಗ್ರಾಮಿನ ಅಗತ್ಯವಿರುವ ಒಂದು ಅನ್ವಯವನ್ನು ಆರಂಭಿಸುವಾಗ ಬಳಸಬೇಕಿರುವ "
-"ಟರ್ಮಿನಲ್."
+msgstr "ಟರ್ಮಿನಲ್‌ ಪ್ರೊಗ್ರಾಮಿನ ಅಗತ್ಯವಿರುವ ಒಂದು ಅನ್ವಯವನ್ನು ಆರಂಭಿಸುವಾಗ ಬಳಸಬೇಕಿರುವ ಟರ್ಮಿನಲ್."
 
 #: schemas/org.mate.applications-terminal.gschema.xml:10
 msgid "Exec Arguments"
@@ -856,8 +746,8 @@ msgstr "Exec ಆರ್ಗುಮೆಂಟ್‌ಗಳು"
 msgid ""
 "Argument used to execute programs in the terminal defined by the 'exec' key."
 msgstr ""
-"'exec' ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾದ ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ಕಾರ್ಯಗತಗೊಳಿಸಬೇಕಾದ ಪ್ರೋಗ್ರಾಮಿನಲ್ಲಿ "
-"ಬಳಸಲಾಗುವ ಆರ್ಗುಮೆಂಟ್."
+"'exec' ಕೀಲಿಯಿಂದ ಸೂಚಿಸಲಾದ ಟರ್ಮಿನಲ್‌ನಲ್ಲಿ ಕಾರ್ಯಗತಗೊಳಿಸಬೇಕಾದ ಪ್ರೋಗ್ರಾಮಿನಲ್ಲಿ ಬಳಸಲಾಗುವ "
+"ಆರ್ಗುಮೆಂಟ್."
 
 #: schemas/org.mate.background.gschema.xml.in:18
 msgid "Draw Desktop Background"
@@ -883,8 +773,7 @@ msgstr "ಬದಲಾದಗ ಹಿನ್ನೆಲೆ ಮಸುಕಾಗಲಿ"
 msgid ""
 "If set to true, then MATE will change the desktop background with a fading "
 "effect."
-msgstr ""
-"ದಿಟವಾದರೆ, ಮಾಟೆಯು ಎಣಿಕತೆರೆ ಹಿನ್ನೆಲೆಯನ್ನು ಮಸುಕಾಗುವ ಆಗುಹದೊಂದಿಗೆ ಬದಲಿಸುತ್ತದೆ."
+msgstr "ದಿಟವಾದರೆ, ಮಾಟೆಯು ಎಣಿಕತೆರೆ ಹಿನ್ನೆಲೆಯನ್ನು ಮಸುಕಾಗುವ ಆಗುಹದೊಂದಿಗೆ ಬದಲಿಸುತ್ತದೆ."
 
 #: schemas/org.mate.background.gschema.xml.in:33
 msgid "Picture Options"
@@ -893,11 +782,11 @@ msgstr "ಚಿತ್ರದ ಆಯ್ಕೆಗಳು"
 #: schemas/org.mate.background.gschema.xml.in:34
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\","
-" \"spanned\"."
+"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\", "
+"\"spanned\"."
 msgstr ""
-"ಗೋಡೆತಿಟ್ಟ_ಕಡತಹೆಸರು ಹೊಂದಿಸುವ ತಿಟ್ಟವು ಹೇಗೆ ತೋರುತ್ತದೆ ಎಂಬುದನ್ನು ತರಿಸಲಿಸುತ್ತದೆ. "
-"ಆರ್ಪ ಬೆಲೆಗಳು \"ಗೋಡೆತಿಟ್ಟ\", \"ನಡುವಿನ\", \"ಅಳತೆಹೊಂದಿಸಿದ\", \"ನಿಮಿರಿದ\", "
+"ಗೋಡೆತಿಟ್ಟ_ಕಡತಹೆಸರು ಹೊಂದಿಸುವ ತಿಟ್ಟವು ಹೇಗೆ ತೋರುತ್ತದೆ ಎಂಬುದನ್ನು ತರಿಸಲಿಸುತ್ತದೆ. ಆರ್ಪ "
+"ಬೆಲೆಗಳು \"ಗೋಡೆತಿಟ್ಟ\", \"ನಡುವಿನ\", \"ಅಳತೆಹೊಂದಿಸಿದ\", \"ನಿಮಿರಿದ\", "
 "\"ಹಿಗ್ಗಿಸಿದ\", \"ಚಾಚಿದ\"."
 
 #: schemas/org.mate.background.gschema.xml.in:38
@@ -929,11 +818,9 @@ msgid "Secondary Color"
 msgstr "ಅಪ್ರಧಾನ ಬಣ್ಣ"
 
 #: schemas/org.mate.background.gschema.xml.in:54
-msgid ""
-"Right or Bottom color when drawing gradients, not used for solid color."
+msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
-"ಗ್ರೇಡಿಯಂಟ್‌ಗಳನ್ನು ಚಿತ್ರಿಸುವಾಗ ಬಲ ಅಥವ ಕೆಳಗಿನ ಬಣ್ಣ, ಇದನ್ನು ದಟ್ಟ ಬಣ್ಣಗಳಲ್ಲಿ "
-"ಬಳಸಲಾಗುವುದಿಲ್ಲ."
+"ಗ್ರೇಡಿಯಂಟ್‌ಗಳನ್ನು ಚಿತ್ರಿಸುವಾಗ ಬಲ ಅಥವ ಕೆಳಗಿನ ಬಣ್ಣ, ಇದನ್ನು ದಟ್ಟ ಬಣ್ಣಗಳಲ್ಲಿ ಬಳಸಲಾಗುವುದಿಲ್ಲ."
 
 #: schemas/org.mate.background.gschema.xml.in:58
 msgid "Color Shading Type"
@@ -944,8 +831,8 @@ msgid ""
 "How to shade the background color. Possible values are \"horizontal-"
 "gradient\", \"vertical-gradient\", and \"solid\"."
 msgstr ""
-"ಹಿನ್ನಲೆಗೆ ಹೇಗೆ ಬಣ್ಣ ಹಚ್ಚಬೇಕು. ಸಾಧ್ಯವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ \"horizontal-"
-"gradient\", \"vertical-gradient\", ಹಾಗು \"solid\" ಆಗಿರುತ್ತದೆ."
+"ಹಿನ್ನಲೆಗೆ ಹೇಗೆ ಬಣ್ಣ ಹಚ್ಚಬೇಕು. ಸಾಧ್ಯವಿರುವ ಮೌಲ್ಯಗಳೆಂದರೆ \"horizontal-gradient\", "
+"\"vertical-gradient\", ಹಾಗು \"solid\" ಆಗಿರುತ್ತದೆ."
 
 #: schemas/org.mate.file-views.gschema.xml:5
 msgid "File Icon Theme"
@@ -972,8 +859,8 @@ msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
 msgstr ""
-"ಸಜೀವನಗಳನ್ನು(ಎನೀಮೇಶನ್) ತೋರಿಸಬೇಕೆ. ಸೂಚನೆ: ಇದು ಒಂದು ಜಾಗತಿಕ ಕೀಲಿಯಾಗಿದ್ದು, ಇದು "
-"ವಿಂಡೋ ನೀಸುಗ, ಫಲಕ ಮುಂತಾದವುಗಳ ವರ್ತನೆಯನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ."
+"ಸಜೀವನಗಳನ್ನು(ಎನೀಮೇಶನ್) ತೋರಿಸಬೇಕೆ. ಸೂಚನೆ: ಇದು ಒಂದು ಜಾಗತಿಕ ಕೀಲಿಯಾಗಿದ್ದು, ಇದು ವಿಂಡೋ "
+"ನೀಸುಗ, ಫಲಕ ಮುಂತಾದವುಗಳ ವರ್ತನೆಯನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ."
 
 #: schemas/org.mate.interface.gschema.xml:15
 msgid "Menus Have Tearoff"
@@ -988,10 +875,12 @@ msgid "Toolbar Style"
 msgstr "ಉಪಕರಣ ಪಟ್ಟಿಕೆಯ ಶೈಲಿ"
 
 #: schemas/org.mate.interface.gschema.xml:21
-msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
+msgid ""
+"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
+"\"text\"."
 msgstr ""
-"ಉಪಕರಣಪಟ್ಟಿಯ ಶೈಲಿ. ಮಾನ್ಯವಾದ ಮೌಲ್ಯಗಳೆಂದರೆ \"both\", \"both-horiz\", \"icons\","
-" ಹಾಗು \"text\"."
+"ಉಪಕರಣಪಟ್ಟಿಯ ಶೈಲಿ. ಮಾನ್ಯವಾದ ಮೌಲ್ಯಗಳೆಂದರೆ \"both\", \"both-horiz\", \"icons\", "
+"ಹಾಗು \"text\"."
 
 #: schemas/org.mate.interface.gschema.xml:25
 msgid "Menus Have Icons"
@@ -1015,8 +904,7 @@ msgstr "ಮೆನುಪಟ್ಟಿಯನ್ನು ಕೀಳಬಹುದು"
 
 #: schemas/org.mate.interface.gschema.xml:36
 msgid "Whether the user can detach menubars and move them around."
-msgstr ""
-"ಬಳಕೆದಾರರು ಮೆನುಪಟ್ಟಿಗಳನ್ನು ಕಿತ್ತು ಅದನ್ನು ಸುತ್ತಮುತ್ತೆಲ್ಲಾ ಸುಳಿದಾಡಿಸುವಂತಿರಬೇಕೆ."
+msgstr "ಬಳಕೆದಾರರು ಮೆನುಪಟ್ಟಿಗಳನ್ನು ಕಿತ್ತು ಅದನ್ನು ಸುತ್ತಮುತ್ತೆಲ್ಲಾ ಸುಳಿದಾಡಿಸುವಂತಿರಬೇಕೆ."
 
 #: schemas/org.mate.interface.gschema.xml:40
 msgid "Toolbar Detachable"
@@ -1024,16 +912,15 @@ msgstr "ಉಪಕರಣಪಟ್ಟಿಯನ್ನು ಕಿತ್ತುಹಾ�
 
 #: schemas/org.mate.interface.gschema.xml:41
 msgid "Whether the user can detach toolbars and move them around."
-msgstr ""
-"ಬಳಕೆದಾರರು ಉಪಕರಣಪಟ್ಟಿಗಳನ್ನು ಕಿತ್ತು ಅದನ್ನು ಸುತ್ತಮುತ್ತೆಲ್ಲಾ "
-"ಸುಳಿದಾಡಿಸುವಂತಿರಬೇಕೆ."
+msgstr "ಬಳಕೆದಾರರು ಉಪಕರಣಪಟ್ಟಿಗಳನ್ನು ಕಿತ್ತು ಅದನ್ನು ಸುತ್ತಮುತ್ತೆಲ್ಲಾ ಸುಳಿದಾಡಿಸುವಂತಿರಬೇಕೆ."
 
 #: schemas/org.mate.interface.gschema.xml:45
 msgid "Toolbar Icon Size"
 msgstr "ಉಪಕರಣಪಟ್ಟಿಯ ಚಿಹ್ನೆಯ ಗಾತ್ರ"
 
 #: schemas/org.mate.interface.gschema.xml:46
-msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
+msgid ""
+"Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr ""
 "ಉಪಕರಣಪಟ್ಟಿಗಳಲ್ಲಿನ ಚಿಹ್ನೆಗಳ ಗಾತ್ರ, \"small-toolbar\" ಅಥವ \"large-toolbar\" "
 "ಆಗಿರುತ್ತದೆ."
@@ -1081,139 +968,146 @@ msgid ""
 "A '\\n' separated list of \"name:color\" as defined by the 'gtk-color-"
 "scheme' setting"
 msgstr ""
-"'ಜಿ.ಟಿ.ಕೆ.-ಕಲರ್-ಸ್ಕೀಮ್' ಅಳವಡಿಕೆ ಹುರುಳು ತಿಳಿಸಿದ '\\n' ನೊಡನೆ ಬೇರ್ಪಡಿಸಿದ "
-"\"ಹೆಸರು:ಬಣ್ಣ\" ಪಟ್ಟಿ"
+"'ಜಿ.ಟಿ.ಕೆ.-ಕಲರ್-ಸ್ಕೀಮ್' ಅಳವಡಿಕೆ ಹುರುಳು ತಿಳಿಸಿದ '\\n' ನೊಡನೆ ಬೇರ್ಪಡಿಸಿದ \"ಹೆಸರು:"
+"ಬಣ್ಣ\" ಪಟ್ಟಿ"
 
 #: schemas/org.mate.interface.gschema.xml:80
+msgid "GTK color palette"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:81
+#, fuzzy
+msgid "Default color palette for MATE Color Selection"
+msgstr "ಮಾಟೆ ಬಣ್ಣ ಆಯ್ಕೆ"
+
+#: schemas/org.mate.interface.gschema.xml:85
 msgid "Default font"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಅಕ್ಷರಶೈಲಿ"
 
-#: schemas/org.mate.interface.gschema.xml:81
+#: schemas/org.mate.interface.gschema.xml:86
 msgid "Name of the default font used by gtk+."
 msgstr "ಜಿ.ಟಿ.ಕೆ.+ ಇಂದ ಬಳಸಲಾಗುವ ಇದ್ದಾಯ್ಕೆ ಬರಿಗೆಬಗೆಯ ಹೆಸರು."
 
-#: schemas/org.mate.interface.gschema.xml:85
+#: schemas/org.mate.interface.gschema.xml:90
 msgid "GTK IM Preedit Style"
 msgstr "GTK IM ಪೂರ್ವಸಂಪಾದನಾ ಶೈಲಿ"
 
-#: schemas/org.mate.interface.gschema.xml:86
+#: schemas/org.mate.interface.gschema.xml:91
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr ""
-"ಜಿ.ಟಿ.ಕೆ.+ ನಿಂದ ಬಳಸಲಾಗುವ ಜಿ.ಟಿ.ಕೆ.+ ತಿಳಿಹೂಡು ದಾಟಿಯ ಹಿಂತಿದ್ದುಪಡಿ ಒಡ್ಡವದ "
-"ಹೆಸರು."
+"ಜಿ.ಟಿ.ಕೆ.+ ನಿಂದ ಬಳಸಲಾಗುವ ಜಿ.ಟಿ.ಕೆ.+ ತಿಳಿಹೂಡು ದಾಟಿಯ ಹಿಂತಿದ್ದುಪಡಿ ಒಡ್ಡವದ ಹೆಸರು."
 
-#: schemas/org.mate.interface.gschema.xml:90
+#: schemas/org.mate.interface.gschema.xml:95
 msgid "GTK IM Status Style"
 msgstr "GTK IM ಸ್ಥಿತಿ ಶೈಲಿ"
 
-#: schemas/org.mate.interface.gschema.xml:91
+#: schemas/org.mate.interface.gschema.xml:96
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "ಜಿ.ಟಿ.ಕೆ.+ ನಿಂದ ಬಳಸಲಾಗುವ ಜಿ.ಟಿ.ಕೆ.+ ತಿಳಿಹೂಡು ದಾಟಿಯ ಇರವು ಒಡ್ಡವದ ಹೆಸರು."
 
-#: schemas/org.mate.interface.gschema.xml:95
+#: schemas/org.mate.interface.gschema.xml:100
 msgid "GTK IM Module"
 msgstr "GTK IM ಘಟಕ"
 
-#: schemas/org.mate.interface.gschema.xml:96
+#: schemas/org.mate.interface.gschema.xml:101
 msgid "Name of the input method module used by GTK+."
 msgstr "GTK+ ಇಂದ ಬಳಸಲಾಗುವ ಇನ್‌ಪುಟ್‌ ಕ್ರಮದ ಘಟಕದ ಹೆಸರು."
 
-#: schemas/org.mate.interface.gschema.xml:100
+#: schemas/org.mate.interface.gschema.xml:105
 msgid "Use GTK3 header bar"
 msgstr "ಜಿ.ಟಿ.ಕೆ. ಹೆಡರ್ ಬಾರ್ ಅನ್ನು ಬಳಸು"
 
-#: schemas/org.mate.interface.gschema.xml:101
+#: schemas/org.mate.interface.gschema.xml:106
 msgid ""
 "Whether builtin GTK+ dialogs such as the file chooser, the color chooser or "
-"the font chooser will use a header bar at the top to show action widgets, or"
-" an action area at the bottom. This setting does not affect custom dialogs "
+"the font chooser will use a header bar at the top to show action widgets, or "
+"an action area at the bottom. This setting does not affect custom dialogs "
 "using GtkDialog directly, or message dialogs."
 msgstr ""
-"ಕಡತ ಆಯ್ಕೆಗಾರ, ಬಣ್ಣ ಆಯ್ಕೆಗಾರ ಇಲ್ಲವೆ ಬರಿಗೆಬಗೆ ಆಯ್ಕೆಗಾರ ಅಂತಹ ಒಳಕಟ್ಟಲ್ಪಟ್ಟ "
-"ಜಿ.ಟಿ.ಕೆ.+ ಮಾತುಕತೆಗಳು ತಲೆಬರಹ ಪಟ್ಟಿಯನ್ನು ಮೇಲೆ ಕೆಲಸದ ವಿಜೆಟ್ಗಳನ್ನು ತೋರಿಸಲು, "
-"ಇಲ್ಲವೆ ಎಸಕಹರವನ್ನು ಕೆಳಗೆ ಬಳಸುವುದೆ. ಈ ಅಳವಡಿಕೆಯು GtkDialog ಅನ್ನು ನೇರ ಬಳಸುವ "
-"ಒಗ್ಗಿಸಿದ ಮಾತುಕತೆಗಳು, ಇಲ್ಲವೆ ಸುದ್ದಿ ಮಾತುಕತೆಗಳನ್ನು ನಾಟುವುದಿಲ್ಲ."
+"ಕಡತ ಆಯ್ಕೆಗಾರ, ಬಣ್ಣ ಆಯ್ಕೆಗಾರ ಇಲ್ಲವೆ ಬರಿಗೆಬಗೆ ಆಯ್ಕೆಗಾರ ಅಂತಹ ಒಳಕಟ್ಟಲ್ಪಟ್ಟ ಜಿ.ಟಿ.ಕೆ.+ "
+"ಮಾತುಕತೆಗಳು ತಲೆಬರಹ ಪಟ್ಟಿಯನ್ನು ಮೇಲೆ ಕೆಲಸದ ವಿಜೆಟ್ಗಳನ್ನು ತೋರಿಸಲು, ಇಲ್ಲವೆ ಎಸಕಹರವನ್ನು "
+"ಕೆಳಗೆ ಬಳಸುವುದೆ. ಈ ಅಳವಡಿಕೆಯು GtkDialog ಅನ್ನು ನೇರ ಬಳಸುವ ಒಗ್ಗಿಸಿದ ಮಾತುಕತೆಗಳು, "
+"ಇಲ್ಲವೆ ಸುದ್ದಿ ಮಾತುಕತೆಗಳನ್ನು ನಾಟುವುದಿಲ್ಲ."
 
-#: schemas/org.mate.interface.gschema.xml:105
+#: schemas/org.mate.interface.gschema.xml:110
 msgid "Use GTK3 overlay scrolling"
 msgstr "ಜಿ.ಟಿ.ಕೆ.3 ಓವರ್ಲೇ ಸುರುಳಿಯನ್ನು ಬಳಸು"
 
-#: schemas/org.mate.interface.gschema.xml:106
+#: schemas/org.mate.interface.gschema.xml:111
 msgid ""
 "Whether built-in GTK+ scrolled windows will use overlay scrolling. Overlay "
 "scrolling hides and reduces the size of the scrollbar until it gets focus."
 msgstr ""
-"ಒಳಕಟ್ಟಿದ ಜಿ.ಟಿ.ಕೆ.+ ಸುರುಳಿಸುತ್ತಿದ ಕಿಟಕಿಗಳು ಓವರ್ಲೇ ಸುರುಳಿಯನ್ನು ಬಳಸುವುದೆ. "
-"ಓವರ್ಲೇ ಸುರುಳಿಯು ಸೇರ್ಮೆ ಪಡೆಯದವರೆಗೆ ಸುರುಳಿಪಟ್ಟಿಯನ್ನು ಮರೆಮಾಚುತ್ತದೆ ಮತ್ತು ಅದರ "
-"ಅಳತೆಯನ್ನು ಕಿರಿದಾಗಿಸುತ್ತದೆ."
+"ಒಳಕಟ್ಟಿದ ಜಿ.ಟಿ.ಕೆ.+ ಸುರುಳಿಸುತ್ತಿದ ಕಿಟಕಿಗಳು ಓವರ್ಲೇ ಸುರುಳಿಯನ್ನು ಬಳಸುವುದೆ. ಓವರ್ಲೇ "
+"ಸುರುಳಿಯು ಸೇರ್ಮೆ ಪಡೆಯದವರೆಗೆ ಸುರುಳಿಪಟ್ಟಿಯನ್ನು ಮರೆಮಾಚುತ್ತದೆ ಮತ್ತು ಅದರ ಅಳತೆಯನ್ನು "
+"ಕಿರಿದಾಗಿಸುತ್ತದೆ."
 
-#: schemas/org.mate.interface.gschema.xml:110
+#: schemas/org.mate.interface.gschema.xml:115
 msgid "Enable Gtk toolkit-wide animations"
 msgstr "ಜಿ.ಟಿ.ಕೆ ಟೂಲ್ಕಿಟ್-ಅಗಲ ಮಿಡುಕುಗಳನ್ನು ಅಳವೀಯು"
 
-#: schemas/org.mate.interface.gschema.xml:111
+#: schemas/org.mate.interface.gschema.xml:116
 msgid "Whether to enable toolkit-wide animations."
 msgstr "ಟೂಲ್ಕಿಟ್-ಅಗಲ ಮಿಡುಕುಗಳನ್ನು ಅಲವೀಯಬೇಕೆ."
 
-#: schemas/org.mate.interface.gschema.xml:115
+#: schemas/org.mate.interface.gschema.xml:120
 msgid "Document font"
 msgstr "ದಸ್ತಾವೇಜಿನ ಅಕ್ಷರ"
 
-#: schemas/org.mate.interface.gschema.xml:116
+#: schemas/org.mate.interface.gschema.xml:121
 msgid "Name of the default font used for reading documents."
 msgstr "ದಸ್ತಾವೇಜುಗಳನ್ನು ಓದಲು ಬಳಸಲಾಗುವ ಪೂರ್ವನಿಯೋಜಿತ ಅಕ್ಷರಶೈಲಿಯ ಹೆಸರು."
 
-#: schemas/org.mate.interface.gschema.xml:120
+#: schemas/org.mate.interface.gschema.xml:125
 msgid "Monospace font"
 msgstr "Monospace ಅಕ್ಷರಶೈಲಿ"
 
-#: schemas/org.mate.interface.gschema.xml:121
+#: schemas/org.mate.interface.gschema.xml:126
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
-msgstr ""
-"ಟರ್ಮಿನಲ್‌ಗಳಂತಹ ಜಾಗಗಳಲ್ಲಿ ಬಳಸಲು monospace ನ (ನಿಶ್ಚಿತ-ಅಗಲದ) ಅಕ್ಷರಶೈಲಿಯ ಹೆಸರು."
+msgstr "ಟರ್ಮಿನಲ್‌ಗಳಂತಹ ಜಾಗಗಳಲ್ಲಿ ಬಳಸಲು monospace ನ (ನಿಶ್ಚಿತ-ಅಗಲದ) ಅಕ್ಷರಶೈಲಿಯ ಹೆಸರು."
 
-#: schemas/org.mate.interface.gschema.xml:125
+#: schemas/org.mate.interface.gschema.xml:130
 msgid "Use Custom Font"
 msgstr "ಇಚ್ಛೆಯ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು"
 
-#: schemas/org.mate.interface.gschema.xml:126
+#: schemas/org.mate.interface.gschema.xml:131
 msgid "Whether to use a custom font in gtk+ applications."
 msgstr "ಜಿ.ಟಿ.ಕೆ.+ ಬಳಕಗಳಲ್ಲಿ ಒಗ್ಗಿಸಿದ ಬರಿಗೆಬಗೆಯನ್ನು ಬಳಸಬೇಕೆ."
 
-#: schemas/org.mate.interface.gschema.xml:130
+#: schemas/org.mate.interface.gschema.xml:135
 msgid "Status Bar on Right"
 msgstr "ಬಲಭಾಗದಲ್ಲಿನ ಸ್ಥಿತಿ ಪಟ್ಟಿಕೆ"
 
-#: schemas/org.mate.interface.gschema.xml:131
+#: schemas/org.mate.interface.gschema.xml:136
 msgid "Whether to display a status bar meter on the right."
 msgstr "ಬಲಭಾಗದಲ್ಲಿ ಒಂದು ಸ್ಥಿತಿ ಪಟ್ಟಿ ಮಾಪಕವನ್ನು ತೋರಿಸಬೇಕೆ."
 
-#: schemas/org.mate.interface.gschema.xml:135
+#: schemas/org.mate.interface.gschema.xml:140
 msgid "Module for GtkFileChooser"
 msgstr "GtkFileChooser ಗಾಗಿನ ಘಟಕ"
 
-#: schemas/org.mate.interface.gschema.xml:136
+#: schemas/org.mate.interface.gschema.xml:141
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\" and \"gtk+\"."
 msgstr ""
-"GtkFileChoose ವಿಜೆಟ್ಗಾಗಿ ಕಡತಏರ್ಪಾಟು ಎತ್ತುಗೆಯಾಗಿ ಬಳಸಬೇಕಾದ ಇಡುಕಡಕ. ಆರ್ಪ "
-"ಬೆಲೆಗಳು \"ಜಿಯೊ\" ಮತ್ತು \"ಜಿ.ಟಿ.ಕೆ.+\"."
+"GtkFileChoose ವಿಜೆಟ್ಗಾಗಿ ಕಡತಏರ್ಪಾಟು ಎತ್ತುಗೆಯಾಗಿ ಬಳಸಬೇಕಾದ ಇಡುಕಡಕ. ಆರ್ಪ ಬೆಲೆಗಳು "
+"\"ಜಿಯೊ\" ಮತ್ತು \"ಜಿ.ಟಿ.ಕೆ.+\"."
 
-#: schemas/org.mate.interface.gschema.xml:140
+#: schemas/org.mate.interface.gschema.xml:145
 msgid "Menubar accelerator"
 msgstr "ಮೆನುಪಟ್ಟಿ ವೇಗವರ್ಧಕ"
 
-#: schemas/org.mate.interface.gschema.xml:141
+#: schemas/org.mate.interface.gschema.xml:146
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "ಮೆನು ಪಟ್ಟಿಗಳನ್ನು ತೆರೆಯಲು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್."
 
-#: schemas/org.mate.interface.gschema.xml:145
+#: schemas/org.mate.interface.gschema.xml:150
 msgid "Show the 'Input Methods' menu"
 msgstr "'ಇನ್‌ಪುಟ್‌ ಕ್ರಮಗಳ' ಮೆನುವನ್ನು ತೋರಿಸು"
 
-#: schemas/org.mate.interface.gschema.xml:146
+#: schemas/org.mate.interface.gschema.xml:151
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
@@ -1221,85 +1115,78 @@ msgstr ""
 "ನಮೂದುಗಳ ಹಾಗು ಪಠ್ಯ ನೋಟಗಳ ಸನ್ನಿವೇಶ ಮೆನುಗಳು ಇನ್‌ಪುಟ್ ಕ್ರಮವನ್ನು ಬದಲಾಯಿಸುವುದನ್ನು "
 "ಅನುಮತಿಸಬೇಕೆ."
 
-#: schemas/org.mate.interface.gschema.xml:150
+#: schemas/org.mate.interface.gschema.xml:155
 msgid "Show the 'Unicode Control Character' menu"
 msgstr "'ಯೂನಿಕೋಡ್ ನಿಯಂತ್ರಣ ಅಕ್ಷರ' ಮೆನುವನ್ನು ತೋರಿಸು"
 
-#: schemas/org.mate.interface.gschema.xml:151
+#: schemas/org.mate.interface.gschema.xml:156
 msgid ""
 "Whether the context menus of entries and text views should offer to insert "
 "control characters."
 msgstr ""
-"ನಮೂದುಗಳ ಹಾಗು ಪಠ್ಯ ನೋಟಗಳ ಸನ್ನಿವೇಶ ಮೆನುಗಳು ಅಕ್ಷರಗಳನ್ನು ಸೇರಿಸುವುದನ್ನು "
-"ಅನುಮತಿಸಬೇಕೆ."
+"ನಮೂದುಗಳ ಹಾಗು ಪಠ್ಯ ನೋಟಗಳ ಸನ್ನಿವೇಶ ಮೆನುಗಳು ಅಕ್ಷರಗಳನ್ನು ಸೇರಿಸುವುದನ್ನು ಅನುಮತಿಸಬೇಕೆ."
 
-#: schemas/org.mate.interface.gschema.xml:155
+#: schemas/org.mate.interface.gschema.xml:160
 msgid "Titlebar layout of GTK3 client-side decorated windows"
 msgstr "ಜಿ.ಟಿ.ಕೆ.3 ಪಡೆಯ-ಬದಿ ಅಂದವಿಸಿದ ಕಿಟಕಿಗಳ ತಲೆಬರಹ ಪಟ್ಟಿಯ ಒಡ್ಡವ"
 
-#: schemas/org.mate.interface.gschema.xml:156
+#: schemas/org.mate.interface.gschema.xml:161
 msgid ""
 "This setting determines which buttons should be put in the titlebar of "
-"client-side decorated windows, and whether they should be placed at the left"
-" of right. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
+"client-side decorated windows, and whether they should be placed at the left "
+"of right. See https://developer.gnome.org/gtk3/stable/GtkSettings."
+"html#GtkSettings--gtk-decoration-layout."
 msgstr ""
 "ಈ ಅಳವಡಿಕೆಯು ಪಡೆಯ-ಬದಿ ಅಂದವಿಸಿದ ಕಿಟಕಿಗಳ ತಲೆಬರಹ ಪಟ್ಟಿಯಲ್ಲಿ ಯಾವ ಗುಂಡಿಗಳನ್ನು "
-"ಇಡಬೇಕೆಂಬದನ್ನು ಮತ್ತು ಅವುಗಳು ಎಡಕ್ಕೆ ಇಲ್ಲವೆ ಬಲಕ್ಕೆ ಇರಿಸಬೇಕೆಂಬುದನ್ನು "
-"ತರಿಸಲಿಸುತ್ತದೆ. ನೋಡಿ "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
+"ಇಡಬೇಕೆಂಬದನ್ನು ಮತ್ತು ಅವುಗಳು ಎಡಕ್ಕೆ ಇಲ್ಲವೆ ಬಲಕ್ಕೆ ಇರಿಸಬೇಕೆಂಬುದನ್ನು ತರಿಸಲಿಸುತ್ತದೆ. "
+"ನೋಡಿ https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--"
+"gtk-decoration-layout."
 
-#: schemas/org.mate.interface.gschema.xml:160
+#: schemas/org.mate.interface.gschema.xml:165
 msgid "Use a global menubar for displaying application menus"
 msgstr "ಬಳಕ ಪರಿವಿಡಿಯನ್ನು ತೋರಿಸಲು ಎಲ್ಲೆಡೆಯ ಪರಿವಿಡಿಪಟ್ಟಿಯನ್ನು ಬಳಸು"
 
-#: schemas/org.mate.interface.gschema.xml:161
+#: schemas/org.mate.interface.gschema.xml:166
 msgid ""
 "This setting determines where application menu will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 msgstr ""
 "ಈ ಅಳವಡಿಕೆಯು ಬಳಕ ಪರಿವಿಡಿಯು ಎಲ್ಲಿ ತೋರಿಸಲ್ಪಡುತ್ತದೆ ಎಂಬುದನ್ನು ತರಿಸಲಿಸುತ್ತದೆ - "
-"ಕಿಟಕಿಯಲ್ಲೋ ಇಲ್ಲವೆ MenuModel ಮುಂಗಟ್ಟಲೆಯೊಂದಿಗೆ ಪಟ್ಟಿಯ ಮೇಲೋ. ನೋಡಿ "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
+"ಕಿಟಕಿಯಲ್ಲೋ ಇಲ್ಲವೆ MenuModel ಮುಂಗಟ್ಟಲೆಯೊಂದಿಗೆ ಪಟ್ಟಿಯ ಮೇಲೋ. ನೋಡಿ https://developer."
+"gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 
-#: schemas/org.mate.interface.gschema.xml:165
+#: schemas/org.mate.interface.gschema.xml:170
 msgid "Use a global menubar for displaying window menubars"
 msgstr "ಕಿಟಕಿ ಪರಿವಿಡಿಪಟ್ಟಿಯನ್ನು ತೋರಿಸಲು ಎಲ್ಲೆಡೆಯ ಪರಿವಿಡಿಪಟ್ಟಿಯನ್ನು ಬಳಸು"
 
-#: schemas/org.mate.interface.gschema.xml:166
+#: schemas/org.mate.interface.gschema.xml:171
 msgid ""
 "This setting determines where window menubars will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
 msgstr ""
-"ಈ ಅಳವಡಿಕೆಯು ಕಿಟಕಿ ಪರಿವಿಡಿಪಟ್ಟಿಯು ಎಲ್ಲಿ ತೋರಿಸಲ್ಪಡುತ್ತದೆ ಎಂಬುದನ್ನು "
-"ತರಿಸಲಿಸುತ್ತದೆ - ಕಿಟಕಿಯಲ್ಲೋ ಇಲ್ಲವೆ MenuModel ಮುಂಗಟ್ಟಲೆಯೊಂದಿಗೆ ಪಟ್ಟಿಯ ಮೇಲೋ. "
-"ನೋಡಿ https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--"
-"gtk-shell-shows-menubar."
+"ಈ ಅಳವಡಿಕೆಯು ಕಿಟಕಿ ಪರಿವಿಡಿಪಟ್ಟಿಯು ಎಲ್ಲಿ ತೋರಿಸಲ್ಪಡುತ್ತದೆ ಎಂಬುದನ್ನು ತರಿಸಲಿಸುತ್ತದೆ - "
+"ಕಿಟಕಿಯಲ್ಲೋ ಇಲ್ಲವೆ MenuModel ಮುಂಗಟ್ಟಲೆಯೊಂದಿಗೆ ಪಟ್ಟಿಯ ಮೇಲೋ. ನೋಡಿ https://developer."
+"gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
 
-#: schemas/org.mate.interface.gschema.xml:170
+#: schemas/org.mate.interface.gschema.xml:175
 msgid "Only show mnemonics on when the Alt key is pressed"
 msgstr "Alt ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ ಬರಿ ನೆನಪಿಸುಗ ತೋರಿಸು"
 
-#: schemas/org.mate.interface.gschema.xml:171
+#: schemas/org.mate.interface.gschema.xml:176
 msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
 msgstr ""
-"ಬಳಸುಗ Alt ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ ನೆನಪಿಸುಗವನ್ನು ತನ್ತಾನೆ ತೋರಿಸುವುದು ಮತ್ತು "
-"ಅಡಗಿಸುವುದು ಮಾಡಬೇಕೆ."
+"ಬಳಸುಗ Alt ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ ನೆನಪಿಸುಗವನ್ನು ತನ್ತಾನೆ ತೋರಿಸುವುದು ಮತ್ತು ಅಡಗಿಸುವುದು "
+"ಮಾಡಬೇಕೆ."
 
-#: schemas/org.mate.interface.gschema.xml:176
+#: schemas/org.mate.interface.gschema.xml:181
 msgid "Window Scaling Factor"
 msgstr "ಕಿಟಕಿ ಅಳತೆಹೊಂದಿಕೆ ಒಡಕ"
 
-#: schemas/org.mate.interface.gschema.xml:177
+#: schemas/org.mate.interface.gschema.xml:182
 msgid ""
 "This controls the GTK scale factor that maps from window coordinates to the "
 "actual device pixels. On traditional systems this is 1, but on very high "
@@ -1308,36 +1195,36 @@ msgid ""
 msgstr ""
 "ಇದು ಜಿ.ಟಿ.ಕೆ ಅಳತೆಹೊಂದಿಕೆ ಒಡಕವು ಕಿಟಕಿಯ ಇಕ್ಕೆಗುರುತು ಸರಿಯ ಚೂಟಿಯ ಪಿಕ್ಸೆಲ್ಗಳ "
 "ಸರಿತೂಗುವಿಕೆಯನ್ನು ಹತೋಟಿಸುತ್ತದೆ. ನಡವಳಿಯ ಏರ್ಪಾಡುಗಳಲ್ಲಿ ಇದರ ಬೆಲೆ 1, ಆದರೆ ಹೆಚ್ಚು "
-"ತಿಣ್ಮೆಯ ತೋರುಕಗಳಲ್ಲಿ (ಉದಾ. ಹೈಡಿ.ಪಿ.ಐ, ರೆಟಿನಾ) ಇದು ಹೆಚ್ಚಿನ ಬೆಲೆಯಾಗಿರಬಹುದು "
-"(ಆಗಾಗ 2). ತನ್ತಾನೆ-ಪತ್ತೆ ಆಗಬೇಕಾದಲ್ಲಿ 0 ಗೆ ಹೊಂದಿಸಿ."
+"ತಿಣ್ಮೆಯ ತೋರುಕಗಳಲ್ಲಿ (ಉದಾ. ಹೈಡಿ.ಪಿ.ಐ, ರೆಟಿನಾ) ಇದು ಹೆಚ್ಚಿನ ಬೆಲೆಯಾಗಿರಬಹುದು (ಆಗಾಗ "
+"2). ತನ್ತಾನೆ-ಪತ್ತೆ ಆಗಬೇಕಾದಲ್ಲಿ 0 ಗೆ ಹೊಂದಿಸಿ."
 
-#: schemas/org.mate.interface.gschema.xml:181
+#: schemas/org.mate.interface.gschema.xml:186
 msgid "Scaling Factor for QT appllications"
 msgstr "ಕ್ಯೂ.ಟಿ. ಬಳಕಗಳಿಗಾಗಿ ಅಳತೆಹೊದಿಕೆಯ ಒಡಕ"
 
-#: schemas/org.mate.interface.gschema.xml:182
+#: schemas/org.mate.interface.gschema.xml:187
 msgid ""
 "This setting determines whether MATE controls the scale factor for QT "
 "applications. Enable to synchronize with the GTK scale factor when "
 "initializing the session, disable to control this value elsewhere. Requires "
 "restarting your session."
 msgstr ""
-"ಈ ಅಳವಡಿಕೆಯು ಮಾಟೆಯು ಕ್ಯೂ.ಟಿ. ಬಳಕಗಳ ಅಳತೆಹೊಂದಿಕೆ ಒಡಕವನ್ನು ಹತೋಟಿಸುತ್ತದೆಯೆ "
-"ಎಂಬುದನ್ನು ತರಿಸಲಿಸುತ್ತದೆ. ಅಧಿವೇಶನವು ತೊಡಗುವಾಗ ಜಿ.ಟಿ.ಕೆ. ಅಳತೆಹೊಂದಿಕೆ ಒಡಕದೊಂದಿಗೆ"
-" ಮೇಳೈಸಲು ಅಳವೀಯಿರಿ, ಈ ಬೆಲೆಯನ್ನು ಬೇರೆಡೆ ಹೊಂದಿಸಲು ಹೆಳವುಗೊಳಿಸಿ. ನಿಮ್ಮ "
-"ಅಧಿವೇಶನವನ್ನು ಮರುತೊಡಗಿಸಬೇಕಾಗುತ್ತದೆ."
+"ಈ ಅಳವಡಿಕೆಯು ಮಾಟೆಯು ಕ್ಯೂ.ಟಿ. ಬಳಕಗಳ ಅಳತೆಹೊಂದಿಕೆ ಒಡಕವನ್ನು ಹತೋಟಿಸುತ್ತದೆಯೆ ಎಂಬುದನ್ನು "
+"ತರಿಸಲಿಸುತ್ತದೆ. ಅಧಿವೇಶನವು ತೊಡಗುವಾಗ ಜಿ.ಟಿ.ಕೆ. ಅಳತೆಹೊಂದಿಕೆ ಒಡಕದೊಂದಿಗೆ ಮೇಳೈಸಲು "
+"ಅಳವೀಯಿರಿ, ಈ ಬೆಲೆಯನ್ನು ಬೇರೆಡೆ ಹೊಂದಿಸಲು ಹೆಳವುಗೊಳಿಸಿ. ನಿಮ್ಮ ಅಧಿವೇಶನವನ್ನು "
+"ಮರುತೊಡಗಿಸಬೇಕಾಗುತ್ತದೆ."
 
-#: schemas/org.mate.interface.gschema.xml:186
+#: schemas/org.mate.interface.gschema.xml:191
 msgid "Enable the primary paste selection"
 msgstr "ಮೊದಲಿನ ಅಂಟಿಸುವ ಆಯ್ಕೆಯನ್ನು ಅಳವೀಯು"
 
-#: schemas/org.mate.interface.gschema.xml:187
+#: schemas/org.mate.interface.gschema.xml:192
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
 msgstr ""
-"ದಿಟವಾದರೆ, ಜಿ.ಟಿ.ಕೆ.+ ಮೊದಲಿನ ಅಂಟಿಸುವ ಆಯ್ಕೆಯನ್ನು ಬಳಸುತ್ತದೆ, ಎಂದಿನಂತೆ ಮೌಸ್ ನ "
-"ನಡುವಿನ ಗುಂಡಿಯನ್ನು ಒತ್ತುವುದರಿಂದ ಉಂಟಾಗುತ್ತದೆ."
+"ದಿಟವಾದರೆ, ಜಿ.ಟಿ.ಕೆ.+ ಮೊದಲಿನ ಅಂಟಿಸುವ ಆಯ್ಕೆಯನ್ನು ಬಳಸುತ್ತದೆ, ಎಂದಿನಂತೆ ಮೌಸ್ ನ ನಡುವಿನ "
+"ಗುಂಡಿಯನ್ನು ಒತ್ತುವುದರಿಂದ ಉಂಟಾಗುತ್ತದೆ."
 
 #: schemas/org.mate.lockdown.gschema.xml:5
 msgid "Disable command line"
@@ -1345,13 +1232,13 @@ msgstr "ಆಜ್ಞಾ ಸಾಲನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
 
 #: schemas/org.mate.lockdown.gschema.xml:6
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to"
-" be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to "
+"be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
 msgstr ""
-"ಬಳಕೆದಾರರು ಟರ್ಮಿನಲ್‌ ಅನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಥವ ಕಾರ್ಯಗತಗೊಳಿಸಲು ಒಂದು "
-"ಆಜ್ಞಾ ಸಾಲನ್ನು ಸೂಚಿಸದಂತೆ ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು ಫಲಕದ \"ಅನ್ವಯವನ್ನು "
-"ಚಲಾಯಿಸು\" ಸಂವಾದವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ."
+"ಬಳಕೆದಾರರು ಟರ್ಮಿನಲ್‌ ಅನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಥವ ಕಾರ್ಯಗತಗೊಳಿಸಲು ಒಂದು ಆಜ್ಞಾ ಸಾಲನ್ನು "
+"ಸೂಚಿಸದಂತೆ ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು ಫಲಕದ \"ಅನ್ವಯವನ್ನು ಚಲಾಯಿಸು\" ಸಂವಾದವನ್ನು "
+"ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ."
 
 #: schemas/org.mate.lockdown.gschema.xml:10
 msgid "Disable saving files to disk"
@@ -1362,8 +1249,8 @@ msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
 msgstr ""
-"ಬಳಕೆದಾರರು ಕಡತಗಳನ್ನು ಡಿಸ್ಕಿಗೆ ಉಳಿಸಿದಂತೆ ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು ಎಲ್ಲಾ "
-"ಅನ್ವಯಗಳ \"ಹೀಗೆ ಉಳಿಸು\" ಸಂವಾದಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ."
+"ಬಳಕೆದಾರರು ಕಡತಗಳನ್ನು ಡಿಸ್ಕಿಗೆ ಉಳಿಸಿದಂತೆ ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು ಎಲ್ಲಾ ಅನ್ವಯಗಳ "
+"\"ಹೀಗೆ ಉಳಿಸು\" ಸಂವಾದಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ."
 
 #: schemas/org.mate.lockdown.gschema.xml:15
 msgid "Disable printing"
@@ -1386,9 +1273,8 @@ msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications' \"Print Setup\" dialogs."
 msgstr ""
-"ಬಳಕೆದಾರರು ಮುದ್ರಣ ಸಿದ್ಧತೆಗಳನ್ನು ಮಾರ್ಪಡಿಸುವುದನ್ನು ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು "
-"ಎಲ್ಲಾ ಅನ್ವಯಗಳ \"ಮುದ್ರಣ ಸಿದ್ಧತೆಗಳನ್ನು\" ಸಂವಾದಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು "
-"ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ."
+"ಬಳಕೆದಾರರು ಮುದ್ರಣ ಸಿದ್ಧತೆಗಳನ್ನು ಮಾರ್ಪಡಿಸುವುದನ್ನು ನಿರ್ಬಂಧಿಸು. ಉದಾಹರಣೆಗೆ, ಇದು ಎಲ್ಲಾ "
+"ಅನ್ವಯಗಳ \"ಮುದ್ರಣ ಸಿದ್ಧತೆಗಳನ್ನು\" ಸಂವಾದಗಳನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸುತ್ತದೆ."
 
 #: schemas/org.mate.lockdown.gschema.xml:25
 msgid "Disable user switching"
@@ -1439,8 +1325,7 @@ msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಸಾಧನ�
 
 #: schemas/org.mate.sound.gschema.xml:6
 msgid "The default mixer device used by the multimedia key bindings."
-msgstr ""
-"ಮಲ್ಟಿಮೀಡಿಯಾ ಕೀಲಿ ಬೈಂಡಿಗ್‌ಗಳಲ್ಲಿ ಬಳಸಲಾಗುವ ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಸಾಧನಗಳು."
+msgstr "ಮಲ್ಟಿಮೀಡಿಯಾ ಕೀಲಿ ಬೈಂಡಿಗ್‌ಗಳಲ್ಲಿ ಬಳಸಲಾಗುವ ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಸಾಧನಗಳು."
 
 #: schemas/org.mate.sound.gschema.xml:10
 msgid "Default mixer tracks"
@@ -1448,8 +1333,7 @@ msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಟ್ರಾ�
 
 #: schemas/org.mate.sound.gschema.xml:11
 msgid "The default mixer tracks used by the multimedia key bindings."
-msgstr ""
-"ಮಲ್ಟಿಮೀಡಿಯಾ ಕೀಲಿ ಬೈಂಡಿಗ್‌ಗಳಲ್ಲಿ ಬಳಸಲಾಗುವ ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಟ್ರಾಕ್‌ಗಳು."
+msgstr "ಮಲ್ಟಿಮೀಡಿಯಾ ಕೀಲಿ ಬೈಂಡಿಗ್‌ಗಳಲ್ಲಿ ಬಳಸಲಾಗುವ ಪೂರ್ವನಿಯೋಜಿತ ಮಿಕ್ಸರ್ ಟ್ರಾಕ್‌ಗಳು."
 
 #: schemas/org.mate.sound.gschema.xml:15
 msgid "Enable ESD"
@@ -1489,8 +1373,8 @@ msgstr ""
 
 #: schemas/org.mate.sound.gschema.xml:36
 msgid ""
-"If this is set to TRUE, the user will be allowed to set the output / speaker"
-" volume to above 100%. By setting the output volume above 100%, the sound "
+"If this is set to TRUE, the user will be allowed to set the output / speaker "
+"volume to above 100%. By setting the output volume above 100%, the sound "
 "server will amplify the audio above what the audio hardware can do cleanly. "
 "This can lead to audio quality degradation, but may be useful for listening "
 "to extremely quiet audio recordings, where the recording would otherwise be "
@@ -1502,16 +1386,16 @@ msgid ""
 "Maximum age for thumbnails in the cache, in days. Set to -1 to disable "
 "cleaning."
 msgstr ""
-"ಕ್ಯಾಶೆಯಲ್ಲಿ ತಂಬ್‌ನೈಲ್ ಗರಿಷ್ಟ ಜೀವಿತಾವಧಿ, ದಿನಗಳಲ್ಲಿ. ಸ್ವಚ್ಛಗೊಳಿಸುವುದನ್ನು "
-"ಅಶಕ್ತಗೊಳಿಸಲು -1 ಗೆ ಬದಲಾಯಿಸಿ."
+"ಕ್ಯಾಶೆಯಲ್ಲಿ ತಂಬ್‌ನೈಲ್ ಗರಿಷ್ಟ ಜೀವಿತಾವಧಿ, ದಿನಗಳಲ್ಲಿ. ಸ್ವಚ್ಛಗೊಳಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು -1 "
+"ಗೆ ಬದಲಾಯಿಸಿ."
 
 #: schemas/org.mate.thumbnail-cache.gschema.xml:10
 msgid ""
 "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
 "cleaning."
 msgstr ""
-"ತಂಬ್‌ನೈಲ್ ಕ್ಯಾಶೆಯ ಗರಿಷ್ಟ ಗಾತ್ರ, ಮೆಗಾಬೈಟುಗಳಲ್ಲಿ. ಸ್ವಚ್ಛಗೊಳಿಸುವುದನ್ನು "
-"ಅಶಕ್ತಗೊಳಿಸಲು -1 ಗೆ ಬದಲಾಯಿಸಿ."
+"ತಂಬ್‌ನೈಲ್ ಕ್ಯಾಶೆಯ ಗರಿಷ್ಟ ಗಾತ್ರ, ಮೆಗಾಬೈಟುಗಳಲ್ಲಿ. ಸ್ವಚ್ಛಗೊಳಿಸುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು -1 ಗೆ "
+"ಬದಲಾಯಿಸಿ."
 
 #: schemas/org.mate.thumbnailers.gschema.xml:5
 msgid "Disable all external thumbnailers"
@@ -1522,9 +1406,8 @@ msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
 msgstr ""
-"ಹೊರಗಿನ ಎಲ್ಲಾ ತಂಬ್‌ನೈಲರ್ ಪ್ರೋಗ್ರಾಮುಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು true ಗೆ ಬದಲಾಯಿಸಿ, "
-"ಅವುಗಳನ್ನು ಸ್ವತಂತ್ರವಾಗಿ ಅಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ/ಶಕ್ತಗೊಳಿಸಲಾಗಿದೆಯೆ ಎಂಬುದನ್ನು "
-"ಹೊರತುಪಡಿಸಿ."
+"ಹೊರಗಿನ ಎಲ್ಲಾ ತಂಬ್‌ನೈಲರ್ ಪ್ರೋಗ್ರಾಮುಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸಲು true ಗೆ ಬದಲಾಯಿಸಿ, ಅವುಗಳನ್ನು "
+"ಸ್ವತಂತ್ರವಾಗಿ ಅಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ/ಶಕ್ತಗೊಳಿಸಲಾಗಿದೆಯೆ ಎಂಬುದನ್ನು ಹೊರತುಪಡಿಸಿ."
 
 #: schemas/org.mate.thumbnailers.gschema.xml:10
 msgid ""
@@ -1533,10 +1416,9 @@ msgstr "ಹೊರಗಿನ ಚುಟುಕತಿಟ್ಟುಕ ಹಮ್ಮು�
 
 #: schemas/org.mate.thumbnailers.gschema.xml:11
 msgid ""
-"Thumbnails will not be created for files whose mime-type is contained in the"
-" list."
-msgstr ""
-"ಪಟ್ಟಿಯಲ್ಲಿ ಮೈಮ್-ಬಗೆ ಒಳಗೊಂಡಿರುವ ಕಡತಗಳಿಗೆ ಚುಟುಕುತಿಟ್ಟಗಳನ್ನು ಉಂಟುಮಾಡುವುದಿಲ್ಲ."
+"Thumbnails will not be created for files whose mime-type is contained in the "
+"list."
+msgstr "ಪಟ್ಟಿಯಲ್ಲಿ ಮೈಮ್-ಬಗೆ ಒಳಗೊಂಡಿರುವ ಕಡತಗಳಿಗೆ ಚುಟುಕುತಿಟ್ಟಗಳನ್ನು ಉಂಟುಮಾಡುವುದಿಲ್ಲ."
 
 #: schemas/org.mate.typing-break.gschema.xml:5
 msgid "Type time"
@@ -1590,8 +1472,85 @@ msgstr "ಬಣ್ಣ ಆಯ್ಕೆಯ ಮಾತುಕತೆ"
 msgid "Choose colors from the palette or the screen"
 msgstr "ಬಣ್ಣಹಲಗೆ ಅಥವಾ ತೆರೆಯಿಂದ ಬಣ್ಣಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ"
 
-#. Translators: Search terms to find this application. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: tools/mate-color-select.desktop.in:13
 msgid "MATE;color;chooser;pick;palette;screen;selection;"
 msgstr "MATE;color;chooser;pick;palette;screen;selection;"
+
+#~ msgid "MATE Desktop Environment"
+#~ msgstr "ಮಾಟೆ ಎಣಿಕೆತೆರೆ ಸುತ್ತಣ"
+
+#~ msgid ""
+#~ "MATE provides an intuitive and attractive desktop to Linux users using "
+#~ "traditional metaphors."
+#~ msgstr ""
+#~ "ಮಾಟೆಯು ನಡವಳಿಕೆಯ ಮಾರ‍್ಪುರುಳನ್ನು ಬಳಸಿಕೊಂಡು ಒಳಅರಿವುಳ್ಳ ಮತ್ತು ಸೊಗಸಾದ ಒಂದು "
+#~ "ಎಣಿಕೆತೆರೆಯನ್ನು ಲಿನಕ್ಸ್ ಬಳಕೆದಾರರಿಗೆ ಒದಗಿಸುತ್ತದೆ."
+
+#~ msgid ""
+#~ "MATE includes most of what you see on your computer, including the file "
+#~ "manager, document viewer, image viewer, menus, and many applications."
+#~ msgstr ""
+#~ "ಮಾಟೆಯು ನೀವು ನಿಮ್ಮ ಎಣ್ಣುಕದಲ್ಲಿ ನೋಡುವ ಹೆಚ್ಚಿನದನ್ನು, ಕಡತ ನೀಸುಗ, ಬರೆಗುರುತು ನೋಡುಗ, "
+#~ "ತಿಟ್ಟ ನೋಡುಗ, ಪರಿವಿಡಿಗಳು ಮತ್ತು ಅನೇಕ ಬಳಕಗಳನ್ನು ಒಳಗೊಂಡಿದೆ."
+
+#~ msgid ""
+#~ "MATE is a Free, usable, stable, accessible desktop environment for the "
+#~ "Unix-like family of operating systems."
+#~ msgstr ""
+#~ "ಮಾಟೆಯು ಯೂನಿಕ್ಸ್-ಅಂತ ನಡೆಸೇರ್ಪಾಟುಗಳಿಗೆ ಒಂದು ತಡೆಯಿಲ್ಲದ, ಬಳಸಬಹುದಾದ, ಗಟ್ಟಿಯಾದ, "
+#~ "ನಿಲುಕುವಂತ ಎಣಿಕತೆರೆ ಸುತ್ತಣವಾಗಿದೆ."
+
+#~ msgid ""
+#~ "MATE is the continuation of GNOME 2. Hundreds of people have contributed "
+#~ "code to GNOME since it was started in 1997; many more have contributed in "
+#~ "other important ways, including translations, documentation, and quality "
+#~ "assurance."
+#~ msgstr ""
+#~ "ಮಾಟೆಯು ಗ್ನೋಮ್ 2 ರ ಮುಂದುವರಿಕೆಯಾಗಿದೆ. 1997 ರಲ್ಲಿ ತೊಡಗಿದಾಗಿನಿಂದ ನೂರಾರು ಜನರು "
+#~ "ಗ್ನೋಮ್ ಗೆ ಗುಟ್ಟುಬರಹ ಕೊಡುಗೆ ನೀಡಿದ್ದಾರೆ; ಇನ್ನೂ ಹೆಚ್ಚಿನವರು ನುಡಿಮಾರ್ಪುಗಳು, "
+#~ "ದಸ್ತಾವೇಜನ್ನು ಮತ್ತು ಪರಿಚೆ ನಂಬಿಸಿಕೆ ಸೇರಿದಂತೆ ಇತರ ಹಲವು ಅರಿದು ಬಗೆಗಳಲ್ಲಿ ಕೊಡುಗೆ "
+#~ "ನೀಡಿದ್ದಾರೆ."
+
+#~ msgid ""
+#~ "GNOME 2 was the most popular Linux desktop but it’s no longer "
+#~ "available... MATE is here to provide that same desktop to you!"
+#~ msgstr ""
+#~ "ಗ್ನೋಮ್ 2 ಹೆಚ್ಚಿನಮಂದಿ ಮೆಚ್ಚುವ ಲಿನಕ್ಸ್ ಎಣಿಕತೆರೆ ಆಗಿತ್ತು ಆದರೆ ಅದು ಈಗ ದೊರಕದು... ಅದೇ "
+#~ "ಎಣಿಕತೆರೆಯನ್ನು ನಿಮಗೆ ದೊರಕಿಸಲು ಮಾಟೆ ಇಲ್ಲಿದೆ!"
+
+#~ msgid ""
+#~ "The name “MATE” comes from yerba maté, a species of holly native to "
+#~ "subtropical South America. Its leaves contain caffeine and are used to "
+#~ "make infusions and a beverage called mate."
+#~ msgstr ""
+#~ "\"MATE\" ಎಂಬ ಹೆಸರು ಮರಿಬಿಸುಪುನೆಲೆ ದಕ್ಷಿಣ ಅಮೆರಿಕಾದ ನಾಡಿನ 'ಯೆರ್ಬಾ ಮಾಟೆ' ಎಂಬ "
+#~ "ಸಸಿಯ ಪಂಗಡದಿಂದ ಬಂದಿದೆ. ಇದರ ಎಲೆಗಳು ಕೆಫೀನ್ ಅನ್ನು ಹೊಂದಿದ್ದು ಕಷಾಯ ಹಾಗು ಮಾಟೆ ಎಂಬ "
+#~ "ಕುಡಿಹವನ್ನು ಮಾಡಲು ಬಳಸಲಾಗುತ್ತದೆ."
+
+#~ msgid "Use alpha"
+#~ msgstr "ಆಲ್ಫಾ ಬಳಸು"
+
+#~ msgid "Whether or not to give the color an alpha value"
+#~ msgstr "ಬಣ್ಣಕ್ಕೆ ಆಲ್ಫಾ ಬೆಲೆಯನ್ನು ನೀಡಬೇಕೆ ಅಥವಾ ಬೇಡವೇ"
+
+#~ msgid "Title"
+#~ msgstr "ತಲೆಬರಹ"
+
+#~ msgid "The title of the color selection dialog"
+#~ msgstr "ಬಣ್ಣ ಆಯ್ಕೆ ಮಾತುಕತೆಯ ತಲೆಬರಹ"
+
+#~ msgid "Pick a Color"
+#~ msgstr "ಒಂದು ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Current Color"
+#~ msgstr "ಈಗಿರುವ ಬಣ್ಣ"
+
+#~ msgid "The selected color"
+#~ msgstr "ಆರಿಸಲಾದ ಬಣ್ಣ"
+
+#~ msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
+#~ msgstr "ಆಯ್ಕೆಮಾಡಿದ ತೂರದ ಬೆಲೆ (0 ತುಂಬು ಸಿಲುವು, 65535 ತುಂಬು ತೂರದ)"
+
+#~ msgid "Received invalid color data\n"
+#~ msgstr "ಸರಿಯಿಲ್ಲದ ಬಣ್ಣದ ತಿಳಿಹವನ್ನು ಪಡೆಯಲಾಗಿದೆ\n"

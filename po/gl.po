@@ -2,24 +2,24 @@
 # Copyright (C) YEAR MATE Developers
 # This file is distributed under the same license as the mate-desktop package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # André Rivero Castillo <hab130@gmail.com>, 2021
 # Miguel Anxo Bouzada <mbouzada@gmail.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-desktop 1.27.2\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/mate-desktop/\n"
-"POT-Creation-Date: 2023-09-02 16:57+0200\n"
+"POT-Creation-Date: 2026-01-14 23:32+0530\n"
 "PO-Revision-Date: 2018-03-11 16:44+0000\n"
 "Last-Translator: Miguel Anxo Bouzada <mbouzada@gmail.com>, 2021\n"
 "Language-Team: Galician (https://app.transifex.com/mate/teams/13566/gl/)\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators should localize the following string which will be
@@ -38,71 +38,6 @@ msgstr "Sobre MATE"
 msgid "Learn more about MATE"
 msgstr "Aprenda máis sobre MATE"
 
-#: mate-about/mate-about.h:29
-msgid "MATE Desktop Environment"
-msgstr "Contorno de escritorio MATE"
-
-#: mate-about/mate-about.h:34
-msgid ""
-"Copyright © 1997-2011 GNOME developers\n"
-"Copyright © 2011 Perberos\n"
-"Copyright © 2012-2023 MATE developers"
-msgstr ""
-
-#: mate-about/mate-about.h:42
-msgid ""
-"MATE provides an intuitive and attractive desktop to Linux users using "
-"traditional metaphors."
-msgstr ""
-"MATE fornece un escritorio intuitivo e atractivo para os usuarios de Linux "
-"empregando as metáforas tradicionais."
-
-#: mate-about/mate-about.h:45
-msgid ""
-"MATE includes most of what you see on your computer, including the file "
-"manager, document viewer, image viewer, menus, and many applications."
-msgstr ""
-"MATE inclúe a maior parte do que ve no seu computador, incluíndo o xestor de"
-" ficheiros, visor de documentos, visor de imaxes, menús e aplicacións."
-
-#: mate-about/mate-about.h:48
-msgid ""
-"MATE is a Free, usable, stable, accessible desktop environment for the Unix-"
-"like family of operating systems."
-msgstr ""
-"MATE é un contorno de escritorio libre, doado de usar, estábel e accesíbel "
-"para a familia estilo-Unix de sistemas operativos."
-
-#: mate-about/mate-about.h:51
-msgid ""
-"MATE is the continuation of GNOME 2. Hundreds of people have contributed "
-"code to GNOME since it was started in 1997; many more have contributed in "
-"other important ways, including translations, documentation, and quality "
-"assurance."
-msgstr ""
-"MATE é unha continuación de GNOME 2. Centos de persoas aportaron código a "
-"GNOME dende que se iniciou en 1997, e moitos máis colaboraron doutros xeitos"
-" importantes, incluíndo traducións, documentación e control de calidade."
-
-#: mate-about/mate-about.h:55
-msgid ""
-"GNOME 2 was the most popular Linux desktop but it’s no longer available... "
-"MATE is here to provide that same desktop to you!"
-msgstr ""
-"GNOME 2 era o escritorio de Linux máis popular, mais xa non está "
-"dispoñíbel... MATE está aquí para fornecerlle a vostede ese mesmo "
-"escritorio!"
-
-#: mate-about/mate-about.h:58
-msgid ""
-"The name “MATE” comes from yerba maté, a species of holly native to "
-"subtropical South America. Its leaves contain caffeine and are used to make "
-"infusions and a beverage called mate."
-msgstr ""
-"O nome de «MATE» ven de yerba maté, unha especie de acibo nativo da "
-"Sudamérica subtropical. As súas follas conteñen cafeína e utilízanse para "
-"facer infusións e unha bebida chamada mate."
-
 #. Translators: "Unknown" here is used to identify a monitor for which
 #. * we don't know the vendor. When a vendor is known, the name of the
 #. * vendor is used.
@@ -111,92 +46,59 @@ msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "Descoñecido"
 
-#: libmate-desktop/mate-colorbutton.c:151
-msgid "Use alpha"
-msgstr "Usar alfa"
-
-#: libmate-desktop/mate-colorbutton.c:152
-msgid "Whether or not to give the color an alpha value"
-msgstr "Indica se dar ou non cor a un valor alfa"
-
-#: libmate-desktop/mate-colorbutton.c:166
-msgid "Title"
-msgstr "Título"
-
-#: libmate-desktop/mate-colorbutton.c:167
-msgid "The title of the color selection dialog"
-msgstr "O título da caixa de diálogo de selección da cor"
-
-#: libmate-desktop/mate-colorbutton.c:168
-#: libmate-desktop/mate-colorbutton.c:439
-msgid "Pick a Color"
-msgstr "Seleccione unha cor"
-
-#: libmate-desktop/mate-colorbutton.c:181 libmate-desktop/mate-colorsel.c:281
-msgid "Current Color"
-msgstr "Cor actual"
-
-#: libmate-desktop/mate-colorbutton.c:182
-msgid "The selected color"
-msgstr "A cor seleccionada"
-
-#: libmate-desktop/mate-colorbutton.c:196 libmate-desktop/mate-colorsel.c:288
-msgid "Current Alpha"
-msgstr "Alfa actual"
-
-#: libmate-desktop/mate-colorbutton.c:197
-msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
-msgstr ""
-"A opacidade seleccionada (0 completamente transparente, 65535 completamente "
-"opaca)"
-
-#: libmate-desktop/mate-colorbutton.c:335
-msgid "Received invalid color data\n"
-msgstr "Recibíronse datos de cor incorrectos\n"
-
-#: libmate-desktop/mate-colorsel.c:267
+#: libmate-desktop/mate-colorsel.c:271
 msgid "Has Opacity Control"
 msgstr "Ten control de opacidade"
 
-#: libmate-desktop/mate-colorsel.c:268
+#: libmate-desktop/mate-colorsel.c:272
 msgid "Whether the color selector should allow setting opacity"
 msgstr "Indica se o selector de cor debe permitir axustar a opacidade"
 
-#: libmate-desktop/mate-colorsel.c:274
+#: libmate-desktop/mate-colorsel.c:278
 msgid "Has palette"
 msgstr "Ten paleta"
 
-#: libmate-desktop/mate-colorsel.c:275
+#: libmate-desktop/mate-colorsel.c:279
 msgid "Whether a palette should be used"
 msgstr "Indica se debe empregarse unha paleta"
 
-#: libmate-desktop/mate-colorsel.c:282
-msgid "The current color"
+#: libmate-desktop/mate-colorsel.c:285
+#, fuzzy
+msgid "Current RGBA"
+msgstr "Alfa actual"
+
+#: libmate-desktop/mate-colorsel.c:286
+#, fuzzy
+msgid "The current RGBA color"
 msgstr "A cor actual"
 
-#: libmate-desktop/mate-colorsel.c:289
+#: libmate-desktop/mate-colorsel.c:295
+msgid "Current Alpha"
+msgstr "Alfa actual"
+
+#: libmate-desktop/mate-colorsel.c:296
 msgid "The current opacity value (0 fully transparent, 65535 fully opaque)"
 msgstr ""
 "O valor da opacidade actual (0 completamente transparente, 65535 "
 "completamente opaca)"
 
-#: libmate-desktop/mate-colorsel.c:295
+#: libmate-desktop/mate-colorsel.c:302
 msgid "HEX String"
 msgstr "Cadea hexadecimal"
 
-#: libmate-desktop/mate-colorsel.c:296
+#: libmate-desktop/mate-colorsel.c:303
 msgid "The hexadecimal string of current color"
 msgstr "A cadea hexadecimal da cor actual"
 
-#: libmate-desktop/mate-colorsel.c:341
+#: libmate-desktop/mate-colorsel.c:348
 msgid ""
 "Select the color you want from the outer ring. Select the darkness or "
 "lightness of that color using the inner triangle."
 msgstr ""
-"Seleccione a cor que queira para o anel exterior. Seleccione a escuridade ou"
-" a claridade desta cor empregando o  triangulo interior."
+"Seleccione a cor que queira para o anel exterior. Seleccione a escuridade ou "
+"a claridade desta cor empregando o  triangulo interior."
 
-#: libmate-desktop/mate-colorsel.c:365
+#: libmate-desktop/mate-colorsel.c:372
 msgid ""
 "Click the eyedropper, then click a color anywhere on your screen to select "
 "that color."
@@ -204,93 +106,93 @@ msgstr ""
 "prema no contagotas e, a seguir, prema nunha cor de calquera parte da "
 "pantalla para seleccionar esa cor."
 
-#: libmate-desktop/mate-colorsel.c:374
+#: libmate-desktop/mate-colorsel.c:381
 msgid "_Hue:"
 msgstr "_Matiz:"
 
-#: libmate-desktop/mate-colorsel.c:375
+#: libmate-desktop/mate-colorsel.c:382
 msgid "Position on the color wheel."
 msgstr "Posición na roda de cor."
 
-#: libmate-desktop/mate-colorsel.c:377
+#: libmate-desktop/mate-colorsel.c:384
 msgid "_Saturation:"
 msgstr "_Saturación:"
 
-#: libmate-desktop/mate-colorsel.c:378
+#: libmate-desktop/mate-colorsel.c:385
 msgid "\"Deepness\" of the color."
 msgstr "«Profundidade» da cor."
 
-#: libmate-desktop/mate-colorsel.c:379
+#: libmate-desktop/mate-colorsel.c:386
 msgid "_Value:"
 msgstr "_Valor:"
 
-#: libmate-desktop/mate-colorsel.c:380
+#: libmate-desktop/mate-colorsel.c:387
 msgid "Brightness of the color."
 msgstr "Brillo da cor."
 
-#: libmate-desktop/mate-colorsel.c:381
+#: libmate-desktop/mate-colorsel.c:388
 msgid "_Red:"
 msgstr "Ve_rmello:"
 
-#: libmate-desktop/mate-colorsel.c:382
+#: libmate-desktop/mate-colorsel.c:389
 msgid "Amount of red light in the color."
 msgstr "Cantidade de luz vermella na cor."
 
-#: libmate-desktop/mate-colorsel.c:383
+#: libmate-desktop/mate-colorsel.c:390
 msgid "_Green:"
 msgstr "V_erde:"
 
-#: libmate-desktop/mate-colorsel.c:384
+#: libmate-desktop/mate-colorsel.c:391
 msgid "Amount of green light in the color."
 msgstr "Cantidade de luz verde na cor."
 
-#: libmate-desktop/mate-colorsel.c:385
+#: libmate-desktop/mate-colorsel.c:392
 msgid "_Blue:"
 msgstr "_Azul:"
 
-#: libmate-desktop/mate-colorsel.c:386
+#: libmate-desktop/mate-colorsel.c:393
 msgid "Amount of blue light in the color."
 msgstr "Cantidade de luz azul na cor."
 
-#: libmate-desktop/mate-colorsel.c:389
+#: libmate-desktop/mate-colorsel.c:396
 msgid "Op_acity:"
 msgstr "_Opacidade:"
 
-#: libmate-desktop/mate-colorsel.c:396 libmate-desktop/mate-colorsel.c:406
+#: libmate-desktop/mate-colorsel.c:403 libmate-desktop/mate-colorsel.c:413
 msgid "Transparency of the color."
 msgstr "Transparencia da cor."
 
-#: libmate-desktop/mate-colorsel.c:413
+#: libmate-desktop/mate-colorsel.c:420
 msgid "Color _name:"
 msgstr "_Nome da cor:"
 
-#: libmate-desktop/mate-colorsel.c:427
+#: libmate-desktop/mate-colorsel.c:434
 msgid ""
 "You can enter an HTML-style hexadecimal color value, or simply a color name "
 "such as 'orange' in this entry."
 msgstr ""
-"Pode introducir un valor hexadecimal da cor ao estilo HTML, ou simplemente o"
-" nome da cor en inglés, p.ex. «orange»."
+"Pode introducir un valor hexadecimal da cor ao estilo HTML, ou simplemente o "
+"nome da cor en inglés, p.ex. «orange»."
 
-#: libmate-desktop/mate-colorsel.c:457
+#: libmate-desktop/mate-colorsel.c:464
 msgid "_Palette:"
 msgstr "_Paleta:"
 
-#: libmate-desktop/mate-colorsel.c:487
+#: libmate-desktop/mate-colorsel.c:494
 msgid "Color Wheel"
 msgstr "Roda de cor"
 
-#: libmate-desktop/mate-colorsel.c:942
+#: libmate-desktop/mate-colorsel.c:949
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now. You can drag this color to a palette entry, or select this color as "
 "current by dragging it to the other color swatch alongside."
 msgstr ""
-"A cor seleccionada previamente, para comparar coa cor que está a seleccionar"
-" agora.. Pode arrastrar esta cor a unha entrada de paleta ou seleccionar "
-"esta cor como actual arrastrándoa á beira doutra mostra de cor."
+"A cor seleccionada previamente, para comparar coa cor que está a seleccionar "
+"agora.. Pode arrastrar esta cor a unha entrada de paleta ou seleccionar esta "
+"cor como actual arrastrándoa á beira doutra mostra de cor."
 
-#: libmate-desktop/mate-colorsel.c:945
+#: libmate-desktop/mate-colorsel.c:952
 msgid ""
 "The color you've chosen. You can drag this color to a palette entry to save "
 "it for use in the future."
@@ -298,37 +200,37 @@ msgstr ""
 "A cor que escolleu. Pode arrastrar esta cor a unha entrada da paleta para "
 "gardala para o seu uso no futuro."
 
-#: libmate-desktop/mate-colorsel.c:950
+#: libmate-desktop/mate-colorsel.c:957
 msgid ""
 "The previously-selected color, for comparison to the color you're selecting "
 "now."
 msgstr ""
-"A cor seleccionada previamente, para comparar coa cor que está a seleccionar"
-" agora."
+"A cor seleccionada previamente, para comparar coa cor que está a seleccionar "
+"agora."
 
-#: libmate-desktop/mate-colorsel.c:953
+#: libmate-desktop/mate-colorsel.c:960
 msgid "The color you've chosen."
 msgstr "A cor que escolleu."
 
-#: libmate-desktop/mate-colorsel.c:1359
+#: libmate-desktop/mate-colorsel.c:1323
 msgid "gtk-color-sel"
 msgstr "gtk-color-sel"
 
-#: libmate-desktop/mate-colorsel.c:1364
+#: libmate-desktop/mate-colorsel.c:1328
 msgid "_Save color here"
 msgstr "_Gardar a cor aquí"
 
-#: libmate-desktop/mate-colorsel.c:1584
+#: libmate-desktop/mate-colorsel.c:1561
 msgid ""
-"Click this palette entry to make it the current color. To change this entry,"
-" drag a color swatch here or right-click it and select \"Save color here.\""
+"Click this palette entry to make it the current color. To change this entry, "
+"drag a color swatch here or right-click it and select \"Save color here.\""
 msgstr ""
 "Prema nesta entrada da paleta para coller a cor actual. Para cambiar esta "
-"entrada, arrastre unha mostra da cor cara a aquí ou prema no botón dereito e"
-" seleccione «Gardar a cor aquí»."
+"entrada, arrastre unha mostra da cor cara a aquí ou prema no botón dereito e "
+"seleccione «Gardar a cor aquí»."
 
 #: libmate-desktop/mate-colorseldialog.c:98
-#: libmate-desktop/mate-colorseldialog.c:184
+#: libmate-desktop/mate-colorseldialog.c:182
 msgid "Color Selection"
 msgstr "Selección da cor"
 
@@ -360,15 +262,15 @@ msgstr "Botón «Axuda»"
 msgid "The help button of the dialog."
 msgstr "O botón «Axuda» do diálogo."
 
-#: libmate-desktop/mate-colorseldialog.c:162
+#: libmate-desktop/mate-colorseldialog.c:160
 msgid "_Cancel"
 msgstr "_Cancelar"
 
-#: libmate-desktop/mate-colorseldialog.c:167
+#: libmate-desktop/mate-colorseldialog.c:165
 msgid "_OK"
 msgstr "_Aceptar"
 
-#: libmate-desktop/mate-colorseldialog.c:175
+#: libmate-desktop/mate-colorseldialog.c:173
 msgid "Help"
 msgstr "Axuda"
 
@@ -388,7 +290,7 @@ msgstr "Produciuse un erro ao rebobinar o ficheiro «%s»: %s"
 #. Translators: the "name" mentioned here is the name of
 #. * an application or a document
 #: libmate-desktop/mate-desktop-item.c:378
-#: libmate-desktop/mate-desktop-item.c:3543
+#: libmate-desktop/mate-desktop-item.c:3547
 msgid "No name"
 msgstr "Sen nome"
 
@@ -411,23 +313,23 @@ msgstr "Non hai ningún nome de ficheiro para gardar en"
 msgid "Starting %s"
 msgstr "Iniciando %s"
 
-#: libmate-desktop/mate-desktop-item.c:2090
+#: libmate-desktop/mate-desktop-item.c:2094
 msgid "No URL to launch"
 msgstr "Ningún URL para iniciar"
 
-#: libmate-desktop/mate-desktop-item.c:2106
+#: libmate-desktop/mate-desktop-item.c:2110
 msgid "Not a launchable item"
 msgstr "Non é un elemento executábel"
 
-#: libmate-desktop/mate-desktop-item.c:2115
+#: libmate-desktop/mate-desktop-item.c:2119
 msgid "No command (Exec) to launch"
 msgstr "Non hai ningunha orde (exec) para iniciar"
 
-#: libmate-desktop/mate-desktop-item.c:2127
+#: libmate-desktop/mate-desktop-item.c:2131
 msgid "Bad command (Exec) to launch"
 msgstr "A orde é incorrecta (exec) para iniciar"
 
-#: libmate-desktop/mate-desktop-item.c:3600
+#: libmate-desktop/mate-desktop-item.c:3604
 #, c-format
 msgid "Unknown encoding of: %s"
 msgstr "A codificación de %s é descoñecida"
@@ -540,7 +442,8 @@ msgstr "Tentando os modos para CRTC %d\n"
 #: libmate-desktop/mate-rr-config.c:1725
 #, c-format
 msgid "CRTC %d: trying mode %dx%d@%dHz with output at %dx%d@%dHz (pass %d)\n"
-msgstr "CRTC %d: tentando o modo %dx%d@%dHz coa saída en %dx%d@%dHz (paso %d)\n"
+msgstr ""
+"CRTC %d: tentando o modo %dx%d@%dHz coa saída en %dx%d@%dHz (paso %d)\n"
 
 #: libmate-desktop/mate-rr-config.c:1772
 #, c-format
@@ -572,13 +475,13 @@ msgstr ""
 "o tamaño virtual solicitado non se axusta ao tamaño dispoñíbel: "
 "solicitado=(%d, %d), mínimo=(%d, %d), máximo=(%d, %d)"
 
-#. Keep this string in sync with mate-control-center/capplets/display/xrandr-
-#. capplet.c:get_display_name()
+#. Keep this string in sync with mate-control-center/capplets/display/xrandr-capplet.c:get_display_name()
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#: libmate-desktop/mate-rr-labeler.c:406
+#.
+#: libmate-desktop/mate-rr-labeler.c:426
 msgid "Mirror Screens"
 msgstr "Pantallas en espello"
 
@@ -589,8 +492,7 @@ msgstr "intervalo mínimo en milisegundos"
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:26
 msgid "Ignore multiple presses of the _same_ key within @delay milliseconds."
 msgstr ""
-"Ignorar as pulsacións múltiples da _mesma_ tecla durante @delay "
-"milisegundos."
+"Ignorar as pulsacións múltiples da _mesma_ tecla durante @delay milisegundos."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:36
 msgid "Pixels per seconds"
@@ -662,8 +564,7 @@ msgid ""
 "enabled. Only works with the 'internal' backend."
 msgstr ""
 "Número de pitidos que se emiten ao activar un modificador mentres están "
-"activadas as teclas de alternancia. Só funciona coa infraestrutura "
-"«interna»."
+"activadas as teclas de alternancia. Só funciona coa infraestrutura «interna»."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:97
 msgid "Delay between beeps when enabling a modifier"
@@ -688,8 +589,7 @@ msgid ""
 "enabled. Only works with the 'internal' backend."
 msgstr ""
 "Número de pitidos que se emiten ao desactivar un modificador mentres están "
-"activadas as teclas de alternancia. Só funciona coa infraestrutura "
-"«interna»."
+"activadas as teclas de alternancia. Só funciona coa infraestrutura «interna»."
 
 #: schemas/org.mate.accessibility-keyboard.gschema.xml:109
 msgid "Delay between beeps when disabling a modifier"
@@ -763,8 +663,8 @@ msgid ""
 "Preferred Visual assistive technology application to be used for login, "
 "menu, or command line."
 msgstr ""
-"Aplicación preferida de tecnoloxía adaptada visual para ser usada no inicio,"
-" menú, ou liña de ordes."
+"Aplicación preferida de tecnoloxía adaptada visual para ser usada no inicio, "
+"menú, ou liña de ordes."
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:10
 msgid "Start preferred Visual assistive technology application"
@@ -772,11 +672,10 @@ msgstr "Iniciar a aplicación preferida de tecnoloxía adaptada visual"
 
 #: schemas/org.mate.applications-at-visual.gschema.xml:11
 msgid ""
-"MATE to start preferred Visual assistive technology application during "
-"login."
+"MATE to start preferred Visual assistive technology application during login."
 msgstr ""
-"Se MATE ten que iniciar a aplicación preferida de tecnoloxía adaptada visual"
-" durante o inicio."
+"Se MATE ten que iniciar a aplicación preferida de tecnoloxía adaptada visual "
+"durante o inicio."
 
 #: schemas/org.mate.applications-browser.gschema.xml:5
 msgid "Default browser"
@@ -818,8 +717,7 @@ msgstr "Aplicación de mensaxaría instantánea"
 
 #: schemas/org.mate.applications-messenger.gschema.xml:6
 msgid ""
-"Instant Messaging program to use when starting applications that require "
-"one."
+"Instant Messaging program to use when starting applications that require one."
 msgstr ""
 "Programa de mensaxería instantánea para usar ao iniciar aplicacións que "
 "precisen dun."
@@ -906,8 +804,8 @@ msgid ""
 "If set to true, then MATE will change the desktop background with a fading "
 "effect."
 msgstr ""
-"Se o estabelece a verdadeiro, MATE cambiará o fondo de escritorio cun efecto"
-" de esvaecemento."
+"Se o estabelece a verdadeiro, MATE cambiará o fondo de escritorio cun efecto "
+"de esvaecemento."
 
 #: schemas/org.mate.background.gschema.xml.in:33
 msgid "Picture Options"
@@ -916,13 +814,13 @@ msgstr "Opcións da imaxe"
 #: schemas/org.mate.background.gschema.xml.in:34
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\","
-" \"spanned\"."
+"values are \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\", "
+"\"spanned\"."
 msgstr ""
 "Determina como se renderiza a imaxe estabelecida por «wallpaper_filename». "
-"Os valores posíbeis son  «wallpaper» (encher pantalla), «centered» "
-"(centrado), «scaled» (escalado), «stretched» (estirado), «zoom» (ampliación)"
-" e «spanned» (estendido)."
+"Os valores posíbeis son  «wallpaper» (encher pantalla), "
+"«centered» (centrado), «scaled» (escalado), «stretched» (estirado), "
+"«zoom» (ampliación) e «spanned» (estendido)."
 
 #: schemas/org.mate.background.gschema.xml.in:38
 msgid "Picture Filename"
@@ -954,8 +852,7 @@ msgid "Secondary Color"
 msgstr "Cor secundaria"
 
 #: schemas/org.mate.background.gschema.xml.in:54
-msgid ""
-"Right or Bottom color when drawing gradients, not used for solid color."
+msgid "Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 "Cor inferior ou dereita ao debuxar os degradados; non se usa para a cor "
 "sólida."
@@ -1013,10 +910,12 @@ msgid "Toolbar Style"
 msgstr "Estilo da barra de ferramentas"
 
 #: schemas/org.mate.interface.gschema.xml:21
-msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
+msgid ""
+"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
+"\"text\"."
 msgstr ""
-"Estilo da barra de ferramentas. Os valores válidos son «both», «both-horiz»,"
-" «icons» e «text»."
+"Estilo da barra de ferramentas. Os valores válidos son «both», «both-horiz», "
+"«icons» e «text»."
 
 #: schemas/org.mate.interface.gschema.xml:25
 msgid "Menus Have Icons"
@@ -1032,8 +931,7 @@ msgstr "Os botóns teñen iconas"
 
 #: schemas/org.mate.interface.gschema.xml:31
 msgid "Whether buttons may display an icon in addition to the button text."
-msgstr ""
-"Indica se os botóns deben amosar unha icona ademais do texto do botón."
+msgstr "Indica se os botóns deben amosar unha icona ademais do texto do botón."
 
 #: schemas/org.mate.interface.gschema.xml:35
 msgid "Menubar Detachable"
@@ -1060,7 +958,8 @@ msgid "Toolbar Icon Size"
 msgstr "Tamaño da icona da barra de ferramentas"
 
 #: schemas/org.mate.interface.gschema.xml:46
-msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
+msgid ""
+"Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr ""
 "O tamaño das iconas nas barras de ferramentas; pode ser «barra-pequena» ou "
 "«barra-grande»."
@@ -1112,60 +1011,69 @@ msgstr ""
 "color-scheme»"
 
 #: schemas/org.mate.interface.gschema.xml:80
+msgid "GTK color palette"
+msgstr ""
+
+#: schemas/org.mate.interface.gschema.xml:81
+#, fuzzy
+msgid "Default color palette for MATE Color Selection"
+msgstr "Selección de cor do MATE"
+
+#: schemas/org.mate.interface.gschema.xml:85
 msgid "Default font"
 msgstr "Tipo de letra predeterminado"
 
-#: schemas/org.mate.interface.gschema.xml:81
+#: schemas/org.mate.interface.gschema.xml:86
 msgid "Name of the default font used by gtk+."
 msgstr "Nome do tipo de letra predeterminado usado por gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:85
+#: schemas/org.mate.interface.gschema.xml:90
 msgid "GTK IM Preedit Style"
 msgstr "Estilo de preedición do GTK IM"
 
-#: schemas/org.mate.interface.gschema.xml:86
+#: schemas/org.mate.interface.gschema.xml:91
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr ""
 "Nome do método de entrada do «Estilo de preedición» de GTK+ usado por gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:90
+#: schemas/org.mate.interface.gschema.xml:95
 msgid "GTK IM Status Style"
 msgstr "Estilo do estado do GTK IM"
 
-#: schemas/org.mate.interface.gschema.xml:91
+#: schemas/org.mate.interface.gschema.xml:96
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "Nome do «Estilo de estado» do método de entrada GTK+ usado por gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:95
+#: schemas/org.mate.interface.gschema.xml:100
 msgid "GTK IM Module"
 msgstr "Módulo do GTK IM"
 
-#: schemas/org.mate.interface.gschema.xml:96
+#: schemas/org.mate.interface.gschema.xml:101
 msgid "Name of the input method module used by GTK+."
 msgstr "Nome do módulo do método de entrada usado por GTK+."
 
-#: schemas/org.mate.interface.gschema.xml:100
+#: schemas/org.mate.interface.gschema.xml:105
 msgid "Use GTK3 header bar"
 msgstr "Usar a barra de cabeceira GTK3"
 
-#: schemas/org.mate.interface.gschema.xml:101
+#: schemas/org.mate.interface.gschema.xml:106
 msgid ""
 "Whether builtin GTK+ dialogs such as the file chooser, the color chooser or "
-"the font chooser will use a header bar at the top to show action widgets, or"
-" an action area at the bottom. This setting does not affect custom dialogs "
+"the font chooser will use a header bar at the top to show action widgets, or "
+"an action area at the bottom. This setting does not affect custom dialogs "
 "using GtkDialog directly, or message dialogs."
 msgstr ""
 "Indica se os diálogos integrados en GTK+ como o selector de ficheiros, o "
 "selector de cor ou o selector de tipos de letra usarán una barra de "
-"cabeceira na parte superior para amosar trebellos de acción, ou unha área de"
-" acción na parte inferior. Este axuste non afecta directamente os diálogos "
+"cabeceira na parte superior para amosar trebellos de acción, ou unha área de "
+"acción na parte inferior. Este axuste non afecta directamente os diálogos "
 "personalizados usando GtkDialog, ou diálogos de mensaxe."
 
-#: schemas/org.mate.interface.gschema.xml:105
+#: schemas/org.mate.interface.gschema.xml:110
 msgid "Use GTK3 overlay scrolling"
 msgstr "Usar a capa de desprazamento GTK3"
 
-#: schemas/org.mate.interface.gschema.xml:106
+#: schemas/org.mate.interface.gschema.xml:111
 msgid ""
 "Whether built-in GTK+ scrolled windows will use overlay scrolling. Overlay "
 "scrolling hides and reduces the size of the scrollbar until it gets focus."
@@ -1174,56 +1082,56 @@ msgstr ""
 "desprazamento GTK3. A capa de desprazamento agochase e reduce a barra de "
 "desprazamento ata que estea enfocada."
 
-#: schemas/org.mate.interface.gschema.xml:110
+#: schemas/org.mate.interface.gschema.xml:115
 msgid "Enable Gtk toolkit-wide animations"
 msgstr "Activar as animacións Gtk para todo o conxunto de ferramentas"
 
-#: schemas/org.mate.interface.gschema.xml:111
+#: schemas/org.mate.interface.gschema.xml:116
 msgid "Whether to enable toolkit-wide animations."
 msgstr ""
 "Indica se se activan as animacións Gtk para todo o conxunto de ferramentas"
 
-#: schemas/org.mate.interface.gschema.xml:115
+#: schemas/org.mate.interface.gschema.xml:120
 msgid "Document font"
 msgstr "Tipo de letra do documento"
 
-#: schemas/org.mate.interface.gschema.xml:116
+#: schemas/org.mate.interface.gschema.xml:121
 msgid "Name of the default font used for reading documents."
 msgstr "Nome do tipo de letra predeterminado usado para ler documentos."
 
-#: schemas/org.mate.interface.gschema.xml:120
+#: schemas/org.mate.interface.gschema.xml:125
 msgid "Monospace font"
 msgstr "Tipo de letra monoespazada"
 
-#: schemas/org.mate.interface.gschema.xml:121
+#: schemas/org.mate.interface.gschema.xml:126
 msgid ""
 "Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr ""
 "Nome do tipo de letra monoespazada (largo fixo) que usar en sitios como "
 "terminais."
 
-#: schemas/org.mate.interface.gschema.xml:125
+#: schemas/org.mate.interface.gschema.xml:130
 msgid "Use Custom Font"
 msgstr "Usar tipo de letra personalizado"
 
-#: schemas/org.mate.interface.gschema.xml:126
+#: schemas/org.mate.interface.gschema.xml:131
 msgid "Whether to use a custom font in gtk+ applications."
 msgstr ""
 "Indica se se vai usar un tipo de letra personalizado nas aplicacións gtk+."
 
-#: schemas/org.mate.interface.gschema.xml:130
+#: schemas/org.mate.interface.gschema.xml:135
 msgid "Status Bar on Right"
 msgstr "Barra de estado á dereita"
 
-#: schemas/org.mate.interface.gschema.xml:131
+#: schemas/org.mate.interface.gschema.xml:136
 msgid "Whether to display a status bar meter on the right."
 msgstr "Indica se se amosa un contador da barra de estado á dereita."
 
-#: schemas/org.mate.interface.gschema.xml:135
+#: schemas/org.mate.interface.gschema.xml:140
 msgid "Module for GtkFileChooser"
 msgstr "Módulo para GtkFileChooser"
 
-#: schemas/org.mate.interface.gschema.xml:136
+#: schemas/org.mate.interface.gschema.xml:141
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\" and \"gtk+\"."
@@ -1231,19 +1139,19 @@ msgstr ""
 "Módulo para usar como modelo do sistema de ficheiros para o trebello "
 "GtkFileChooser. Os valores posíbeis son «gio» e «gtk+»."
 
-#: schemas/org.mate.interface.gschema.xml:140
+#: schemas/org.mate.interface.gschema.xml:145
 msgid "Menubar accelerator"
 msgstr "Tecla rápida da barra de menús"
 
-#: schemas/org.mate.interface.gschema.xml:141
+#: schemas/org.mate.interface.gschema.xml:146
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "Atallo de teclado para abrir as barras do menú."
 
-#: schemas/org.mate.interface.gschema.xml:145
+#: schemas/org.mate.interface.gschema.xml:150
 msgid "Show the 'Input Methods' menu"
 msgstr "Amosar o menú «Métodos de entrada»"
 
-#: schemas/org.mate.interface.gschema.xml:146
+#: schemas/org.mate.interface.gschema.xml:151
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
@@ -1251,11 +1159,11 @@ msgstr ""
 "Indica se os menús de contexto das entradas e as vistas de texto deben "
 "ofrecer modificar o método de entrada."
 
-#: schemas/org.mate.interface.gschema.xml:150
+#: schemas/org.mate.interface.gschema.xml:155
 msgid "Show the 'Unicode Control Character' menu"
 msgstr "Amosar o menú «Carácter de control Unicode»"
 
-#: schemas/org.mate.interface.gschema.xml:151
+#: schemas/org.mate.interface.gschema.xml:156
 msgid ""
 "Whether the context menus of entries and text views should offer to insert "
 "control characters."
@@ -1263,61 +1171,55 @@ msgstr ""
 "Indica se os menús de contexto das entradas e as vistas de texto deben "
 "ofrecer inserir caracteres de control."
 
-#: schemas/org.mate.interface.gschema.xml:155
+#: schemas/org.mate.interface.gschema.xml:160
 msgid "Titlebar layout of GTK3 client-side decorated windows"
 msgstr "Deseño da cabeceira de GTK3 en xanelas decoradas do lado do cliente"
 
-#: schemas/org.mate.interface.gschema.xml:156
+#: schemas/org.mate.interface.gschema.xml:161
 msgid ""
 "This setting determines which buttons should be put in the titlebar of "
-"client-side decorated windows, and whether they should be placed at the left"
-" of right. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
+"client-side decorated windows, and whether they should be placed at the left "
+"of right. See https://developer.gnome.org/gtk3/stable/GtkSettings."
+"html#GtkSettings--gtk-decoration-layout."
 msgstr ""
 "Este axuste determina que botóns deben ser postos na cabeceira nas xanelas "
 "decoradas do lado do cliente, e se deben ser colocados de esquerda a "
-"dereita. Vexa "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"decoration-layout."
+"dereita. Vexa https://developer.gnome.org/gtk3/stable/GtkSettings."
+"html#GtkSettings--gtk-decoration-layout."
 
-#: schemas/org.mate.interface.gschema.xml:160
+#: schemas/org.mate.interface.gschema.xml:165
 msgid "Use a global menubar for displaying application menus"
 msgstr "Usar unha barra de menú global para amosar os menús da aplicación"
 
-#: schemas/org.mate.interface.gschema.xml:161
+#: schemas/org.mate.interface.gschema.xml:166
 msgid ""
 "This setting determines where application menu will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 msgstr ""
 "Este axuste determina onde se amosarán os menús de aplicacións: en cada "
-"xanela ou nun panel co protocolo MenuModel. Vexa "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-app-menu."
+"xanela ou nun panel co protocolo MenuModel. Vexa https://developer.gnome.org/"
+"gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-app-menu."
 
-#: schemas/org.mate.interface.gschema.xml:165
+#: schemas/org.mate.interface.gschema.xml:170
 msgid "Use a global menubar for displaying window menubars"
 msgstr "Usar unha barra de menú global para amosar as barra de menú da xanela"
 
-#: schemas/org.mate.interface.gschema.xml:166
+#: schemas/org.mate.interface.gschema.xml:171
 msgid ""
 "This setting determines where window menubars will be displayed - in a "
-"window or on a panel with MenuModel protocol. See "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"window or on a panel with MenuModel protocol. See https://developer.gnome."
+"org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
 msgstr ""
 "Este axuste determina onde se amosarán as barras de menús das xanelas en "
-"cada xanela ou nun panel co protocolo MenuModel. Vexa "
-"https://developer.gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-"
-"shell-shows-menubar."
+"cada xanela ou nun panel co protocolo MenuModel. Vexa https://developer."
+"gnome.org/gtk3/stable/GtkSettings.html#GtkSettings--gtk-shell-shows-menubar."
 
-#: schemas/org.mate.interface.gschema.xml:170
+#: schemas/org.mate.interface.gschema.xml:175
 msgid "Only show mnemonics on when the Alt key is pressed"
 msgstr "Amosar só mnemotécnicos sobre cando se preme a tecla Alt"
 
-#: schemas/org.mate.interface.gschema.xml:171
+#: schemas/org.mate.interface.gschema.xml:176
 msgid ""
 "Whether mnemonics should be automatically shown and hidden when the user "
 "presses the Alt key."
@@ -1325,11 +1227,11 @@ msgstr ""
 "Indica se os mnemotécnicos deben amosarse e agocharse automaticamente cando "
 "o usuario preme a tecla Alt."
 
-#: schemas/org.mate.interface.gschema.xml:176
+#: schemas/org.mate.interface.gschema.xml:181
 msgid "Window Scaling Factor"
 msgstr "Factor de escala das xanelas"
 
-#: schemas/org.mate.interface.gschema.xml:177
+#: schemas/org.mate.interface.gschema.xml:182
 msgid ""
 "This controls the GTK scale factor that maps from window coordinates to the "
 "actual device pixels. On traditional systems this is 1, but on very high "
@@ -1337,16 +1239,16 @@ msgid ""
 "Set to 0 to auto-detect."
 msgstr ""
 "Isto controla o factor de escala GTK que se asigna dende as coordenadas da "
-"xanela ata os píxeis do dispositivo real. Nos sistemas tradicionais, o valor"
-" é 1, pero en pantallas de moi alta densidade (por exemplo, HiDPI, Retina), "
+"xanela ata os píxeis do dispositivo real. Nos sistemas tradicionais, o valor "
+"é 1, pero en pantallas de moi alta densidade (por exemplo, HiDPI, Retina), "
 "este pode ser un valor máis alto (habitualmente 2). Estabeleza 0 para a "
 "detección automática."
 
-#: schemas/org.mate.interface.gschema.xml:181
+#: schemas/org.mate.interface.gschema.xml:186
 msgid "Scaling Factor for QT appllications"
 msgstr "Factor de escalado para aplicacións QT"
 
-#: schemas/org.mate.interface.gschema.xml:182
+#: schemas/org.mate.interface.gschema.xml:187
 msgid ""
 "This setting determines whether MATE controls the scale factor for QT "
 "applications. Enable to synchronize with the GTK scale factor when "
@@ -1358,11 +1260,11 @@ msgstr ""
 "a sesión, desactive para controlar este valor noutro lugar. Require "
 "reiniciar a súa sesión."
 
-#: schemas/org.mate.interface.gschema.xml:186
+#: schemas/org.mate.interface.gschema.xml:191
 msgid "Enable the primary paste selection"
 msgstr "Activar a selección de pegado primario"
 
-#: schemas/org.mate.interface.gschema.xml:187
+#: schemas/org.mate.interface.gschema.xml:192
 msgid ""
 "If true, gtk+ uses the primary paste selection, usually triggered by a "
 "middle mouse button click."
@@ -1376,13 +1278,13 @@ msgstr "Desactivar a liña de ordes"
 
 #: schemas/org.mate.lockdown.gschema.xml:6
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to"
-" be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to "
+"be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
 msgstr ""
 "Impide que o usuario acceda ao terminal ou especifique unha liña de ordes "
-"para ser executada. Por exemplo, isto poderá desactivar o acceso ao panel de"
-" diálogo «Executar a aplicación»."
+"para ser executada. Por exemplo, isto poderá desactivar o acceso ao panel de "
+"diálogo «Executar a aplicación»."
 
 #: schemas/org.mate.lockdown.gschema.xml:10
 msgid "Disable saving files to disk"
@@ -1431,8 +1333,7 @@ msgid ""
 "Prevent the user from switching to another account while his session is "
 "active."
 msgstr ""
-"Impide que o usuario seleccione outra conta mentres a súa sesión está "
-"activa."
+"Impide que o usuario seleccione outra conta mentres a súa sesión está activa."
 
 #: schemas/org.mate.lockdown.gschema.xml:30
 msgid "Disable lock screen"
@@ -1526,8 +1427,8 @@ msgstr ""
 
 #: schemas/org.mate.sound.gschema.xml:36
 msgid ""
-"If this is set to TRUE, the user will be allowed to set the output / speaker"
-" volume to above 100%. By setting the output volume above 100%, the sound "
+"If this is set to TRUE, the user will be allowed to set the output / speaker "
+"volume to above 100%. By setting the output volume above 100%, the sound "
 "server will amplify the audio above what the audio hardware can do cleanly. "
 "This can lead to audio quality degradation, but may be useful for listening "
 "to extremely quiet audio recordings, where the recording would otherwise be "
@@ -1572,8 +1473,8 @@ msgstr ""
 
 #: schemas/org.mate.thumbnailers.gschema.xml:11
 msgid ""
-"Thumbnails will not be created for files whose mime-type is contained in the"
-" list."
+"Thumbnails will not be created for files whose mime-type is contained in the "
+"list."
 msgstr ""
 "Non se crearán as miniaturas para aqueles ficheiros cuxo tipo MIME estea na "
 "lista."
@@ -1632,8 +1533,88 @@ msgstr "Diálogo de selección de cor"
 msgid "Choose colors from the palette or the screen"
 msgstr "Escolla cores da paleta ou da pantalla"
 
-#. Translators: Search terms to find this application. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: tools/mate-color-select.desktop.in:13
 msgid "MATE;color;chooser;pick;palette;screen;selection;"
 msgstr "MATE;cor;selector;seleccione;paleta;pantalla;selección;"
+
+#~ msgid "MATE Desktop Environment"
+#~ msgstr "Contorno de escritorio MATE"
+
+#~ msgid ""
+#~ "MATE provides an intuitive and attractive desktop to Linux users using "
+#~ "traditional metaphors."
+#~ msgstr ""
+#~ "MATE fornece un escritorio intuitivo e atractivo para os usuarios de "
+#~ "Linux empregando as metáforas tradicionais."
+
+#~ msgid ""
+#~ "MATE includes most of what you see on your computer, including the file "
+#~ "manager, document viewer, image viewer, menus, and many applications."
+#~ msgstr ""
+#~ "MATE inclúe a maior parte do que ve no seu computador, incluíndo o xestor "
+#~ "de ficheiros, visor de documentos, visor de imaxes, menús e aplicacións."
+
+#~ msgid ""
+#~ "MATE is a Free, usable, stable, accessible desktop environment for the "
+#~ "Unix-like family of operating systems."
+#~ msgstr ""
+#~ "MATE é un contorno de escritorio libre, doado de usar, estábel e "
+#~ "accesíbel para a familia estilo-Unix de sistemas operativos."
+
+#~ msgid ""
+#~ "MATE is the continuation of GNOME 2. Hundreds of people have contributed "
+#~ "code to GNOME since it was started in 1997; many more have contributed in "
+#~ "other important ways, including translations, documentation, and quality "
+#~ "assurance."
+#~ msgstr ""
+#~ "MATE é unha continuación de GNOME 2. Centos de persoas aportaron código a "
+#~ "GNOME dende que se iniciou en 1997, e moitos máis colaboraron doutros "
+#~ "xeitos importantes, incluíndo traducións, documentación e control de "
+#~ "calidade."
+
+#~ msgid ""
+#~ "GNOME 2 was the most popular Linux desktop but it’s no longer "
+#~ "available... MATE is here to provide that same desktop to you!"
+#~ msgstr ""
+#~ "GNOME 2 era o escritorio de Linux máis popular, mais xa non está "
+#~ "dispoñíbel... MATE está aquí para fornecerlle a vostede ese mesmo "
+#~ "escritorio!"
+
+#~ msgid ""
+#~ "The name “MATE” comes from yerba maté, a species of holly native to "
+#~ "subtropical South America. Its leaves contain caffeine and are used to "
+#~ "make infusions and a beverage called mate."
+#~ msgstr ""
+#~ "O nome de «MATE» ven de yerba maté, unha especie de acibo nativo da "
+#~ "Sudamérica subtropical. As súas follas conteñen cafeína e utilízanse para "
+#~ "facer infusións e unha bebida chamada mate."
+
+#~ msgid "Use alpha"
+#~ msgstr "Usar alfa"
+
+#~ msgid "Whether or not to give the color an alpha value"
+#~ msgstr "Indica se dar ou non cor a un valor alfa"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "The title of the color selection dialog"
+#~ msgstr "O título da caixa de diálogo de selección da cor"
+
+#~ msgid "Pick a Color"
+#~ msgstr "Seleccione unha cor"
+
+#~ msgid "Current Color"
+#~ msgstr "Cor actual"
+
+#~ msgid "The selected color"
+#~ msgstr "A cor seleccionada"
+
+#~ msgid "The selected opacity value (0 fully transparent, 65535 fully opaque)"
+#~ msgstr ""
+#~ "A opacidade seleccionada (0 completamente transparente, 65535 "
+#~ "completamente opaca)"
+
+#~ msgid "Received invalid color data\n"
+#~ msgstr "Recibíronse datos de cor incorrectos\n"

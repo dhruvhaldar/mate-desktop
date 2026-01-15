@@ -2418,8 +2418,13 @@ get_pixbuf_for_size (MateBG *bg,
 		/* If the next slideshow step is a long time away then
 		   we blow away the expensive stuff (large pixbufs) from
 		   the cache */
-		if (time_until_next_change > KEEP_EXPENSIVE_CACHE_SECS)
-		    blow_expensive_caches_in_idle (bg);
+		if (time_until_next_change > KEEP_EXPENSIVE_CACHE_SECS) {
+			if (KEEP_EXPENSIVE_CACHE_SECS == 0) {
+				blow_expensive_caches (bg);
+			} else {
+				blow_expensive_caches_in_idle (bg);
+			}
+		}
 	}
 
 	if (bg->pixbuf_cache)
